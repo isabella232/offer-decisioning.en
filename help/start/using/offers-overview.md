@@ -14,9 +14,9 @@ snippet: y
 
 # Overview {#overview}
 
-The Offers service provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers. See [](../../sending/using/about-offer-management.md).
+The Offers service provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers. See [](../../start/using/about-offer-management.md).
 
-Before adding offer activities into your Campaign Standard messages, make sure that offers and fallback offers have been created in the Offer Library. See [](../../sending/using/creating-offers.md).
+Before adding offer activities into your Campaign Standard messages, make sure that offers and fallback offers have been created in the Offer Library. See [](../../offer-library/using/creating-offers.md).
 
 The main steps to add offers into emails are:
 
@@ -29,6 +29,6 @@ The main steps to add offers into emails are:
 
 These steps are detailed in these sections:
 
-* [](../../sending/using/inserting-offer-activities.md)
-* [](../../sending/using/configuring-offer-activities.md)
-* [](../../sending/using/sending-emails-with-offer-activities.md)
+* [](../../campaign-standard/using/inserting-offer-activities.md)
+* [](../../campaign-standard/using/configuring-offer-activities.md)
+* [](../../campaign-standard/using/sending-emails-with-offer-activities.md)

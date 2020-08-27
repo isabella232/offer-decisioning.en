@@ -20,8 +20,8 @@ Offer Management provides offer creation, management, and decisioning, allowing 
 
 The service is built up of two user interfaces:
 
-* The **[!UICONTROL Offer Library]** from the Experience Cloud provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers. See [](../../sending/using/accessing-the-offer-library.md).
-* **[!UICONTROL Campaign Standard]** allows you to use offers from the Offer Library into offer activities to send deliveries and report on them. See [](../../sending/using/inserting-offer-activities.md).
+* The **[!UICONTROL Offer Library]** from the Experience Cloud provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers. See [](../../campaign-standard/using/accessing-the-offer-library.md).
+* **[!UICONTROL Campaign Standard]** allows you to use offers from the Offer Library into offer activities to send deliveries and report on them. See [](../../campaign-standard/using/inserting-offer-activities.md).
 
 >[!NOTE]
 >
@@ -40,8 +40,8 @@ Benefits include:
 
 An Offer is made of content and eligibility rules and constraints that define the conditions under which it is presented to profiles.
 
-The offer is created in the Offer Library, where you define its content for each placement in which it will be displayed, as well as its eligibility rules and constraints. See [](../../sending/using/accessing-the-offer-library.md).
+The offer is created in the Offer Library, where you define its content for each placement in which it will be displayed, as well as its eligibility rules and constraints. See [](../../campaign-standard/using/accessing-the-offer-library.md).
 
-Once the offer is created, you can use it directly within Campaign Standard offer activities to target profiles from your database. See [](../../sending/using/inserting-offer-activities.md).
+Once the offer is created, you can use it directly within Campaign Standard offer activities to target profiles from your database. See [](../../campaign-standard/using/inserting-offer-activities.md).
 
 ![](assets/offers_structure.png)

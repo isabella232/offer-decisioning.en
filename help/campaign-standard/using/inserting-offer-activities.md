@@ -32,4 +32,4 @@ To insert an offer activity into an email delivery, follow these steps:
 
     ![](assets/offers_inserting_email_1.png)
 
-The offer activity is added to the component. You can now configure it. See [](../../sending/using/configuring-offer-activities.md).
+The offer activity is added to the component. You can now configure it. See [](../../campaign-standard/using/configuring-offer-activities.md).

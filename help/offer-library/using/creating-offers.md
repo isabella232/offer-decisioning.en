@@ -16,11 +16,11 @@ snippet: y
 
 The steps to create an offer are the following:
 
-1. Create a **placement**. A placement is a container that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages. See [](../../sending/using/creating-offers.md#creating-placements).
-1. Create a **decision rule** that will specify the conditions under which the offer will be presented. See [](../../sending/using/creating-offers.md#creating-a-decision-rule).
-1. Create **tags** that you will associate to the offer, allowing you to easily organize and search into the library. See [](../../sending/using/creating-offers.md#creating-tags).
-1. Create the **content** and **properties** of the personalized offer. See [](../../sending/using/creating-offers.md#creating-an-offer).
-1. Create a **fallback offer**, which is the last resort offer to display if a customer is not eligible for any of the offers selected. See [](../../sending/using/creating-offers.md#creating-a-fallback-offer)
+1. Create a **placement**. A placement is a container that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages. See [](../../offer-library/using/creating-offers.md#creating-placements).
+1. Create a **decision rule** that will specify the conditions under which the offer will be presented. See [](../../offer-library/using/creating-offers.md#creating-a-decision-rule).
+1. Create **tags** that you will associate to the offer, allowing you to easily organize and search into the library. See [](../../offer-library/using/creating-offers.md#creating-tags).
+1. Create the **content** and **properties** of the personalized offer. See [](../../offer-library/using/creating-offers.md#creating-an-offer).
+1. Create a **fallback offer**, which is the last resort offer to display if a customer is not eligible for any of the offers selected. See [](../../offer-library/using/creating-offers.md#creating-a-fallback-offer)
 
 ## Creating placements {#creating-placements}
 
@@ -78,7 +78,7 @@ To create a decision rule, follow these steps:
 
 Associating tags to your offers make it easier to keep them organized. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
 
-Tags can also be used to group offers together into offer collections. See [](../../sending/using/managing-offer-collections.md).
+Tags can also be used to group offers together into offer collections. See [](../../campaign-standard/using/managing-offer-collections.md).
 
 To create a tag, follow these steps:
 
@@ -94,9 +94,9 @@ To create a tag, follow these steps:
 
 Before creating an offer, make sure that you created:
 
-* A **placement** in which the offer will be displayed. See [](../../sending/using/creating-offers.md#creating-placements)
-* A **decision rule** that will define the condition under which the offer will be presented. See [](../../sending/using/creating-offers.md#creating-a-decision-rule).
-* One or several **tags** that you want to associate to the offer. See [](../../sending/using/creating-offers.md#creating-tags).
+* A **placement** in which the offer will be displayed. See [](../../offer-library/using/creating-offers.md#creating-placements)
+* A **decision rule** that will define the condition under which the offer will be presented. See [](../../offer-library/using/creating-offers.md#creating-a-decision-rule).
+* One or several **tags** that you want to associate to the offer. See [](../../offer-library/using/creating-offers.md#creating-tags).
 
 Each offer is made up of:
 
@@ -185,7 +185,7 @@ To create a fallback offer, follow these steps:
 
     ![](assets/offers_fallback_offer.png)
 
-1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating an offer. See [](../../sending/using/creating-offers.md#creating-placements).
+1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating an offer. See [](../../offer-library/using/creating-offers.md#creating-placements).
 
     ![](assets/offers_fallback_offer2.png)
 

@@ -20,15 +20,15 @@ It is accessible from Adobe Experience Cloud Platform Product picker:
 
 ![](assets/offers_access_library.png)
 
-* The **[!UICONTROL Inventory]** tab allows you to access your offers or create new ones. See [Creating an offer](../../sending/using/creating-offers.md#creating-an-offer).
+* The **[!UICONTROL Inventory]** tab allows you to access your offers or create new ones. See [Creating an offer](../../offer-library/using/creating-offers.md#creating-an-offer).
 
     ![](assets/offers_library_interface.png)
 
-* The **[!UICONTROL Decision Rules]** tab allows you to manage the conditions under which an offer is presented. See [Creating a decision rule](../../sending/using/creating-offers.md#creating-a-decision-rule).
+* The **[!UICONTROL Decision Rules]** tab allows you to manage the conditions under which an offer is presented. See [Creating a decision rule](../../offer-library/using/creating-offers.md#creating-a-decision-rule).
 
     ![](assets/offers_library_interface_decision.png)
 
-* The **[!UICONTROL Settings]** tab allows you to manage placements and tags for your offers. See [Creating placements](../../sending/using/creating-offers.md#creating-placements) and [Creating tags](../../sending/using/creating-offers.md#creating-tags).
+* The **[!UICONTROL Settings]** tab allows you to manage placements and tags for your offers. See [Creating placements](../../offer-library/using/creating-offers.md#creating-placements) and [Creating tags](../../offer-library/using/creating-offers.md#creating-tags).
 
     ![](assets/assets_library_interface_settings.png)
 

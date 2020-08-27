@@ -40,7 +40,7 @@ To create a collection by selecting offers, follow these steps:
 
 To create a collection based on tags, follow these steps:
 
-1. Click the **[!UICONTROL xxx]** button, then select the tag(s) according to which you want to filter the offers. For more on tags creation, see [](../../sending/using/creating-offers.md#creating-tags).
+1. Click the **[!UICONTROL xxx]** button, then select the tag(s) according to which you want to filter the offers. For more on tags creation, see [](../../offer-library/using/creating-offers.md#creating-tags).
 
     ![](assets/offers_create_collection_tag.png)
 
