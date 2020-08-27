@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Learn more about the main steps to use use offer activities into emails.
+description: Learn more about the main steps to use offer activities into emails.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat

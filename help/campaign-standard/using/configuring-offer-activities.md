@@ -32,7 +32,7 @@ To configure the offer activity, follow these steps:
     >
     >Make sure to select placements that are compatible with the component type selected in the email structure (text / HTML / image).
 
-1. In the **[!UICONTROL Collections]** section, select the collection that contains the offers that you want to consider. For more on offers collections, see [](../../campaign-standard/using/managing-offer-collections.md).
+1. In the **[!UICONTROL Collections]** section, select the collection that contains the offers that you want to consider. For more on offers collections, see [](../../offer-library/using/managing-offer-collections.md).
 
 1. In the **[!UICONTROL Fallback Offers]** section, select the fallback offer that will be presented to customers who are not eligible to the considered offers.
 

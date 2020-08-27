@@ -78,7 +78,7 @@ To create a decision rule, follow these steps:
 
 Associating tags to your offers make it easier to keep them organized. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
 
-Tags can also be used to group offers together into offer collections. See [](../../campaign-standard/using/managing-offer-collections.md).
+Tags can also be used to group offers together into offer collections. See [](../../offer-library/using/managing-offer-collections.md).
 
 To create a tag, follow these steps:
 

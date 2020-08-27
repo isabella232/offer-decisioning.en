@@ -30,7 +30,7 @@ It is accessible from Adobe Experience Cloud Platform Product picker:
 
 * The **[!UICONTROL Settings]** tab allows you to manage placements and tags for your offers. See [Creating placements](../../offer-library/using/creating-offers.md#creating-placements) and [Creating tags](../../offer-library/using/creating-offers.md#creating-tags).
 
-    ![](assets/assets_library_interface_settings.png)
+    ![](offers/assets_library_interface_settings.png)
 
 >[!NOTE]
 >
