@@ -45,4 +45,3 @@ The offer is created in the Offer Library, where you define its content for each
 Once the offer is created, you can use it directly within Campaign Standard offer activities to target profiles from your database. See [](../../sending/using/inserting-offer-activities.md).
 
 ![](assets/offers_structure.png)
-
