@@ -9,7 +9,7 @@ index: yes
 
 + [Product documentation](offer-decisioning-home.md)
 + [What's new](release-notes.md)
-+ Starting with Offer Decisioning
++ Starting with Offer Decisioning {#starting-with-offer-decisioning}
     + [About the Offer Decisioning service](start/using/about-offer-decisioning.md)
     + [Granting access to Offer Decisioning](start/using/granting-access-to-offer-decisioning.md)
     + [About offers and offer activities](start/using/about-offers-and-offer-activities.md)
@@ -27,7 +27,7 @@ index: yes
     + [Creating personalized offers](offer-library/using/creating-personalized-offers.md)
     + [Creating fallback offers](offer-library/using/creating-fallback-offers.md)
     + [Monitoring offer activities](offer-library/using/monitoring-offer-activities.md)
-+ Delivering offers using Adobe Campaign Standard
++ Delivering offers using Adobe Campaign Standard {#delivering-offers-using-adobe-campaign-standard}
     + [Overview](campaign-standard/using/overview.md)
     + [Inserting offer activities into email deliveries](campaign-standard/using/inserting-offer-activities.md)
     + [Configuring offer activities](campaign-standard/using/configuring-offer-activities.md)
