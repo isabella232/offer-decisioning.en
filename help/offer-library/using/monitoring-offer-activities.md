@@ -12,6 +12,6 @@ internal: n
 snippet: y
 ---
 
-# Monitoring offer actvities {#monitoring-offer-activities}
+# Monitoring offer activities {#monitoring-offer-activities}
 
 document activities tab in offer library. Used to monitor the activities created after configuring them in ACS?
