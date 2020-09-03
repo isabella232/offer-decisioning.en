@@ -1,6 +1,6 @@
 ---
-title: Granting access to Offer Management
-description: Learn how to manage users' permissions for the Offers service via Adobe Admin Console. For more details on the Admin Console itself, refer to the dedicated documentation.
+title: Granting access to Offer Decisioning
+description: Learn how to manage users' permissions for the Offers Decisioning service via Adobe Admin Console.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -12,9 +12,9 @@ internal: n
 snippet: y
 ---
 
-# Granting access to the Management {#granting-acess-to-the-offers-service}
+# Granting access to Offer Decisioning {#granting-acess-to-offer-decisioning}
 
-This section presents how to manage users' permissions for the Offers Management service via Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+This section presents how to manage users' permissions for the Offer Decisioning service via Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 1. Open the Admin Console, then select the **[!UICONTROL Adobe Experience Platform Decisioning Service]** among the available products.
 

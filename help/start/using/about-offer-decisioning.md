@@ -1,5 +1,5 @@
 ---
-title: About the Offer Management service
+title: About Offer Decisioning
 description: Personalize your emails at scale by continuously delivering the best offers to your customers.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,11 +12,11 @@ internal: n
 snippet: y
 ---
 
-# About Offer Management service {#xxxx}
+# About Offer Decisioning {#about-offer-decision}
 
-## About Offer Management {#about-the-offer-service}
+## About the Offer Decisioning service
 
-Offer Management provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers.
+Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers.
 
 The service is built up of two user interfaces:
 
@@ -36,12 +36,6 @@ Benefits include:
 * Enables you to create, manage, and approve offers outside of the Adobe Campaign Standard e-mail campaign workflow.
 * Control over the number of times an offer is shown across e-mail campaigns and customers.
 
-## What is an offer? {#what-is-an-offer}
+## Common use cases
 
-An Offer is made of content and eligibility rules and constraints that define the conditions under which it is presented to profiles.
-
-The offer is created in the Offer Library, where you define its content for each placement in which it will be displayed, as well as its eligibility rules and constraints. See [](../../offer-library/using/accessing-the-offer-library.md).
-
-Once the offer is created, you can use it directly within Campaign Standard offer activities to target profiles from your database. See [](../../campaign-standard/using/inserting-offer-activities.md).
-
-![](assets/offers_structure.png)
+List common use cases linked to offer decisioning
