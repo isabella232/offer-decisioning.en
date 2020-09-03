@@ -18,7 +18,7 @@ snippet: y
 
 Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers.
 
-The service is built up of two user interfaces:
+The service is built up of two user interfaces: 
 
 * The **[!UICONTROL Offer Library]** from the Experience Cloud provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers. See [](../../offer-library/using/accessing-the-offer-library.md).
 * **[!UICONTROL Campaign Standard]** allows you to use offers from the Offer Library into offer activities to send deliveries and report on them. See [](../../campaign-standard/using/inserting-offer-activities.md).
