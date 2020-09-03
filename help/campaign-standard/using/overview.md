@@ -14,7 +14,7 @@ snippet: y
 
 # Overview {#overview}
 
-The Offers service provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers. See [](../../start/using/about-offer-management.md).
+The Offers service provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer to your customers. See [](../../start/using/about-offer-decisioning.md).
 
 Before adding offer activities into your Campaign Standard messages, make sure that offers and fallback offers have been created in the Offer Library. See [](../../offer-library/using/main-steps-to-create-offers.md).
 
