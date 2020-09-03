@@ -23,6 +23,9 @@ Before creating an offer, make sure that you created:
 Each offer is made up of:
 
 * One or several **Offers Representations**. An offer can be displayed at different places in a message: in a top banner with an image, in text format in a paragraph, and so on.
+
+    The more representations an offer has, the more opportunity exists to use the offer in different placement contexts.
+
 * **Eligibility and Constraints parameters**. These are rules that will define the conditions under which an offer will be displayed.
 
 To create an Offer, follow these steps:

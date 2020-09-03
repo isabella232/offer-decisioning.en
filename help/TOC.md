@@ -10,13 +10,12 @@ index: yes
 + [Product documentation](offer-decisioning-home.md)
 + [What's new](release-notes.md)
 + Starting with Offer Decisioning {#starting-with-offer-decisioning}
-    + [About the Offer Decisioning service](start/using/about-offer-decisioning.md)
+    + [About Offer Decisioning](start/using/about-offer-decisioning.md)
     + [Granting access to Offer Decisioning](start/using/granting-access-to-offer-decisioning.md)
-    + [About offers and offer activities](start/using/about-offers-and-offer-activities.md)
+    + [Main steps to create and deliver offers](start/using/main-steps-to-create-offers.md)
     + [Offer Decisioning data model](start/using/offer-decisioning-data-model.md)
 + Managing offers in Adobe Experience Platform {#managing-offers-in-adobe-experience-platform}
     + [Accessing the Offer library](offer-library/using/accessing-the-offer-library.md)
-    + [Main steps to create offers](offer-library/using/main-steps-to-create-offers.md)
     + [Creating placements](offer-library/using/creating-placements.md)
     + [Creating tags](offer-library/using/creating-tags.md)
     + [Creating decision rules](offer-library/using/creating-decision-rules.md)
