@@ -16,6 +16,8 @@ snippet: y
 
 The main steps to create and deliver offers are as follows:
 
+![](assets/offers_process.png)
+
 ## Create offers in the Offer Library
 
 1. Create **placements**. Placements are a containers that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages. See [](../../offer-library/using/creating-placements.md).

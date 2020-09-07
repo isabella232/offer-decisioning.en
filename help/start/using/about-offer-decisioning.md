@@ -25,8 +25,6 @@ Benefits include:
 * Enables you to create, manage, and approve offers outside of the Adobe Campaign Standard e-mail campaign workflow.
 * Control over the number of times an offer is shown across e-mail campaigns and customers.
 
-TBD: list common use cases that can be performed using offer decisioning
-
 ## Offers and offer activities
 
 An Offer is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
@@ -39,4 +37,4 @@ Once the Offer Library has been enriched with offers, [!DNL Adobe Campaign Stand
 
 These are specific components that are added into email deliveries and that will pick the best offer to deliver according to the target. For more on this, refer to [this section](../../campaign-standard/using/overview.md).
 
-![](assets/offers_process.png)
+![](assets/offers_acs.png)
