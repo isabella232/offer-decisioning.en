@@ -44,17 +44,17 @@ To insert an offer activity into an email delivery, follow these steps:
 
     ![](assets/offers_offer_activity_pane.png)
 
-1. In the **[!UICONTROL Placements]** section, select the placement that will be used to present offers.
+    1. In the **[!UICONTROL Placements]** section, select the placement that will be used to present offers.
 
-    >[!NOTE]
-    >
-    >Make sure to select placements that are compatible with the component type selected in the email structure (text / HTML / image).
+        >[!NOTE]
+        >
+        >Make sure to select placements that are compatible with the component type selected in the email structure (text / HTML / image).
 
-1. In the **[!UICONTROL Collections]** section, select the collection that contains the offers that you want to consider. For more on offers collections, see [](../../offer-library/using/about-offer-collections.md).
+    1. In the **[!UICONTROL Collections]** section, select the collection that contains the offers that you want to consider. For more on offers collections, see [](../../offer-library/using/about-offer-collections.md).
 
-1. In the **[!UICONTROL Fallback Offers]** section, select the fallback offer that will be presented to customers who are not eligible for the considered offers.
+    1. In the **[!UICONTROL Fallback Offers]** section, select the fallback offer that will be presented to customers who are not eligible for the considered offers.
 
-    ![](assets/offers_offerconfiguration.png)
+        ![](assets/offers_offerconfiguration.png)
 
 1. Select the **[!UICONTROL Summary]** tab to visualize the offers that are considered, and the selected fallback offer.
 
@@ -68,6 +68,4 @@ To insert an offer activity into an email delivery, follow these steps:
 
 Once created, you can still edit the offer activity settings or visualize the summary directly from the **[!UICONTROL Offer settings]** menu.
 
-![](assets/offers_offers_attributes_7.png)
-
-You can now save, preview and send your delivery.
+You can now save, preview and send your delivery (see [](../../campaign-standard/using/sending-emails-with-offer-activities.md)).

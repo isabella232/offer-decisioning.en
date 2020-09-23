@@ -41,7 +41,13 @@ In the delivery **[!UICONTROL Sending logs]**, you can visualize the mirror page
 
 ## Dynamic reporting
 
-Campaign Standard reporting capabilities allow you to track the number of clicks on an offer.
+Campaign Standard reporting capabilities allow you to build dynamic reports based on the sent offers.
+
+To do this, a ready-to-use report is available (**[!UICONTROL Offer summary]**), as well as several **dimensions** and *metrics* related to offers to help you build your own dynamic reports.
+
+![](assets/reporting.png)
+
+For more on dynamic reporting, refer to [Campaign Standard documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/get-started-reporting.html).
 
 <!--Mukul Gupta and/or I will supply you with this info (screen)-->
 
