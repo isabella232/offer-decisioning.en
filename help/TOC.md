@@ -30,7 +30,6 @@ index: yes
 + Delivering offers using Adobe Campaign Standard {#delivering-offers-using-adobe-campaign-standard}
     + [Overview](campaign-standard/using/overview.md)
     + [Inserting offer activities into email deliveries](campaign-standard/using/inserting-offer-activities.md)
-    + [Configuring offer activities](campaign-standard/using/configuring-offer-activities.md)
     + [Sending emails with offer activities](campaign-standard/using/sending-emails-with-offer-activities.md)
 + [Delivering offers using APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
 
