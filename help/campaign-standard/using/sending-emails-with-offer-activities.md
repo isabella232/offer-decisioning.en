@@ -16,16 +16,33 @@ snippet: y
 
 Once an offer activity is inserted into a delivery, you can finalize and send it as usual. Global concepts on delivery sending are presented in [Campaign Standard documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/get-started-sending-messages.html).
 
-Once the message is sent, you can retrieve information on the offers that have been presented to the profiles.
+Once the message has been sent, you can retrieve information on the offers that have been presented to the profiles in the delivery summary.
 
-* In the delivery summary, the **[!UICONTROL Offer Summary]** section provides information on offers that were presented with the email.
+![](assets/offers_deliverysent1.png)
 
-    ![](assets/offers_deliverysent1.png)
+The **[!UICONTROL Offer Summary]** section provides information on the **propositions** made to the targeted profiles for each placement.
 
-* In the delivery **[!UICONTROL Sending logs]**, you can visualize the mirror page of the delivery, including the offers that have been presented.
+A proposition is the presentation of one or several offers to a contact.
 
-    ![](assets/offers_deliverysent2.png)
+In the example above, the Offers Summary indicates that:
 
-* The delivery **[!UICONTROL Proposition logs]** provides information on the offer presented for each profile.
+* offers were presented to 2 profiles in the banner placement,
+* an offer was presented to 1 profile in the email body.
 
-    ![](assets/offers_deliverysent3.png)
+<!--
+Basically for any placement, the total propositions will be equal to the audience profile count but if there are say 4 offers delivered at a placement, then the total propositions will get divided in those 4 offers and the percentage split is not fixed but epends on decisioning. In the screen attached, only 1 profile was sent email and he received fallback offer at that placement which is why you are seeing 1 proposition as 100%.)
+-->
+
+## Sending logs
+
+In the delivery **[!UICONTROL Sending logs]**, you can visualize the mirror page of the delivery, including the offers that have been presented.
+
+![](assets/offers_deliverysent2.png)
+
+## Dynamic reporting
+
+Campaign Standard reporting capabilities allow you to track the number of clicks on an offer.
+
+<!--Mukul Gupta and/or I will supply you with this info (screen)-->
+
+<!--see ram for reporting on reporting using platform capabilitie-->

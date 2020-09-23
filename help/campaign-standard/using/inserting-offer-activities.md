@@ -52,7 +52,7 @@ To insert an offer activity into an email delivery, follow these steps:
 
 1. In the **[!UICONTROL Collections]** section, select the collection that contains the offers that you want to consider. For more on offers collections, see [](../../offer-library/using/about-offer-collections.md).
 
-1. In the **[!UICONTROL Fallback Offers]** section, select the fallback offer that will be presented to customers who are not eligible to the considered offers.
+1. In the **[!UICONTROL Fallback Offers]** section, select the fallback offer that will be presented to customers who are not eligible for the considered offers.
 
     ![](assets/offers_offerconfiguration.png)
 
