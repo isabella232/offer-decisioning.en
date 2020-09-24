@@ -20,18 +20,15 @@ Once the message has been sent, you can retrieve information on the offers that 
 
 ![](assets/offers_deliverysent1.png)
 
-The **[!UICONTROL Offer Summary]** section provides information on the **propositions** made to the targeted profiles for each placement.
+The **[!UICONTROL Offer Summary]** section provides information on the offers that have been presented to the targeted profiles for each placement.
 
-A proposition is the presentation of one or several offers to a contact.
+* The **[!UICONTROL Proposition]** column indicates how many times an offer has been presented in a given placement.
 
-In the example above, the Offers Summary indicates that:
+    In this example, the "running shoes" offer has been presented to 4 profiles in the "banner" placement. It has also been presented twice in the "email body" placement. On the other hand, the "boots" offer has been presented once, in the "banner" placement only.
 
-* offers were presented to 2 profiles in the banner placement,
-* an offer was presented to 1 profile in the email body.
+* The **[!UICONTROL Percentage]** column shows the proportion of offers presented in a given placement. In this example, the "shoes" offer represents xx% of the offers presented in the banner placement.
 
-<!--
-Basically for any placement, the total propositions will be equal to the audience profile count but if there are say 4 offers delivered at a placement, then the total propositions will get divided in those 4 offers and the percentage split is not fixed but epends on decisioning. In the screen attached, only 1 profile was sent email and he received fallback offer at that placement which is why you are seeing 1 proposition as 100%.)
--->
+In the example above, the "running shoes" offer representes 85% of the offers presented in the banner placements. on the other hand, it represents 100% of the offers presented in the email body placement.
 
 ## Sending logs
 
