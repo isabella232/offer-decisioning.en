@@ -11,12 +11,11 @@ index: yes
 + [What's new](release-notes.md)
 + Starting with Offer Decisioning {#starting-with-offer-decisioning}
     + [About Offer Decisioning](start/using/about-offer-decisioning.md)
-    + [Granting access to Offer Decisioning](start/using/granting-access-to-offer-decisioning.md)
+    + [Offer & Offer activities](start/using/offers-offer-activities.md)
+    + [Main steps to create and deliver offers](start/using/main-steps-to-create-offers.md)
     + [Common use cases](start/using/common-use-cases.md)
-    + [Offer Decisioning data model](start/using/offer-decisioning-data-model.md)
 + Managing offers in the Offer Library {#managing-offers-in-the-offer-library}
     + [Accessing the Offer library](offer-library/using/accessing-the-offer-library.md)
-    + [Main steps to create and deliver offers](offer-library/using/main-steps-to-create-offers.md)
     + [Creating placements](offer-library/using/creating-placements.md)
     + [Creating tags](offer-library/using/creating-tags.md)
     + [Creating decision rules](offer-library/using/creating-decision-rules.md)
@@ -31,5 +30,9 @@ index: yes
     + [Overview](campaign-standard/using/overview.md)
     + [Inserting offer activities into email deliveries](campaign-standard/using/inserting-offer-activities.md)
     + [Sending emails with offer activities](campaign-standard/using/sending-emails-with-offer-activities.md)
-+ [Delivering offers using APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
++ Administration guide
+    + [Granting access to Offer Decisioning](administration/using/granting-access-to-offer-decisioning.md)
+    + [Configuring Campaign Standard with Offer Decisioning]()
+    + [Offer Decisioning data model](administration/using/offer-decisioning-data-model.md)
+    + [Delivering offers using APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
 

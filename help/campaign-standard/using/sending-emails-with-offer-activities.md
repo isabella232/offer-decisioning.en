@@ -20,32 +20,22 @@ Once the message has been sent, you can retrieve information on the offers that 
 
 ![](assets/offers_deliverysent1.png)
 
+## Offer Summary {#offer-summary}
+
 The **[!UICONTROL Offer Summary]** section provides information on the offers that have been presented to the targeted profiles for each placement.
 
-* The **[!UICONTROL Proposition]** column indicates how many times an offer has been presented in a given placement.
+* The **[!UICONTROL Proposition]** column indicates how many times an offer has been presented in a given placement. 
 
-    In this example, the "running shoes" offer has been presented to 4 profiles in the "banner" placement. It has also been presented twice in the "email body" placement. On the other hand, the "boots" offer has been presented once, in the "banner" placement only.
+    In the example above, the "Offer_Discount" and "Offer_Upgrade" offers have been presented respectively to 700 and 300 profiles in the "Top Promotion" placement.
 
-* The **[!UICONTROL Percentage]** column shows the proportion of offers presented in a given placement. In this example, the "shoes" offer represents xx% of the offers presented in the banner placement.
+* The **[!UICONTROL Percentage]** column shows the proportion of offers presented for a given placement. 
 
-In the example above, the "running shoes" offer representes 85% of the offers presented in the banner placements. on the other hand, it represents 100% of the offers presented in the email body placement.
+    In this same example, the "Offer_Discount" offer represents 70% of the offers presented in the "Left Promotion" placement, versus 30% for the "Offer_Upgrade" offer.
 
-## Sending logs
+## Sending logs {sending-logs}
 
 In the delivery **[!UICONTROL Sending logs]**, you can visualize the mirror page of the delivery, including the offers that have been presented.
 
 ![](assets/offers_deliverysent2.png)
-
-## Dynamic reporting
-
-Campaign Standard reporting capabilities allow you to build dynamic reports based on the sent offers.
-
-To do this, a ready-to-use report is available (**[!UICONTROL Offer summary]**), as well as several **dimensions** and *metrics* related to offers to help you build your own dynamic reports.
-
-![](assets/reporting.png)
-
-For more on dynamic reporting, refer to [Campaign Standard documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/get-started-reporting.html).
-
-<!--Mukul Gupta and/or I will supply you with this info (screen)-->
 
 <!--see ram for reporting on reporting using platform capabilitie-->

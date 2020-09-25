@@ -14,7 +14,7 @@ snippet: y
 
 # Overview {#overview}
 
-Before adding offer activities into your Campaign Standard messages, make sure that offers and fallback offers have been created in the Offer Library. See [](../../offer-library/using/main-steps-to-create-offers.md).
+Before adding offer activities into your Campaign Standard messages, make sure that offers and fallback offers have been created in the Offer Library. See [](../../start/using/main-steps-to-create-offers.md).
 
 >[!NOTE]
 >
