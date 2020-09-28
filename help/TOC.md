@@ -30,7 +30,7 @@ index: yes
     + [Overview](campaign-standard/using/overview.md)
     + [Inserting offer activities into email deliveries](campaign-standard/using/inserting-offer-activities.md)
     + [Sending emails with offer activities](campaign-standard/using/sending-emails-with-offer-activities.md)
-+ Administration guide
++ Administration guide {#administration-guide}
     + [Granting access to Offer Decisioning](administration/using/granting-access-to-offer-decisioning.md)
     + [Configuring Campaign Standard with Offer Decisioning]()
     + [Offer Decisioning data model](administration/using/offer-decisioning-data-model.md)
