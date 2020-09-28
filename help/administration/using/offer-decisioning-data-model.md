@@ -12,6 +12,6 @@ internal: n
 snippet: y
 ---
 
-# Offer Decisioning data model {#offer-deicsioning-data-model}
+# Offer Decisioning data model {#offer-decisioning-data-model}
 
 TBD
