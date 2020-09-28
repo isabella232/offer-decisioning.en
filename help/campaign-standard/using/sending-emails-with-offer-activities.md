@@ -32,7 +32,7 @@ The **[!UICONTROL Offer Summary]** section provides information on the offers th
 
     In this same example, the "Offer_Discount" offer represents 70% of the offers presented in the "Left Promotion" placement, versus 30% for the "Offer_Upgrade" offer.
 
-## Sending logs {sending-logs}
+## Sending logs {#sending-logs}
 
 In the delivery **[!UICONTROL Sending logs]**, you can visualize the mirror page of the delivery, including the offers that have been presented.
 
