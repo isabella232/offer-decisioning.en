@@ -26,7 +26,7 @@ The **[!UICONTROL Offer Summary]** section provides information on the offers th
 
 * The **[!UICONTROL Proposition]** column indicates how many times an offer has been presented in a given placement. 
 
-    In the example above, the "Offer_Discount" and "Offer_Upgrade" offers have been presented respectively to 700 and 300 profiles in the "Top Promotion" placement.
+    In the example above, the "Offer_Discount" and "Offer_Upgrade" offers have been presented respectively to 700 and 300 profiles in the "Top Promotion" placement. 
 
 * The **[!UICONTROL Percentage]** column shows the proportion of offers presented for a given placement. 
 
