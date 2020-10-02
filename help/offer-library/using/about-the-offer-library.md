@@ -16,7 +16,7 @@ snippet: y
 
 The Offer Library allows you to create and manage your placements and offers in one single place, as well as monitor all the created offer activities.
 
-It is accessible from Adobe Experience Platform **[!UICONTROL [Decisioning]** menu.
+It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
 
 ## About the interface {#about-interface}
 

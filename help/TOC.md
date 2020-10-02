@@ -13,7 +13,7 @@ index: yes
     + [Offer & Offer activities](start/using/offers-offer-activities.md)
     + [Common use cases](start/using/common-use-cases.md)
 + Managing offers in the Offer Library {#managing-offers-in-the-offer-library}
-    + [About the Offer library](offer-library/using/accessing-the-offer-library.md)
+    + [About the Offer library](offer-library/using/about-the-offer-library.md)
     + [Creating placements](offer-library/using/creating-placements.md)
     + [Creating decision rules](offer-library/using/creating-decision-rules.md)
     + [Creating tags](offer-library/using/creating-tags.md)
