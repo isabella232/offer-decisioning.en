@@ -20,12 +20,6 @@ Before creating an offer, make sure that you created:
 * A **decision rule** that will define the condition under which the offer will be presented. See [](../../offer-library/using/creating-decision-rules.md).
 * One or several **tags** that you want to associate to the offer. See [](../../offer-library/using/creating-tags.md).
 
-Each offer is made up of:
-
-
-
-
-
 The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
 
 ![](assets/offers_list.png)
@@ -36,13 +30,12 @@ To create an offer, follow these steps:
 
     ![](assets/create_offer.png)
 
-1. Specify the offer's name, as well as its start and end date and time, then associate one or several tags to the offer (optional).
+1. Specify the offer's name as well as its start  end date and time. You can also associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily.
 
-    attributes ? TBD
+    offers attributes ? TBD, need some input
 
     ![](assets/offer_details.png)
     
-  
 1. Add one or multiple reprensentations for your offer using the **[!UICONTROL Add representation]** button.
 
     >[!NOTE]
@@ -97,18 +90,22 @@ To create an offer, follow these steps:
         >
         >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
-    In this example:
+        ![](assets/offer_capping.png)
+        
+        In the example above:
 
-    * The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
-    * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
-    * The offer will be presented only once per user.
+        * The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
+        * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
+        * The offer will be presented only once per user.
 
+1. Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
 
+    You can also save the offer as a draft, in order to edit and approve it later on.
 
-1. You can associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily. To do this, type the first letters of the desired tag then select it. You can also visualize the entire list of tags by pressing the down arrow key.
+    ![](assets/offer_review.png)
 
-    ![](assets/offers_offer_creation_tags.png)
+1. The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
-1. Click **[!UICONTROL Save]**, then **[!UICONTROL Approve and Save]** if the offer is ready to be used. Otherwise, click **[!UICONTROL Save Draft]** to save and finalize it later on.
+It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression?>
 
-    ![](assets/offers_offer_creation_save.png)
+![](assets/offer_created.png)
