@@ -14,7 +14,9 @@ snippet: y
 
 # Overview {#overview}
 
-Before adding offer activities into your Campaign Standard messages, make sure that offers and fallback offers have been created in the Offer Library. See [](../../start/using/main-steps-to-create-offers.md).
+Once you have created in the Offer Library all the required components (placements, rules, tags, personalized offers, etc.), you can deliver your offers withing Campaign Standard emails.
+
+![](assets/offers_process.png)
 
 >[!NOTE]
 >
