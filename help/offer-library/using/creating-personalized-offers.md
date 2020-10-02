@@ -22,56 +22,72 @@ Before creating an offer, make sure that you created:
 
 Each offer is made up of:
 
-* One or several **Offers Representations**. An offer can be displayed at different places in a message: in a top banner with an image, in text format in a paragraph, and so on. The more representations an offer has, the more opportunity exists to use the offer in different placement contexts.
-
-* **Eligibility and Constraints parameters**. These are rules that will define the conditions under which an offer will be displayed.
-
-The list of personalized offers is accessible in the **[!UICONTROL Rules]** tab.
 
 
-To create an Offer, follow these steps:
 
-1. Select the **[!UICONTROL Inventory]** tab, then click the **[!UICONTROL Create Personalized Offer]** button.
 
-    ![](assets/offers_offer_creation.png)
+The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
 
-1. Define the offer's name, then create an offer representation. To do this, drag and drop the placement that will contain the offer into the **[!UICONTROL Create Representations]** area.
+![](assets/offers_list.png)
 
-    ![](assets/offers_offer_creation_placement.png)
+To create an offer, follow these steps:
 
-1. Add content to the offer representation. To this, click the **[!UICONTROL xxx]** icon from the left pane to display the Experience Cloud Library.
+1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
 
-1. Drag and drop the desired content (text, image or HTML) into the offer representation area.
+    ![](assets/create_offer.png)
 
-    >[!NOTE]
-    >
-    >Make sure that the content you are selecting corresponds to the content type defined when creating the placement (image, HTML, or text). Otherwise, the offer representation will display in red.
+1. Specify the offer's name, as well as its start and end date and time, then associate one or several tags to the offer (optional).
 
-    ![](assets/offers_offer_creation_asset.png)
+    attributes ? TBD
 
-    You can also insert text-type content without using the Experience Cloud Library. To do this, click the **[!UICONTROL xxx]** button, then select **[!UICONTROL Add Text]**.
-
-1. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
+    ![](assets/offer_details.png)
+    
+  
+1. Add one or multiple reprensentations for your offer using the **[!UICONTROL Add representation]** button.
 
     >[!NOTE]
     >
-    >You will be able to customize the text layout in Campaign once it is inserted into an offer activity.
+    >An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an html block etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
 
-    ![](assets/offers_offer_creation_text.png)
+1. For each representation, specify the **[!UICONTROL Channel]** and the type of **[!UICONTROL Placement]** where the offer will be displayed.
 
-1. For image and text-type content, define the URL to associate with them in the **[!UICONTROL URL]** field.
+1. Add content to each representation. You can add content coming from Adobe Experience Cloud Assets library, or from an external public location.
 
-    >[!NOTE]
-    >
-    >For now, the **[!UICONTROL Language]** field is not part of offers management use case and should not be used.
+    * To add content from Adobe Experience Cloud Assets library, drag and drop it from the left pane into the representation area, then specify the URL to associate with the content in the **[!UICONTROL Destination link]** field.
 
-1. Repeat these steps to create as many offer representations as needed.
+        >[!NOTE]
+        >
+        >Note that only content corresponding to the placement's content type is available for use.
 
-1. Define the offer's eligibility rules and constraints. To do this, select the **[!UICONTROL Eligibility and constraints]** tab, then configure the properties according to your needs:
+        ![](assets/offer_drag_content.png)
 
-    * **[!UICONTROL Ranking]**: the offer's priority compared to other offers. The highest an offer's ranking will be, the highest its priority will be compared to other offers.
-    * **[!UICONTROL Eligibility]**: associate an existing decision rule to the offer that will define when to present it (for example to women over 30 only, profiles living in London, and so on.) To do this, drag and drop a decision rule from the left pane.
-    * **[!UICONTROL Capping]**: the number of times the offer will be presented in total and per user.
+    * To add content from an external public location, click the **[!UICONTROL Add content]** button, then specify the name, URL, and Destination link of the content to add.
+
+        Make sure that the content you are adding corresponds to the selected placement's content type.
+
+        ![](assets/offer_add_content.png)
+
+    * You can also insert text-type content. To do this, click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
+
+        >[!NOTE]
+        >
+        >This option is not available for image-type placements.
+        >
+        >You will be able to customize the text layout in Campaign once it is inserted into an offer activity.
+
+        ![](assets/offer_text_content.png)
+
+1. Add eligibility rules and constraint to the offer. These are rules that will define the conditions under which an offer will be displayed.
+
+    1. By default, the **[!UICONTROL Add visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
+    
+        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Segment of visitors]** option, then drag the desired decision rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/using/creating-decision-rules.md).
+
+        ![](assets/offer_rule.png)
+
+    1. Define the **[!UICONTROL Priority]** of the offer compared to other ones. The highest an offer's priority will be, the highest its priority will be compared to other offers.
+
+    1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per user.
 
         >[!NOTE]
         >
@@ -81,13 +97,13 @@ To create an Offer, follow these steps:
         >
         >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
-    ![](assets/offers_offer_creation_eligibility.png)
+    In this example:
 
-    In the example above:
+    * The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
+    * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
+    * The offer will be presented only once per user.
 
-    * The offer ranking is set to "300", meaning the offer will be presented before offers with a capping value between 1 and 299, and after the ones with a capping value of at least 301.
-    * The offer will be considered for users with a Gmail email address only.
-    * The offer will be presented a maximum of 500 times, and only once per user.
+
 
 1. You can associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily. To do this, type the first letters of the desired tag then select it. You can also visualize the entire list of tags by pressing the down arrow key.
 
