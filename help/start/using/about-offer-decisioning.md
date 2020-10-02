@@ -27,7 +27,7 @@ Benefits include:
 * Improved e-mail campaign performance by delivering more personalized offers in your emails.
 * Improved workflow: instead of creating multiple deliveries or campaigns, marketing teams can improve the workflow by creating a single delivery and vary the offers in different parts of the template.
 * Enables you to create, manage, and approve offers outside of the Adobe Campaign Standard e-mail campaign workflow.
-* Control over the number of times an offer is shown across e-mail campaigns and customers.
+* Control over the number of times an offer is shown across e-mail campaigns and customers. 
 
 ## Requirements
 
