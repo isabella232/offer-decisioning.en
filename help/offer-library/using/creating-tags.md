@@ -18,12 +18,20 @@ Associating tags to your offers make it easier to keep them organized. For examp
 
 Tags can also be used to group offers together into offer collections. See [](../../offer-library/using/about-offer-collections.md).
 
+The list of created tags is accessible in the **[!UICONTROL Tags]** tab.
+
+![](assets/tags_list.png)
+
 To create a tag, follow these steps:
 
-1. In the **[!UICONTROL Settings]** tab, select the **[!UICONTROL Tags]** section, then click **[!UICONTROL Create]**.
+1. Go to the **[!UICONTROL Tags]** tab, then click **[!UICONTROL Create tag]**.
 
-    ![](assets/offers_tag_creation.png)
+    ![](assets/tags_create.png)
 
-1. Specify the tag's name, then click **[!UICONTROL Confirm]**.
+1. Specify the tag's name, then click **[!UICONTROL Save]**.
 
-    ![](assets/offers_tag_creation2.png)
+    ![](assets/tags_created.png)
+
+1. Once the tag is created, it displays in the list. You can select it to display its properties and edit or supppress it.
+
+    ![](assets/rule_created.png)
