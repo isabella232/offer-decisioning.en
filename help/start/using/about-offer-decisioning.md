@@ -16,7 +16,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Offer Decisioning is available in beta, and subject to frequent updates and modifications without notice.
+>Offer Decisioning is available in beta, and subject to frequent updates and modifications without notice. 
 
 ## About the Offer Decisioning service
 
