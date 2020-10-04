@@ -14,7 +14,7 @@ snippet: y
 
 # Granting access to Offer Decisioning {#granting-acess-to-offer-decisioning}
 
-Users' permissions for Offer Decisioning are managed using the Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Users' permissions for Offer Decisioning are managed using the Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).    
 
 To grant access to the Offer Decisioning service, follow these steps:
 
