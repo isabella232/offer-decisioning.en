@@ -28,7 +28,7 @@ Several tabs are available to help you create your offers:
 
 * **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-offer-collections.md).
+* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-collections.md).
 
 * **[!UICONTROL Placements]**: create and manage placements where your offers will display. and tags for your offers. See [Creating placements](../../offer-library/using/creating-placements.md).
 
