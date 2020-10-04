@@ -19,10 +19,7 @@ index: yes
     + [Creating tags](offer-library/using/creating-tags.md)
     + [Creating personalized offers](offer-library/using/creating-personalized-offers.md)
     + [Creating fallback offers](offer-library/using/creating-fallback-offers.md)
-    + Creating offer collections {#creating-offer-collections}
-        + [About offer collections](offer-library/using/about-offer-collections.md)
-        + [Creating static collections](offer-library/using/creating-static-collections.md)
-        + [Creating dynamic collections](offer-library/using/creating-dynamic-collections.md)
+    + [Creating offer collections](offer-library/using/creating-offer-collections.md)
     + [Monitoring offer activities](offer-library/using/monitoring-offer-activities.md)
 + Delivering offers using Adobe Campaign Standard {#delivering-offers-using-adobe-campaign-standard}
     + [Overview](campaign-standard/using/overview.md)

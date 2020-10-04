@@ -26,9 +26,9 @@ The **[!UICONTROL Offers]** menu allows you to create and manage your offers, as
 
 Several tabs are available to help you create your offers:
 
-* **[!UICONTROL Browse]**: access your offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md).
+* **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../../offer-library/using/about-offer-collections.md).
+* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-offer-collections.md).
 
 * **[!UICONTROL Placements]**: create and manage placements where your offers will display. and tags for your offers. See [Creating placements](../../offer-library/using/creating-placements.md).
 
@@ -36,7 +36,7 @@ Several tabs are available to help you create your offers:
 
 * **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../../offer-library/using/creating-tags.md).
 
-The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created in order to deliver your offers. See [Monitoring offer activities](../../offer-library/using/monitoring-offer-activities.md)
+The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Monitoring offer activities](../../offer-library/using/monitoring-offer-activities.md)
 
 ![](assets/offer_activities.png)
 
@@ -45,7 +45,7 @@ The **[!UICONTROL Activities]** menu allows you to see all the offer activities 
 
 The main steps to create offers are as follows:
 
-1. Create **placements**. Placements are a containers that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages. See [](../../offer-library/using/creating-placements.md).
+1. Create **placements**. Placements are containers that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages. See [](../../offer-library/using/creating-placements.md).
 
 1. Create **decision rules** that will specify the conditions under which the offers will be presented. See [](../../offer-library/using/creating-decision-rules.md).
 

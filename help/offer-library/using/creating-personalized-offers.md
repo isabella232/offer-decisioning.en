@@ -42,7 +42,7 @@ To create an offer, follow these steps:
     >
     >An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an html block etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
 
-1. For each representation, specify the **[!UICONTROL Channel]** and the type of **[!UICONTROL Placement]** where the offer will be displayed.
+1. For each representation, specify the **[!UICONTROL Channel]** and the **[!UICONTROL Placement]** where the offer will be displayed.
 
 1. Add content to each representation. You can add content coming from Adobe Experience Cloud Assets library, or from an external public location.
 
@@ -106,6 +106,6 @@ To create an offer, follow these steps:
 
 1. The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
-It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression?>
+    It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression?>
 
-![](assets/offer_created.png)
+    ![](assets/offer_created.png)
