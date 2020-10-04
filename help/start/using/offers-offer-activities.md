@@ -1,5 +1,5 @@
 ---
-title: About Offer Decisioning
+title: About offers and offer activities
 description: Personalize your emails at scale by continuously delivering the best offers to your customers.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Offers and offer activities {#offers-offer-activities}
+# About offers and offer activities {#offers-offer-activities}
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 

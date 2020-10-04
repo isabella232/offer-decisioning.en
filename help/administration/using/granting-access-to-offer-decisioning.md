@@ -18,7 +18,7 @@ Users' permissions for Offer Decisioning are managed using the Adobe Admin Conso
 
 To grant access to the Offer Decisioning service, follow these steps:
 
-1. Open the Admin Console, then select the **[!UICONTROL Adobe Experience Platform Decisioning Service]** among the available products.
+1. Open the Admin Console, then select the **[!UICONTROL Adobe Experience Platform Decisioning Service]** among the available products. 
 
     ![](assets/offers_admin_console.png)
 

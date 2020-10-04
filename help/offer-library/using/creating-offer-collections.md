@@ -20,7 +20,7 @@ The list of offer collections is accessible in the **[!UICONTROL Collections]** 
 
 ![](assets/placements_filter.png)
 
-You can create two types of collections:
+You can create two types of collections: 
 
 * **Dynamic collections** are collections of offers based on tags. These collections are updated automatically. For example, if a new offer is created with the selected tag, it will automatically be added to the collection.
 
