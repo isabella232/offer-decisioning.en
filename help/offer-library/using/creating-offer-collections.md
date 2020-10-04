@@ -14,9 +14,9 @@ snippet: y
 
 # Creating offers collections {#creating-offers-collections}
 
-Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only.   
+Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only. 
 
-The list of offer collections is accessible in the **[!UICONTROL Collections]** tab.
+The list of offer collections is accessible in the **[!UICONTROL Collections]** tab.   
 
 ![](assets/placements_filter.png)
 
