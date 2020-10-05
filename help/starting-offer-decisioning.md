@@ -20,7 +20,7 @@ snippet: y
 
 Offer Decisioning is an Application Service integrated with Adobe Experience Platform.
 
-![](assets/offerdiagram.png) 
+![](assets/offer-diagram.png) 
 
 It allows you to leverage Adobe Experience Platform Real-time Customer Data to create and continuously deliver the best offer and experience to your customers.
 
