@@ -1,5 +1,5 @@
 ---
-title: Sending emails with offer activities
+title: Send emails with offer activities
 description: Learn how to send an email delivery containing offer activities.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Sending emails with offer activites {#sending-emails-with-offer-activities}
+# Send emails with offer activites {#sending-emails-with-offer-activities}
 
 Once an offer activity is inserted into a delivery, you can finalize and send it as usual. Global concepts on delivery sending are presented in [Campaign Standard documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/get-started-sending-messages.html).
 

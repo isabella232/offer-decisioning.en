@@ -1,5 +1,5 @@
 ---
-title: Creating personalized offers
+title: Create personalized offers
 description: Learn how to create personalized offers in Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Creating personalized offers {#creating-personalized-offers}
+# Create personalized offers {#creating-personalized-offers}
 
 Before creating an offer, make sure that you created:
 

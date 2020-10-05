@@ -1,5 +1,5 @@
 ---
-title: Creating decision rules
+title: Create decision rules
 description: Learn how to create decision rules in Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Creating decision rules {#creating-decision-rules}
+# Create decision rules {#creating-decision-rules}
 
 You can create offer decision rules based on data available in Adobe Experience Platform. Decision rules determine to whom an offer can be shown.
 

@@ -1,5 +1,5 @@
 ---
-title: Inserting offer activitiinto email deliveries
+title: Insert offer activitiinto email deliveries
 description: Learn how to insert an offer activities into email deliveries.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Inserting offer activities into email deliveries {#xxxx}
+# Insert offer activities into email deliveries {#xxxx}
 
 >[!NOTE]
 >

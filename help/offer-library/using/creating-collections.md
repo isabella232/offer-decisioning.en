@@ -1,5 +1,5 @@
 ---
-title: Creating collections
+title: Create collections
 description: Learn how to organize offers using collections.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Creating collections {#creating-collections}
+# Create collections {#creating-collections}
 
 Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only. 
 

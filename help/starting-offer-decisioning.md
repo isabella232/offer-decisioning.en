@@ -1,5 +1,5 @@
 ---
-title: About Offer Decisioning
+title: Get started with Offer Decisioning
 description: Personalize your emails at scale by continuously delivering the best offers to your customers.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,29 +12,35 @@ internal: n
 snippet: y
 ---
 
-# About Offer Decisioning {#about-offer-decision}
+# Get started with Offer Decisioning {#about-offer-decision}
 
 >[!IMPORTANT]
 >
 >Offer Decisioning is available in beta, and subject to frequent updates and modifications without notice. 
 
-Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers.
+Offer Decisioning is an Application Service integrated with Adobe Experience Platform.
+
+![](assets/offerdiagram.png) 
+
+It allows you to leverage Adobe Experience Platform Real-time Customer Data to create and continuously deliver the best offer and experience to your customers.
+
+If you have Adobe Campaign Standard, you will also be able to deliver offers via emails using Adobe Camapign Standard capabilities.
 
 Benefits include:
 
-* Improved e-mail campaign performance by delivering more personalized offers in your emails.
-* Improved workflow: instead of creating multiple deliveries or campaigns, marketing teams can improve the workflow by creating a single delivery and vary the offers in different parts of the template.
-* Enables you to create, manage, and approve offers outside of the Adobe Campaign Standard e-mail campaign workflow.
+* Improved e-mail campaign performance by delivering more personalized offers in your emails,
+* Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
+* Offers creation, mangement and apprroval outside of the Adobe Campaign Standard e-mail campaign workflow,
 * Control over the number of times an offer is shown across e-mail campaigns and customers. 
 
 ## Requirements {#requirements}
 
 In order to be able to use Offer Decisioning, you need to:
 
-* Have your Campaign Standard instance hosted on Azure.
+* Have your Campaign Standard instance hosted on Azure,
 * Get access to the Offer Decisioning service. For more on this, reach out to Adobe Customer Care or visit [Adobe Enterprise Support page](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
-## Offers and offer activities {#offers-offer-activities}
+## About offers and offer activities {#offers-offer-activities}
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
@@ -42,9 +48,7 @@ It is created using the **Offer Library**, which is accessible directly from Ado
 
 ![](assets/offer_structure.png) 
 
-Once the Offer Library has been enriched with offers, [!DNL Adobe Campaign Standard] allows you to deliver them to your customers using **offer activities**.
-
-These are specific components that are added into email deliveries and that will pick the best offer to deliver according to the target. For more on this, refer to [this section](campaign-standard/using/overview.md).
+Once the Offer Library has been enriched with offers, you can deliver offers using **offer activities** either through [APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml), or directly from [Adobe Campaign Standard](../../campaign-standard/using/overview.md). Offer activities are containers for your offers, that will pick the best offer to deliver according to the target of the delivery.
 
 ![](assets/offer_acs.png) 
 

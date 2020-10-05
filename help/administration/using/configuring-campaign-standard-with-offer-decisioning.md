@@ -1,5 +1,5 @@
 ---
-title: Configuring Campaign Standard with Offer decisioning
+title: Configure Campaign Standard with Offer decisioning
 description: Learn how to configure Campaign Standard with the Offer decisioning service integration.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,6 +12,6 @@ internal: n
 snippet: y
 ---
 
-# Configuring Campaign Standard with Offer decisioning{#configuring-campaign-standard-with-offer-decisioning.md}
+# Configure Campaign Standard with Offer decisioning{#configuring-campaign-standard-with-offer-decisioning.md}
 
 TBD

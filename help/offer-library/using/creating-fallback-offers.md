@@ -1,5 +1,5 @@
 ---
-title: Creating fallback offers
+title: Create fallback offers
 description: Learn how to create offers in Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Creating fallback offers {#creating-fallback-offers}
+# Create fallback offers {#creating-fallback-offers}
 
 The fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.
 
