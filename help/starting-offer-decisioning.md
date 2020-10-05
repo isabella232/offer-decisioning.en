@@ -52,4 +52,4 @@ These are specific components that are added into email deliveries and that will
 
 ## Common use cases {#common-use-cases}
 
-TBD: list several use cases that can be performed using offer decisioning, including the use cases covered technical marketing tutorial videos.
+TBD: list several use cases that can be performed using offer decisioning, including the use cases covered technical marketing tutorial videos.  

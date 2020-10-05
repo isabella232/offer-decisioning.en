@@ -15,7 +15,7 @@ topic: Premium
 
 ## Get started
 
-* [What is Offer Decisioning?](about-offer-decisioning.md)
+* [What is Offer Decisioning?](starting-offer-decisioning.md)
 
   Learn more on the Offer Decisioning service.
 
