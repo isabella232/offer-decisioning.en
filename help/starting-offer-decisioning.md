@@ -48,7 +48,7 @@ It is created using the **Offer Library**, which is accessible directly from Ado
 
 ![](assets/offer_structure.png) 
 
-Once the Offer Library has been enriched with offers, you can deliver offers using **offer activities** either through [APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml), or directly from [Adobe Campaign Standard](../../campaign-standard/using/overview.md). Offer activities are containers for your offers, that will pick the best offer to deliver according to the target of the delivery.
+Once the Offer Library has been enriched with offers, you can deliver offers using **offer activities** either through [APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml), or directly from [Adobe Campaign Standard](campaign-standard/using/overview.md). Offer activities are containers for your offers, that will pick the best offer to deliver according to the target of the delivery.
 
 ![](assets/offer_acs.png) 
 
