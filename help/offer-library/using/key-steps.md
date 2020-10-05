@@ -14,7 +14,7 @@ snippet: y
 
 # Key steps to create an offer {#key-steps}
 
-The main steps to create offers are as follows:
+The main steps to create offers are as follows:  
 
 1. Create **placements**. Placements are containers that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages. See [](../../offer-library/using/creating-placements.md).
 

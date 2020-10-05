@@ -22,7 +22,7 @@ The **[!UICONTROL Offers]** menu allows you to create and manage your offers, as
 
 ![](assets/offers_access_library.png)
 
-Several tabs are available to help you create your offers:
+Several tabs are available to help you create your offers:  
 
 * **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
