@@ -8,10 +8,7 @@ index: yes
 # [!DNL Offer Decisioning] Help {#using}
 
 + [Product documentation](offer-decisioning-home.md)
-+ Starting with Offer Decisioning {#starting-with-offer-decisioning}
-    + [About Offer Decisioning](start/using/about-offer-decisioning.md)
-    + [About offers & offer activities](start/using/offers-offer-activities.md)
-    + [Common use cases](start/using/common-use-cases.md)
++ [Starting with Offer Decisioning](about-offer-decisioning.md)
 + Managing offers in the Offer Library {#managing-offers-in-the-offer-library}
     + [About the Offer library](offer-library/using/about-the-offer-library.md)
     + [Creating placements](offer-library/using/creating-placements.md)
