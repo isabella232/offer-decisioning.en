@@ -18,8 +18,6 @@ snippet: y
 >
 >Offer Decisioning is available in beta, and subject to frequent updates and modifications without notice. 
 
-## About the Offer Decisioning service
-
 Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers.
 
 Benefits include:
@@ -29,7 +27,7 @@ Benefits include:
 * Enables you to create, manage, and approve offers outside of the Adobe Campaign Standard e-mail campaign workflow.
 * Control over the number of times an offer is shown across e-mail campaigns and customers. 
 
-## Requirements
+## Requirements {#requirements}
 
 In order to be able to use Offer Decisioning, you need to:
 
@@ -40,7 +38,7 @@ In order to be able to use Offer Decisioning, you need to:
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
-It is created using the **Offer Library**, which is accessible directly from Adobe Experience Platform. It provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [](offer-library/using/about-the-offer-library.md)).
+It is created using the **Offer Library**, which is accessible directly from Adobe Experience Platform. It provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [About the Offer Library](offer-library/using/about-the-offer-library.md)).
 
 ![](assets/offers_structure.png)
 
