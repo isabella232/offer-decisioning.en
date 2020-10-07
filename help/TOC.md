@@ -20,6 +20,7 @@ index: yes
     + [Create fallback offers](offer-library/using/creating-fallback-offers.md)
     + [Create collections](offer-library/using/creating-collections.md)
 + [Monitor offer activities](offer-library/using/monitoring-offer-activities.md)
++ [Deliver offers using APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
 + Administration guide {#administration-guide}
     + [Grant access to Offer Decisioning](administration/using/granting-access-to-offer-decisioning.md)
     + [Offer Decisioning data model](administration/using/offer-decisioning-data-model.md)
