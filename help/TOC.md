@@ -9,7 +9,7 @@ index: yes
 
 + [Product documentation](offer-decisioning-home.md)
 + Get started with Offer Decisioning {#get-started-offer-library}
-    + [About Offer Decisioning](starting-offer-decisioning.md)
+    + [About Offer Decisioning](get-started-offer-library/using/starting-offer-decisioning.md)
     + [User interface](get-started-offer-library/using/user-interface.md)
 + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Key steps to create an offer](get-started-offer-library/using/key-steps.md)
