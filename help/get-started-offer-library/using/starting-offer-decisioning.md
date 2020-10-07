@@ -39,13 +39,13 @@ Benefits include:
 
 ## About offers and offer activities {#offers-offer-activities}
 
-* An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
+An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
     It is created using the **Offer Library**, which provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [Offer Library user interface](../../get-started-offer-library/using/user-interface.md)).
 
-    ![](assets/offer_structure.png) 
+![](assets/offer_structure.png) 
 
-* Once the Offer Library has been enriched with offers, you can integrate your offers into **offer activities**.
+Once the Offer Library has been enriched with offers, you can integrate your offers into **offer activities**.
 
     Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
 
@@ -53,14 +53,14 @@ Benefits include:
 
 Offer Decisioning capabilities and integration with Adobe Experience Platform allow you to cover numerous use cases to help you increase customers' engagement and conversion.
 
-You can, for example, display on your website homepage offers that will match the visiting customer's point of interest, based on data from Adobe Experience Platform.
+* Display on your website homepage offers that will match the visiting customer's point of interest, based on data from Adobe Experience Platform.
 
-![](assets/website.png) 
+    ![](assets/website.png) 
 
-If customers walk near one of your stores, send them push notifications reminding them of available offers according to their attributes (loyalty level, gender, former purchases...).
+* If customers walk near one of your stores, send them push notifications reminding them of available offers according to their attributes (loyalty level, gender, former purchases...).
 
-![](assets/push_sample.png) 
+    ![](assets/push_sample.png) 
 
-Offer decisioning also helps you enhance your customers' experience when contacting your support team. Offer Deicisoning APIs allow you to display in your call center agents' portal information about the customer's reddemed and next best offers.
+* Offer decisioning also helps you enhance your customers' experience when contacting your support team. Offer Deicisoning APIs allow you to display in your call center agents' portal information about the customer's reddemed and next best offers.
 
-![](assets/call-center.png) 
+    ![](assets/call-center.png) 
