@@ -8,11 +8,11 @@ index: yes
 # [!DNL Offer Decisioning] Help {#using}
 
 + [Product documentation](offer-decisioning-home.md)
-+ [Get started with Offer Decisioning](starting-offer-decisioning.md)
-+ Get started with the Offer library {#get-started-offer-library}
-    + [User interface](get-started-offer-library/using/about-the-offer-library.md)
-    + [Key steps to create an offer](get-started-offer-library/using/key-steps.md)
++ Get started with Offer Decisioning {#get-started-offer-library}
+    + [About Offer Decisioning](starting-offer-decisioning.md)
+    + [User interface](get-started-offer-library/using/user-interface.md)
 + Create and manage offers {#managing-offers-in-the-offer-library}
+    + [Key steps to create an offer](get-started-offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)
     + [Create decision rules](offer-library/using/creating-decision-rules.md)
     + [Create tags](offer-library/using/creating-tags.md)

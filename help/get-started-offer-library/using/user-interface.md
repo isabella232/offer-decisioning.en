@@ -1,5 +1,5 @@
 ---
-title: User Interface
+title: User interface
 description: Learn more about the Offer Library User Interface.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -18,11 +18,9 @@ The Offer Library allows you to create and manage your placements and offers in 
 
 It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
 
-The **[!UICONTROL Offers]** menu allows you to create and manage your offers, as well as your collections, placements, decision rules and tags.
-
 ![](assets/offers_access_library.png)
 
-Several tabs are available to help you create your offers:  
+The menu allows you to navigate through the different functionalities of Offer Decisioning. 
 
 * **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
@@ -37,3 +35,29 @@ Several tabs are available to help you create your offers:
 The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Monitoring offer activities](../../offer-library/using/monitoring-offer-activities.md)
 
 ![](assets/offer_activities.png)
+
+## Search and filter information
+
+A **search bar** is available in some menus to allow you to search for an item.
+
+**Filters** can also be accessed by clicking the filter icon on the top left of tahe list. They allows you to filter the displayed elements according to different criteria. You can, for example, filter the placements that have been created for the email communication channel and image-type contents.
+
+![](assets/filters.png)
+
+## Customize displayed information
+
+Lists from Offer Decisioning menus can be personalized using the configuration button on the top right of the lists.
+
+This allows you to choose the information to display according to your needs.
+
+Note that columns personalization is saved for each user.
+
+![](assets/columns.png)
+
+## Information pane
+
+In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element.
+
+![](assets/information-pane.png)
+
+<!-- add info on shortcuts?-->

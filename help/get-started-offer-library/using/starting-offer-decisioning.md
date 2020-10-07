@@ -1,5 +1,5 @@
 ---
-title: Get started with Offer Decisioning
+title: About Offer Decisioning
 description: Personalize your emails at scale by continuously delivering the best offers to your customers.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Get started with Offer Decisioning {#about-offer-decision}
+# About Offer Decisioning {#about-offer-decision}
 
 >[!IMPORTANT]
 >

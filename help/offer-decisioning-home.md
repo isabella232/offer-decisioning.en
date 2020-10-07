@@ -15,17 +15,17 @@ topic: Premium
 
 ## Get started
 
-* [What is Offer Decisioning?](starting-offer-decisioning.md)
+* [What is Offer Decisioning?](get-started-offer-library/using/starting-offer-decisioning.md)
 
-  Learn more on the Offer Decisioning service.
+  <em>Learn more on the Offer Decisioning service.</em>
 
 * [Get started with the Offer Library](get-started-offer-library/using/about-the-offer-library.md)
 
-  Lean how to access the Offer Library to manage your offers.
+  <em>Learn how to access the Offer Library to manage your offers.</em>
 
-* [Create and manage offers](offer-library/using/creating-placements.md)
+* [Key steps to create an offer](offer-library/using/key-steps.md)
 
-  Learn how to create the different elements composing an offer.</em>
+  <em>Discover the key steps to create an offer.</em>
 
 ## Additional Resources
 
