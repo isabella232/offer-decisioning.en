@@ -24,7 +24,9 @@ Offer Decisioning is an Application Service integrated with Adobe Experience Pla
 
 ![](assets/offer-diagram.png) 
 
-The service consists in two main components:
+## Offer Decisioning service architecture
+
+The Offer Decisioning application service consists in two main components:
 
 * The **Centralized Offer Library** is the interface where you create and manage the different elements that compose your offers, and define their rules and constraints.
 * The **Offer Decision Engine** leverages Adobe Experience Platform data and Real-time Customer profiles, along with the Offer Library, in order to select the right time, customers and channels to which offers will be delivered.
