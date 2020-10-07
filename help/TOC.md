@@ -12,7 +12,7 @@ index: yes
     + [About Offer Decisioning](get-started-offer-library/using/starting-offer-decisioning.md)
     + [User interface](get-started-offer-library/using/user-interface.md)
 + Create and manage offers {#managing-offers-in-the-offer-library}
-    + [Key steps to create an offer](get-started-offer-library/using/key-steps.md)
+    + [Key steps to create an offer](offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)
     + [Create decision rules](offer-library/using/creating-decision-rules.md)
     + [Create tags](offer-library/using/creating-tags.md)

@@ -19,9 +19,9 @@ topic: Premium
 
   <em>Learn more on the Offer Decisioning service.</em>
 
-* [Get started with the Offer Library](get-started-offer-library/using/about-the-offer-library.md)
+* [Discover the Offer Library user interface](get-started-offer-library/using/user-interface.md)
 
-  <em>Learn how to access the Offer Library to manage your offers.</em>
+  <em>Learn how to access and navigate in the Offer Library</em>
 
 * [Key steps to create an offer](offer-library/using/key-steps.md)
 
