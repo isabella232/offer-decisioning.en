@@ -24,16 +24,16 @@ The **[!UICONTROL Offers]** menu allows you to create and manage your offers, as
 
 Several tabs are available to help you create your offers:  
 
-* **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
+* **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-collections.md).
+* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../offer-library/using/creating-collections.md).
 
-* **[!UICONTROL Placements]**: create and manage placements where your offers will display. and tags for your offers. See [Creating placements](../../offer-library/using/creating-placements.md).
+* **[!UICONTROL Placements]**: create and manage placements where your offers will display. and tags for your offers. See [Creating placements](../offer-library/using/creating-placements.md).
 
-* **[!UICONTROL Decision Rules]**: manage the conditions under which your offers are presented. See [Creating a decision rule](../../offer-library/using/creating-decision-rules.md).
+* **[!UICONTROL Decision Rules]**: manage the conditions under which your offers are presented. See [Creating a decision rule](../offer-library/using/creating-decision-rules.md).
 
-* **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../../offer-library/using/creating-tags.md).
+* **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../offer-library/using/creating-tags.md).
 
-The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Monitoring offer activities](../../offer-library/using/monitoring-offer-activities.md)
+The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Monitoring offer activities](../offer-library/using/monitoring-offer-activities.md)
 
 ![](assets/offer_activities.png)

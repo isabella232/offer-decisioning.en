@@ -38,7 +38,7 @@ Benefits include:
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
-It is created using the **Offer Library**, which is accessible directly from Adobe Experience Platform. It provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [About the Offer Library](offer-library/using/about-the-offer-library.md)).
+It is created using the **Offer Library**, which is accessible directly from Adobe Experience Platform. It provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [About the Offer Library](/get-started-offer-library/about-the-offer-library.md)).
 
 ![](assets/offer_structure.png) 
 
