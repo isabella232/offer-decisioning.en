@@ -43,13 +43,13 @@ Benefits include:
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
-    It is created using the **Offer Library**, which provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [Offer Library user interface](../../get-started-offer-library/using/user-interface.md)).
+It is created using the **Offer Library**, which provides a central offer catalog where you can associate eligibility rules and constraints with multiple pieces of content to create and publish offers (see [Offer Library user interface](../../get-started-offer-library/using/user-interface.md)).
 
 ![](assets/offer_structure.png) 
 
 Once the Offer Library has been enriched with offers, you can integrate your offers into **offer activities**.
 
-    Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
+Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
 
 ## Common use cases
 
