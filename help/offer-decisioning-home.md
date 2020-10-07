@@ -19,7 +19,7 @@ topic: Premium
 
   Learn more on the Offer Decisioning service.
 
-* [Get started with the Offer Library](get-started-offer-library/about-the-offer-library.md)
+* [Get started with the Offer Library](get-started-offer-library/using/about-the-offer-library.md)
 
   Lean how to access the Offer Library to manage your offers.
 
