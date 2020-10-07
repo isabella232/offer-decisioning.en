@@ -26,5 +26,4 @@ The main steps to create offers are as follows:
 
 1. Create **fallback offers**, which are the last resort offers to display if customers are not eligible for any of the selected offers. See [](../../offer-library/using/creating-fallback-offers.md)
 
-Once your offers have been created, you can deliver them  either through [APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml), or directly from [Adobe Campaign Standard](../../campaign-standard/using/overview.md).
-
+Once your offers have been created, you can deliver them through APIs. For more on this, refer to the [APIs documentation](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml).

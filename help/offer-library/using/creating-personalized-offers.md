@@ -65,8 +65,6 @@ To create an offer, follow these steps:
         >[!NOTE]
         >
         >This option is not available for image-type placements.
-        >
-        >You will be able to customize the text layout in Campaign once it is inserted into an offer activity.
 
         ![](assets/offer_text_content.png)
 

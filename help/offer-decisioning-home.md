@@ -19,17 +19,16 @@ topic: Premium
 
   Learn more on the Offer Decisioning service.
 
-* [Accessing the Offer Library](offer-library/using/about-the-offer-library.md)
+* [Get started with the Offer Library](get-started-offer-library/about-the-offer-library.md)
 
   Lean how to access the Offer Library to manage your offers.
 
-* [Deliver offers using Campaign Standard](campaign-standard/using/overview.md)
+* [Create and manage offers](offer-library/using/creating-placements.md)
 
-  Learn how to deliver offers into Campaign Standard email messages.</em>
+  Learn how to create the different elements composing an offer.</em>
 
 ## Additional Resources
 
 * [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Real-time Customer Profile documentation](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Experience Cloud XDM field definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Campaign Standard documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)
