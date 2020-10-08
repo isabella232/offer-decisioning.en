@@ -22,6 +22,6 @@ index: yes
     + [Create personalized offers](offer-library/using/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/using/creating-fallback-offers.md)
     + [Create collections](offer-library/using/creating-collections.md)
-+ [Create and manage offers using APIs](create-offers-apis.md){#managing-offers-using-apis}
++ [Create and manage offers using APIs](create-offers-apis.md)
 + [Create offer activities](create-offer-activities.md)
 + [Deliver offers](deliver-offers-apis.md)
