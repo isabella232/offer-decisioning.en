@@ -8,12 +8,12 @@ index: yes
 # [!DNL Offer Decisioning] Help {#using}
 
 + [Product documentation](offer-decisioning-home.md)
-+ Get started with Offer Decisioning {#get-started-offer-library}
-    + [About Offer Decisioning](get-started-offer-library/using/starting-offer-decisioning.md)
-    + [User interface](get-started-offer-library/using/user-interface.md)
-    + [Glossary](get-started-offer-library/using/glossary.md)
-    + [Grant access to Offer Decisioning](administration/using/granting-access-to-offer-decisioning.md)
-    + [Technical overview](get-started-offer-library/using/technical-overview.md)
++ Get started with Offer Decisioning {#get-started}
+    + [About Offer Decisioning](get-started/using/starting-offer-decisioning.md)
+    + [User interface](get-started/using/user-interface.md)
+    + [Glossary](get-started/using/glossary.md)
+    + [Grant access to Offer Decisioning](get-started/using/granting-access-to-offer-decisioning.md)
+    + [Technical overview](get-started/using/technical-overview.md)
 + Create and manage offers using the Offer Library {#managing-offers-in-the-offer-library}
     + [Key steps to create an offer](offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)
@@ -23,5 +23,5 @@ index: yes
     + [Create fallback offers](offer-library/using/creating-fallback-offers.md)
     + [Create collections](offer-library/using/creating-collections.md)
 + [Create and manage offers using APIs](create-offers-apis.md){#managing-offers-using-apis}
-+ [Create offer activities](offer-library/using/creating-offer-activities.md)
++ [Create offer activities](create-offer-activities.md)
 + [Deliver offers](deliver-offer-apis.md)

@@ -20,7 +20,7 @@ It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** men
 
 >[!NOTE]
 >
->If you are having issues accessing the Offer Library or some of its feature, check with an Admin user that you have been granted the required rights. See [Grant access to Offer Decisioning](../../get-started-offer-library/using/granting-access-to-offer-decisioning.md)
+>If you are having issues accessing the Offer Library or some of its feature, check with an Admin user that you have been granted the required rights. See [Grant access to Offer Decisioning](../../get-started/using/granting-access-to-offer-decisioning.md)
 
 The **[!UICONTROL Offers]** menu allows you to navigate through the different functionalities of Offer Decisioning. 
 
@@ -36,7 +36,7 @@ The **[!UICONTROL Offers]** menu allows you to navigate through the different fu
 
 * **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../../offer-library/using/creating-tags.md).
 
-The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Monitoring offer activities](../../offer-library/using/monitoring-offer-activities.md)
+The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Create offer activities](../../create-offer-activities.md)
 
 ![](assets/offer_activities.png)
 

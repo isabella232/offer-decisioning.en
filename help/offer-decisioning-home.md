@@ -15,11 +15,11 @@ topic: Premium
 
 ## Get started
 
-* [What is Offer Decisioning?](get-started-offer-library/using/starting-offer-decisioning.md)
+* [What is Offer Decisioning?](get-started/using/starting-offer-decisioning.md)
 
   <em>Learn more on the Offer Decisioning service.</em>
 
-* [Discover the Offer Library user interface](get-started-offer-library/using/user-interface.md)
+* [Discover the Offer Library user interface](get-started/using/user-interface.md)
 
   <em>Learn how to access and navigate in the Offer Library</em>
 
