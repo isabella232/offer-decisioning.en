@@ -1,6 +1,6 @@
 ---
-title: Monitor offer activities
-description: Learn how to monitor offer activities from the Offer Library
+title: Create offer activities
+description: Learn how to create offer activities
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -12,6 +12,6 @@ internal: n
 snippet: y
 ---
 
-# Monitor offer activities {#monitoring-offer-activities}
+# Create offer activities {#create-offer-activities}
 
 document activities tab in offer library. Used to monitor the activities created after configuring them in ACS?

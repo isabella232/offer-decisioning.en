@@ -11,7 +11,10 @@ index: yes
 + Get started with Offer Decisioning {#get-started-offer-library}
     + [About Offer Decisioning](get-started-offer-library/using/starting-offer-decisioning.md)
     + [User interface](get-started-offer-library/using/user-interface.md)
-+ Create and manage offers {#managing-offers-in-the-offer-library}
+    + [Glossary](get-started-offer-library/using/glossary.md)
+    + [Grant access to Offer Decisioning](administration/using/granting-access-to-offer-decisioning.md)
+    + [Technical overview](get-started-offer-library/using/technical-overview.md)
++ Create and manage offers using the Offer Library {#managing-offers-in-the-offer-library}
     + [Key steps to create an offer](offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)
     + [Create decision rules](offer-library/using/creating-decision-rules.md)
@@ -19,8 +22,6 @@ index: yes
     + [Create personalized offers](offer-library/using/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/using/creating-fallback-offers.md)
     + [Create collections](offer-library/using/creating-collections.md)
-+ [Monitor offer activities](offer-library/using/monitoring-offer-activities.md)
-+ [Deliver offers using APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
-+ Administration guide {#administration-guide}
-    + [Grant access to Offer Decisioning](administration/using/granting-access-to-offer-decisioning.md)
-    + [Offer Decisioning data model](administration/using/offer-decisioning-data-model.md)
++ [Create and manage offers using APIs](create-offers-apis.md){#managing-offers-using-apis}
++ [Create offer activities](offer-library/using/creating-offer-activities.md)
++ [Deliver offers](deliver-offer-apis.md)

@@ -18,9 +18,13 @@ The Offer Library allows you to create and manage your placements and offers in 
 
 It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
 
-![](assets/offers_access_library.png)
+>[!NOTE]
+>
+>If you are having issues accessing the Offer Library or some of its feature, check with an Admin user that you have been granted the required rights. See [Grant access to Offer Decisioning](../../get-started-offer-library/using/granting-access-to-offer-decisioning.md)
 
-The menu allows you to navigate through the different functionalities of Offer Decisioning. 
+The **[!UICONTROL Offers]** menu allows you to navigate through the different functionalities of Offer Decisioning. 
+
+![](assets/offers_menu.png)
 
 * **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
