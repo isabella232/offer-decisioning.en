@@ -44,9 +44,12 @@ To grant access to the Offer Decisioning service, follow these steps:
 
     Available permissions are:
 
-    * **[!UICONTROL Manage Decisioning Activities]**: create and edit offers and offer activities.
-    * **[!UICONTROL Execute Decisioning Activities]**: 
-    * **[!UICONTROL Manage Decisioning Options:]**: 
+    ||Offers|||Activities|||Placements|||
+    |------|-|-|-----------|-----|-|--------------|--|-|--|
+    ||Read|Write|Delete|Read|Write|Delete|Read|Write|Delete|
+    |**[!UICONTROL Manage Decisioning Activities]**|X|X|X|X|X|X|X|X|X|
+    |**[!UICONTROL Execute Decisioning Activities]**|X|||X|||X|||
+    |**[!UICONTROL Manage Decisioning Options:]**|X|X|X|X|||X|X|X|
 
 1. A summary of the product profile's permissions displays. You can now assign users to the product profile so that they access these permissions.
 
