@@ -30,11 +30,13 @@ To create an offer, follow these steps:
 
     ![](assets/create_offer.png)
 
-1. Specify the offer's name as well as its start  end date and time. You can also associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily.
-
-    offers attributes ? TBD, need some input
+1. Specify the offer's name as well as its start and end date and time. You can also associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily.
 
     ![](assets/offer_details.png)
+
+    >[!NOTE]
+    >
+    >The **[!UICONTROL Offer attributes]** section allows you to associate key value pairs with the offer for reporting and analysis purposes.
     
 1. Add one or multiple reprensentations for your offer using the **[!UICONTROL Add representation]** button.
 
@@ -104,6 +106,6 @@ To create an offer, follow these steps:
 
 1. The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
-    It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression?>
+    It is now ready to be delivered to customers. You can select it to display its properties and edit or suppress it.
 
     ![](assets/offer_created.png)
