@@ -53,6 +53,6 @@ To grant access to the Offer Decisioning service, follow these steps:
 
 1. A summary of the product profile's permissions displays. You can now assign users to the product profile so that they access these permissions.
 
-    For more details on how to manage users permissions, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+    For more details on how to manage users permissions, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).  
 
     ![](assets/product-profile-created.png)
