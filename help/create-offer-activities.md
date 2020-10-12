@@ -24,10 +24,10 @@ To create an offer activity, follow these steps:
 
 1. Make sure that the components below have been created in the Offer Library:
 
-    * [Placements](../offer-library/using/creating-placements.md),
-    * [Collections](../offer-library/using/creating-collections.md),
-    * [Personalized offers](../offer-library/using/creating-personalized-offers.md),
-    * [Fallback offers](../offer-library/using/creating-fallback-offers.md).
+    * [Placements](offer-library/using/creating-placements.md),
+    * [Collections](offer-library/using/creating-collections.md),
+    * [Personalized offers](offer-library/using/creating-personalized-offers.md),
+    * [Fallback offers](offer-library/using/creating-fallback-offers.md).
 
 1. Select the **[!UICONTROL Activities]** menu, then click **[!UICONTROL Create activity]**.
 
