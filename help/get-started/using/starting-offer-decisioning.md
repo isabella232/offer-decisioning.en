@@ -16,9 +16,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Offer Decisioning is available in beta, and subject to frequent updates and modifications without notice. 
->
->In order to be able to use Offer Decisioning, you need to get access to the Offer Decisioning service. For more on this, reach out to Adobe Customer Care or visit [Adobe Enterprise Support page](https://helpx.adobe.com/contact/enterprise-support.ec.html).
+>Tto get access to the Offer Decisioning service, reach out to Adobe Customer Care or visit [Adobe Enterprise Support page](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
 Offer Decisioning is an Application Service integrated with Adobe Experience Platform. It allows you leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
 

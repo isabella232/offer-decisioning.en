@@ -18,7 +18,7 @@ Offer activities are containers for your offers that will leverage the Offer Dec
 
 The list of offer activities is accessible in the **[!UICONTROL Activities]** menu. Filters are available to help you retrieve activities according to their status or start and end dates.
 
-![](assets/offer-activities-list.png)
+![](assets/activities-list.png)
 
 To create an offer activity, follow these steps:
 
@@ -33,34 +33,34 @@ To create an offer activity, follow these steps:
 
 1. Specify the activity's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
 
-    ![](assets/activity-name.png)
+    ![](assets/activities-name.png)
 
 1. Drag and drop a placement from the list to add it to the activity, then click **[!UICONTROL Add collection]** containing the desired offers.
 
-    ![](assets/activity-placement.png)
+    ![](assets/activities-placement.png)
 
 1. Select the collection that contains the offers to consider, then click **[!UICONTROL Add]**.
 
-    ![](assets/activity-collection.png)
+    ![](assets/activities-collection.png)
 
 1. The selected offers are added to the placement. Click **[!UICONTROL Next]** to confirm.
 
     In this example, we selected two offers that will display into a JSON-type placement aimed at presenting offers into a call center solution.
 
-    ![](assets/offer-added.png)
+    ![](assets/offers-added.png)
 
-1. Select the fallback offer that will be presentedas a last resort to the customers that do not match the offers eligibility rules and constraints, then click **[!UICONTROL Next]**.
+1. Select the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints, then click **[!UICONTROL Next]**.
 
-    ![](assets/add-fallback.png)
+    ![](assets/add-fallback-offer.png)
 
 1. If everything is configured properly and your activity is ready to be used to  ppresent offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
 
     You can also save the activity as draft, in order to edit and activate it later on.
 
-    ![](assets/save-activity.png)
+    ![](assets/save-activities.png)
 
 1. The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step.
 
     It is now ready to be used to deliver offers to customers (see [Deliver offer using APIs](deliver-offers-apis.md)). You can select it to display its properties and edit or suppress it.
 
-    ![](assets/activity-created.png)
+    ![](assets/activities-created.png)

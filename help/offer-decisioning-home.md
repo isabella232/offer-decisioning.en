@@ -9,10 +9,6 @@ topic: Premium
 
 ![](assets/do-not-localize/banneroffers.png) 
 
->[!IMPORTANT]
->
->Offer Decisioning is available in beta, and subject to frequent updates and modifications without notice.
-
 ## Get started
 
 * [What is Offer Decisioning?](get-started/using/starting-offer-decisioning.md)
