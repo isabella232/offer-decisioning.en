@@ -8,28 +8,20 @@ index: yes
 # [!DNL Offer Decisioning] Help {#using}
 
 + [Product documentation](offer-decisioning-home.md)
-+ [What's new](release-notes.md)
-+ Starting with Offer Decisioning {#start-offer-decisioning}
-    + [About the Offer Decisioning service](start/using/about-offer-decisioning.md)
-    + [Granting access to Offer Decisioning](start/using/granting-access-to-offer-decisioning.md)
-    + [About offers and offer activities](start/using/about-offers-and-offer-activities.md)
-    + [Offer Decisioning data model](start/using/offer-decisioning-data-model.md)
-+ Managing offers in Adobe Experience Platform {#managing-offers-in-adobe-experience-platform}
-    + [Accessing the Offer library](offer-library/using/accessing-the-offer-library.md)
-    + [Main steps to create offers](offer-library/using/main-steps-to-create-offers.md)
-    + [Creating placements](offer-library/using/creating-placements.md)
-    + [Creating tags](offer-library/using/creating-tags.md)
-    + [Creating decision rules](offer-library/using/creating-decision-rules.md)
-    + Creating offer collections {#creating-offer-collections}
-        + [About offer collections](offer-library/using/about-offer-collections.md)
-        + [Creating static collections](offer-library/using/creating-static-collections.md)
-        + [Creating dynamic collections](offer-library/using/creating-dynamic-collections.md)
-    + [Creating personalized offers](offer-library/using/creating-personalized-offers.md)
-    + [Creating fallback offers](offer-library/using/creating-fallback-offers.md)
-    + [Monitoring offer activities](offer-library/using/monitoring-offer-activities.md)
-+ Delivering offers using Adobe Campaign Standard {#delivery}
-    + [Overview](campaign-standard/using/overview.md)
-    + [Inserting offer activities into email deliveries](campaign-standard/using/inserting-offer-activities.md)
-    + [Configuring offer activities](campaign-standard/using/configuring-offer-activities.md)
-    + [Sending emails with offer activities](campaign-standard/using/sending-emails-with-offer-activities.md)
-+ [Delivering offers using APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
++ Get started with Offer Decisioning {#get-started}
+    + [About Offer Decisioning](get-started/using/starting-offer-decisioning.md)
+    + [User interface](get-started/using/user-interface.md)
+    + [Glossary](get-started/using/glossary.md)
+    + [Grant access to Offer Decisioning](get-started/using/granting-access-to-offer-decisioning.md)
+    + [Technical overview](get-started/using/technical-overview.md)
++ Create and manage offers using the Offer Library {#managing-offers-in-the-offer-library}
+    + [Key steps to create an offer](offer-library/using/key-steps.md)
+    + [Create placements](offer-library/using/creating-placements.md)
+    + [Create decision rules](offer-library/using/creating-decision-rules.md)
+    + [Create tags](offer-library/using/creating-tags.md)
+    + [Create personalized offers](offer-library/using/creating-personalized-offers.md)
+    + [Create fallback offers](offer-library/using/creating-fallback-offers.md)
+    + [Create collections](offer-library/using/creating-collections.md)
++ [Create and manage offers using APIs](create-offers-apis.md)
++ [Create offer activities](create-offer-activities.md)
++ [Deliver offers](deliver-offers-apis.md)
