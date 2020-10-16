@@ -40,9 +40,6 @@ To create a placement, follow these steps:
 
 1. Click **[!UICONTROL Save]** to confirm.
 
-1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it. <!-- no suppression?>
+1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it. <!-- no suppression?-->
 
     ![](assets/placement_created.png)
-
-
-
