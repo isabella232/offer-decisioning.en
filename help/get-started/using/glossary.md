@@ -22,7 +22,7 @@ Here are the main concepts you will work with when using Offer Decisioning.
 
 * **Collections**: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
-* **Decision**: A decision is the logic that defines and controls the what, when, where, and how an offer is presented to end-users.	
+* **Decision**: A decision is the logic that defines and controls the what, when, where, and how an offer is presented to end-users.
 
 * **Decision Rule**: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 
@@ -36,10 +36,10 @@ Here are the main concepts you will work with when using Offer Decisioning.
 
 * **Offer Library**: The offer library is a central library used to manage personalized and fallback offers, decision rules and activities.
 
-* **Personalized Offers**: A personalized offer is a customizable marketing message based on eligibility rules and constraints.	
+* **Personalized Offers**: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
 
-* **Placements**: A placement is the location and or context in which an offer appears for an end-user.	
+* **Placements**: A placement is the location and or context in which an offer appears for an end-user.
 
-* **Priority**: Priority is used to rank offers that meet all constraints, such as eligibility, calendar, and capping.	
+* **Priority**: Priority is used to rank offers that meet all constraints, such as eligibility, calendar, and capping.
 
 * **Representations**: A representation is information used by a channel, such as location or language to display an offer.
