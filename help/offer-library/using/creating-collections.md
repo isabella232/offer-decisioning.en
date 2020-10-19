@@ -18,7 +18,7 @@ Collections allows you to organize your offers by regrouping them into categorie
 
 The list of offer collections is accessible in the **[!UICONTROL Collections]** tab.   
 
-![](assets/placements_filter.png)
+![](assets/collections_list.png)
 
 You can create two types of collections: 
 
