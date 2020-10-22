@@ -18,7 +18,7 @@ This guide requires a working understanding of the following components of Adobe
 
 * [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html): The standardized framework by which [!DNL Experience Platform] organizes customer experience data.
     * [Basics of schema composition](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html): Learn about the basic building blocks of XDM schemas.
-* [[!DNL Offer Decisioning]](../../get-started/using/technical-overview.md): Explains the concepts and components used for Experience Decisioning in general and Offer decisioning in particular. Illustrates the strategies used for choosing the best option to present during a customer's experience.
+* [[!DNL Offer Decisioning]](../offer-decisioning-home.md): Explains the concepts and components used for Experience Decisioning in general and Offer decisioning in particular. Illustrates the strategies used for choosing the best option to present during a customer's experience.
 * [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/en/experience-platform/segmentation/pql/overview.html): PQL is a powerful language to write expressions over XDM instances. PQL is used to define decision rules.
 
 ## Reading sample API calls
