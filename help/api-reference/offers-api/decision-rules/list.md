@@ -152,7 +152,7 @@ The most common query parameters for paging include:
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `q` | An optional query string to search for in selected fields. The query string should be lowercase can be surrounded by double quotes to prevent it from being tokenized and to escape special characters. The characters `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` have special meaning and should be escaped with a backslash when appearing in the query string. | `default` |
-| `qop` | Applies AND or OR operator to values in q query string param. (AND | OR) Default is **OR** | `AND` |
+| `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
 | `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
 | `limit` | Limit the number of decision rules returned. | `limit=5` |
