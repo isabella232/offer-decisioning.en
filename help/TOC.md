@@ -25,4 +25,4 @@ index: yes
     + [Create collections](offer-library/using/creating-collections.md)
 + [Create and manage offers using APIs](create-offers-apis.md)
 + [Create offer activities](create-offer-activities.md)
-+ [Deliver offers](deliver-offers-apis.md)
++ [Deliver offers using APIs](deliver-offers-apis.md)
