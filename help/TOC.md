@@ -26,5 +26,47 @@ index: yes
 + API Reference {#api-reference}
     + [Getting started](api-reference/getting-started.md)
     + Create and manage offers using APIs {#offers-api}
+        + Placements
+            + [List placements]()
+            + [Lookup a placement]()
+            + [Create a placement]()
+            + [Update a placement]()
+            + [Delete a placement]()
+        + Decision rules
+            + [List decision rules]()
+            + [Lookup a decision rule]()
+            + [Create a decision rule]()
+            + [Update a decision rule]()
+            + [Delete a decision rule]()
+        + Tags
+            + [List tags]()
+            + [Lookup a tag]()
+            + [Create a tag]()
+            + [Update a tag]()
+            + [Delete a tag]()
+        + Personalized offers
+            + [List personalized offers]()
+            + [Lookup a personalized offer]()
+            + [Create a personalized offer]()
+            + [Update a personalized offer]()
+            + [Delete a personalized offer]()
+        + Collections
+            + [List collections]()
+            + [Lookup a collection]()
+            + [Create a collection]()
+            + [Update a collection]()
+            + [Delete a collection]()
+        + Fallback offers
+            + [List fallback offers]()
+            + [Lookup a fallback offer]()
+            + [Create a fallback offer]()
+            + [Update a fallback offer]()
+            + [Delete a fallback offer]()
     + Create and manage activities using APIs {#activities-api}
+        + Activities
+            + [List activities]()
+            + [Lookup an activity]()
+            + [Create an activity]()
+            + [Update an activity]()
+            + [Delete an activity]()
     + [Deliver offers using APIs](deliver-offers-apis.md)
