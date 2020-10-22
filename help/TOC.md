@@ -15,7 +15,6 @@ index: yes
     + [User interface](get-started/using/user-interface.md)
     + [Glossary](get-started/using/glossary.md)
     + [Grant access to Offer Decisioning](get-started/using/granting-access-to-offer-decisioning.md)
-    + [Technical overview](get-started/using/technical-overview.md)
 + Create and manage offers using the Offer Library {#managing-offers-in-the-offer-library}
     + [Key steps to create an offer](offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)
