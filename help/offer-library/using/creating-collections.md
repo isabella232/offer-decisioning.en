@@ -18,7 +18,7 @@ Collections allows you to organize your offers by regrouping them into categorie
 
 The list of offer collections is accessible in the **[!UICONTROL Collections]** tab.   
 
-![](assets/placements_filter.png)
+![](assets/collections_list.png)
 
 You can create two types of collections: 
 
@@ -48,6 +48,6 @@ To create a collection, follow these steps:
     >
     >Static collections are not updated automatically. To add offers to a static collection, you need to edit it and add them manually.
 
-1. Once the collection is created, it displays in the list. You can select it to edit it.
+1. Once the collection is created, it displays in the list. You can select it to edit or delete it.
 
     ![](assets/collection_created.png)
