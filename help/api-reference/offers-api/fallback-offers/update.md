@@ -40,13 +40,17 @@ curl -X PATCH \
         }
     ]
 ```
+
 | Parameter | Description |
 | --------- | ----------- |
 | `op` | The operation call used to define the action needed to update the connection. Operations include: `add`, `replace`, and `remove`. |
 | `path` | The path of the parameter to be updated. |
 | `value` | The new value you want to update your parameter with. |
+
 **Response**
+
 A successful response returns the updated details of the fallback offer, including its unique instance ID and fallback offer `@id`.
+
 ```json
 {
     "instanceId": "b3966680-13ec-11eb-9c20-8323709cfc65",
