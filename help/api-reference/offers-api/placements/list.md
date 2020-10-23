@@ -20,10 +20,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| ENDPOINT_PATH | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| CONTAINER_ID | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| SCHEMA_PLACEMENT | Defines the schema associated with placements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| QUERY_PARAMS | Optional query parameters to filter results by. | `limit=2` |
+| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `CONTAINER_ID `| The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT` | Defines the schema associated with placements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `QUERY_PARAMS` | Optional query parameters to filter results by. | `limit=2` |
 
 ## Using query parameters
 

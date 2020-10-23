@@ -13,14 +13,16 @@ You can look up specific placements by making a GET request to the [!DNL Offer L
 **API format**
 
 ```http
-GET /{CONTAINER_ID}/instances/{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| id | A string used to match the `@id` property of the entities. The string is matched exactly. The parameter "id" and "name" cannot be used together. | `xcore:offer-placement:124541309805b7e8` |
-| name | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameter "id" and "name" cannot be used together | `Sales and Promotions Placement` |
+| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `CONTAINER_ID` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT` | Defines the schema associated with placements. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameters `id` and `name` cannot be used together. | `xcore:offer-placement:124541309805b7e8` |
+| `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameters `id` and `name` cannot be used together | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
