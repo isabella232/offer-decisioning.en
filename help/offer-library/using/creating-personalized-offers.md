@@ -38,7 +38,7 @@ To create an offer, follow these steps:
     >
     >The **[!UICONTROL Offer attributes]** section allows you to associate key value pairs with the offer for reporting and analysis purposes.
     
-1. Add one or multiple reprensentations for your offer using the **[!UICONTROL Add representation]** button.
+1. Add one or multiple representations for your offer using the **[!UICONTROL Add representation]** button.
 
     >[!NOTE]
     >

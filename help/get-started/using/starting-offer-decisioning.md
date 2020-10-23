@@ -63,6 +63,6 @@ Offer Decisioning capabilities and integration with Adobe Experience Platform al
 
     ![](assets/push_sample.png) 
 
-* Offer decisioning also helps you enhance your customers' experience when contacting your support team. Offer Deicisoning APIs allow you to display in your call center agents' portal information about the customer's reddemed and next best offers.
+* Offer decisioning also helps you enhance your customers' experience when contacting your support team. Offer Decisioning APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
     ![](assets/call-center.png) 

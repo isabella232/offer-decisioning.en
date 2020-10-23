@@ -30,6 +30,6 @@ To create a tag, follow these steps:
 
     ![](assets/tags_create.png)
 
-1. Once the tag is created, it displays in the list. You can select it to display its properties and edit or supppress it.
+1. Once the tag is created, it displays in the list. You can select it to display its properties and edit or suppress it.
 
     ![](assets/tags_created.png)

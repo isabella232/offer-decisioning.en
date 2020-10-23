@@ -53,7 +53,7 @@ To create an offer activity, follow these steps:
 
     ![](assets/add-fallback-offer.png)
 
-1. If everything is configured properly and your activity is ready to be used to  ppresent offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
+1. If everything is configured properly and your activity is ready to be used to  present offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
 
     You can also save the activity as draft, in order to edit and activate it later on.
 

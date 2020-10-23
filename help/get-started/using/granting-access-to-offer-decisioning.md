@@ -38,7 +38,7 @@ To grant access to the Offer Decisioning service, follow these steps:
 
     ![](assets/enable-services.png)
 
-1. In the **[!UICONTROL Decisioning]** , click the **+** buton to assign permissions to the product profile, then click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Decisioning]** , click the **+** button to assign permissions to the product profile, then click **[!UICONTROL Save]**.
 
     ![](assets/configure-profile.png)
 

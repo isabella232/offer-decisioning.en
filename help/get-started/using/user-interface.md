@@ -28,7 +28,7 @@ The **[!UICONTROL Offers]** menu allows you to navigate through the different fu
 
 * **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../../offer-library/using/creating-personalized-offers.md) and [Creating a fallback offer](../../offer-library/using/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: create and manage statitc and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-collections.md).
+* **[!UICONTROL Collections]**: create and manage static and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-collections.md).
 
 * **[!UICONTROL Placements]**: create and manage placements where your offers will display. and tags for your offers. See [Creating placements](../../offer-library/using/creating-placements.md).
 
@@ -44,7 +44,7 @@ The **[!UICONTROL Activities]** menu allows you to see all the offer activities 
 
 A **search bar** is available in some menus to allow you to search for an item.
 
-**Filters** can also be accessed by clicking the filter icon on the top left of tahe list. They allows you to filter the displayed elements according to different criteria. You can, for example, filter the placements that have been created for the email communication channel and image-type contents.
+**Filters** can also be accessed by clicking the filter icon on the top left of the list. They allows you to filter the displayed elements according to different criteria. You can, for example, filter the placements that have been created for the email communication channel and image-type contents.
 
 ![](assets/filters.png)
 

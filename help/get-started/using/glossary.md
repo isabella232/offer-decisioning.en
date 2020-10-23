@@ -18,7 +18,7 @@ Here are the main concepts you will work with when using Offer Decisioning.
 
 * **Activity** or **Offer Activity**: An Offer Activity contains the logic that informs the selection of an offer
 
-* **Capping** or **Frequency Cappin**: Capping is used as a constraint to define how many times an offer is presented. There are two types of caps, how many times an offer can be proposed across the combined target audience, also known as "Global Cap" and how many times an offer can be proposed to the same end user, also known as "Profile Cap".
+* **Capping** or **Frequency Capping**: Capping is used as a constraint to define how many times an offer is presented. There are two types of caps, how many times an offer can be proposed across the combined target audience, also known as "Global Cap" and how many times an offer can be proposed to the same end user, also known as "Profile Cap".
 
 * **Collections**: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
