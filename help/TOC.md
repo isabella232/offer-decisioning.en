@@ -64,7 +64,6 @@ index: yes
             + [Update a fallback offer](api-reference/offers-api/fallback-offers/update.md)
             + [Delete a fallback offer](api-reference/offers-api/fallback-offers/delete.md)
     + Create and manage activities using APIs {#activities-api}
-        + Activities {#activities}
             + [List activities](api-reference/activities-api/activities/list.md)
             + [Lookup an activity](api-reference/activities-api/activities/lookup.md)
             + [Create an activity](api-reference/activities-api/activities/create.md)
