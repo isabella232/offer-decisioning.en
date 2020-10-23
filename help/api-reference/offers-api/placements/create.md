@@ -13,12 +13,13 @@ You can create a placement by making a POST request to the [!DNL Offer Library] 
 **API format**
 
 ```http
-POST /{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `CONTAINER_ID` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Request**
 

@@ -15,13 +15,14 @@ For more information on JSON Patch, including available operations, see the offi
 **API format**
 
 ```http
-PATCH /{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The id of the container. Set the variable by setting the environment variable container_name and then call the HOME API. The API call extracts the first container with that name. | `ab574eca-f7a9-38d0-b3d9-297376ca9ee2` |
-| {INSTANCE_ID} | The instance id of the entity. Set the variable using the corresponding Fulltext search or lookup call. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `CONTAINER_ID` | The container where the decision rules are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `INSTANCE_ID` |The instance id of the decision rule you wish to update. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **Request**
 
