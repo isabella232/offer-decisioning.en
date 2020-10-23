@@ -1,6 +1,6 @@
 ---
-title: Create offers using APIs
-description: Learn how to create offers using APIs.
+title: Create activities using APIs
+description: Learn how to create offer activities using APIs.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner:
@@ -15,6 +15,4 @@ snippet: y
 # Create offers using APIs {#create-offers-apis}
 
 APIs documentation pending
-
-https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml
 

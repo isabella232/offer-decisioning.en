@@ -61,6 +61,6 @@ To create an offer activity, follow these steps:
 
 1. The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step.
 
-    It is now ready to be used to deliver offers to customers (see [Deliver offer using APIs](deliver-offers-apis.md)). You can select it to display its properties and edit or suppress it.
+    It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
 
     ![](assets/activities-created.png)
