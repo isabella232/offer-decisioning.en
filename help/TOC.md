@@ -15,7 +15,7 @@ index: yes
     + [User interface](get-started/using/user-interface.md)
     + [Glossary](get-started/using/glossary.md)
     + [Grant access to Offer Decisioning](get-started/using/granting-access-to-offer-decisioning.md)
-+ Create and manage offers using the Offer Library {#managing-offers-in-the-offer-library}
++ Create and manage offers {#managing-offers-in-the-offer-library}
     + [Key steps to create an offer](offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)
     + [Create decision rules](offer-library/using/creating-decision-rules.md)
@@ -23,6 +23,7 @@ index: yes
     + [Create personalized offers](offer-library/using/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/using/creating-fallback-offers.md)
     + [Create collections](offer-library/using/creating-collections.md)
++ [Create and manage activities](create-offer-activities.md)
 + [Create and manage offers using APIs](create-offers-apis.md)
-+ [Create offer activities](create-offer-activities.md)
-+ [Deliver offers using APIs](deliver-offers-apis.md)
++ [Create and manage activities using APIs](create-activities-apis.md)
++ [Deliver offers using the API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml)
