@@ -30,7 +30,7 @@ To create a decision rule, follow these steps:
 
 1. Name your rule and provide a description, then configure the rule according to your needs.
     
-    To do this, the **Unified Segment Builder** from Adobe Experience Platform is available to help you build the rule's conditions. For more on how to use it, refer to the [dedicated  documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/segment-builder.html).
+    To do this, the **Segment Builder** from Adobe Experience Platform is available to help you build the rule's conditions. For more on how to use it, refer to the [dedicated  documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/segment-builder.html).
     
     In this example, the rule will target customers that have the "Gold" loyalty level.
 
@@ -38,7 +38,7 @@ To create a decision rule, follow these steps:
 
     >[!NOTE]
     >
-    >The Unified Segment Builder provided to create decision rules presents some specificities compared to the one used with the **[!UICONTROL Audience Destinations]** service. For example, the **[!UICONTROL Segments]** tab is not available for use. However, the global process described in the Unified Segment Builder documentation is still valid to build offers decisions rules.
+    >The Segment Builder provided to create decision rules presents some specificities compared to the one used with the **[!UICONTROL Audience Destinations]** service. For example, the **[!UICONTROL Segments]** tab is not available for use. However, the global process described in the Segment Builder documentation is still valid to build offers decisions rules.
 
 1. Click **[!UICONTROL Save]** to confirm.
 

@@ -30,7 +30,7 @@ The **[!UICONTROL Offers]** menu allows you to navigate through the different fu
 
 * **[!UICONTROL Collections]**: create and manage static and dynamic offer collections. See [About offer collections](../../offer-library/using/creating-collections.md).
 
-* **[!UICONTROL Placements]**: create and manage placements where your offers will display. and tags for your offers. See [Creating placements](../../offer-library/using/creating-placements.md).
+* **[!UICONTROL Placements]**: create and manage placements where your offers will display and tags for your offers. See [Creating placements](../../offer-library/using/creating-placements.md).
 
 * **[!UICONTROL Decision Rules]**: manage the conditions under which your offers are presented. See [Creating a decision rule](../../offer-library/using/creating-decision-rules.md).
 
