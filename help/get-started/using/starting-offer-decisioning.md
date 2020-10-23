@@ -18,7 +18,7 @@ snippet: y
 >
 >To get access to the Offer Decisioning service, reach out to Adobe Customer Care or visit [Adobe Enterprise Support page](https://experienceleague.adobe.com/?support-solution=Experience+Platform#support).
 
-Offer Decisioning is an Application Service integrated with Adobe Experience Platform. It allows you leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
+Offer Decisioning is an Application Service integrated with Adobe Experience Platform. It allows you to leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
 
 ![](assets/do-not-localize/how-to-video.png) Learn more about Offer Decisioning in **this video** (link TBD)
 
