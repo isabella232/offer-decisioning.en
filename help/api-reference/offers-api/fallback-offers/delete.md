@@ -13,13 +13,14 @@ It may occasionally be necessary to remove (DELETE) a fallback offer. Only fallb
 **API format**
 
 ```http
-DELETE /{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the fallback offers are located.| `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| {INSTANCE_ID} | The instance id of the fallback offer. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the fallback offers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the fallback offer. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **Request**
 
