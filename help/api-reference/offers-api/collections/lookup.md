@@ -20,9 +20,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `CONTAINER_ID` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_FILTER` | Defines the schema associated with collections. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Defines the schema associated with collections. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
 | `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameters `id` and `name` cannot be used together. | `xcore:offer-filter:124bd44648f17ec1` |
 | `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameters `id` and `name` cannot be used together | `Mobile demo` |
 
