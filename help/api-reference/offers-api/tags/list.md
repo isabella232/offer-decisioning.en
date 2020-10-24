@@ -22,10 +22,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `CONTAINER_ID` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_TAG` | Defines the schema associated with tags. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `QUERY_PARAMS` | Optional query parameters to filter results by. | `limit=2` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Defines the schema associated with tags. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
 **Request**
 

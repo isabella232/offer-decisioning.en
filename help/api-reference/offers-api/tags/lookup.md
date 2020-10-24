@@ -18,9 +18,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `CONTAINER_ID` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_TAG` | Defines the schema associated with tags. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Defines the schema associated with tags. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameters `id` and `name` cannot be used together. | `xcore:tag:124e147572cd7866` |
 | `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameters `id` and `name` cannot be used together | `Holiday sales and promotions` |
 
@@ -37,7 +37,7 @@ curl -X GET \
 
 **Response**
 
-A successful response returns the details of the placement including information about your container ID, instance ID and, unique tag `@id`.
+A successful response returns the details of the tag including information about your container ID, instance ID and, unique tag `@id`.
 
 ```json
 {

@@ -13,12 +13,13 @@ You can create a tag by making a POST request to the [!DNL Offer Library] API, w
 **API format**
 
 ```http
-POST /{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The id of the container. Set the variable by setting the environment variable container_name and then call the HOME API. The API call extracts the first container with that name. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Request**
 
