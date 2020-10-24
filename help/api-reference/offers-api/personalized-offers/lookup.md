@@ -20,9 +20,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `CONTAINER_ID` | The container where the personalized offers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PERSONALIZED_OFFER` | Defines the schema associated with personalized offers. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the personalized offers are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | Defines the schema associated with personalized offers. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameter "id" and "name" cannot be used together. | `xcore:personalized-offer:124cc332095cfa74` |
 | `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameters `id` and `name` cannot be used together | `Discount offer` |
 
