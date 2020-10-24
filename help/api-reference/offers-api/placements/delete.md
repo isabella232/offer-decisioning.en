@@ -18,9 +18,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `CONTAINER_ID`| The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `INSTANCE_ID`| The instance id of the placement you wish to delete. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the placement you wish to update. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **Request**
 
