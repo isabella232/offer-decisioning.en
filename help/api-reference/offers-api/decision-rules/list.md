@@ -18,10 +18,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| `ENDPOINT_PATH` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `CONTAINER_ID` | The container where the decision rules are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_ELIGIBILITY_RULE` | Defines the schema associated with decision rules. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `QUERY_PARAMS` | Optional query parameters to filter results by. | `limit=1` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the decision rules are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | Defines the schema associated with decision rules. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=1` |
 
 ## Using query parameters
 
