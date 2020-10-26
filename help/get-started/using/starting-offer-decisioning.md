@@ -69,7 +69,7 @@ Offer Decisioning capabilities and integration with Adobe Experience Platform al
 
 ## Tutorial videos {#tutorial-videos}
 
-### What is Offer Decisioning? (#what-is-offer-decisioning)
+### What is Offer Decisioning? {#what-is-offer-decisioning}
 
 The video below provides an introduction to Offer Decisioning key capabilities, architecture and use cases:
 
