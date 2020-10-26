@@ -12,4 +12,4 @@ index: yes
 
 ---
 
-# Metadata for Journeys
+# Metadata for Offer Decisioning
