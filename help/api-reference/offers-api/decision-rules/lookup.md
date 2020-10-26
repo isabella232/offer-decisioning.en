@@ -13,14 +13,16 @@ You can look up a specific decision rule by making a GET request to the [!DNL Of
 **API format**
 
 ```http
-GET /{CONTAINER_ID}/instances/{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the placements are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| id | A string used to match the `@id` property of the entities. The string is matched exactly. The parameter "id" and "name" cannot be used together. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| name | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameter "id" and "name" cannot be used together | `Sales rule` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the decision rules are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | Defines the schema associated with decision rules. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameter s `id` and `name` cannot be used together. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameters `id` and `name` cannot be used together | `Sales rule` |
 
 **Request**
 

@@ -15,13 +15,15 @@ You can view a list of all collections within a container by performing a single
 **API format**
 
 ```http
-GET /{CONTAINER_ID}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| {QUERY_PARAMS} | Optional query parameters to filter results by. See the section on [query parameters](#query) for more information. | `limit=2` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Defines the schema associated with collections. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=1` |
 
 **Request**
 
@@ -33,6 +35,22 @@ curl -X GET \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
+## Using query parameters
+
+You can use query parameters to page and filter results when listing resources.
+
+### Paging
+
+The most common query parameters for paging include:
+
+| Parameter | Description | Example |
+| --------- | ----------- | ------- |
+| `q` | An optional query string to search for in selected fields. The query string should be lowercase and can be surrounded by double quotes to prevent it from being tokenized and to escape special characters. The characters `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` have special meaning and should be escaped with a backslash when appearing in the query string. | `demo collection` |
+| `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
+| `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
+| `limit` | Limit the number of collections returned. | `limit=5` |
 
 **Response**
 
@@ -125,19 +143,3 @@ A successful response returns a list of collections that are present within the 
     }
 }
 ```
-
-## Using query parameters {#query}
-
-You can use query parameters to page and filter results when listing resources.
-
-### Paging {#paging}
-
-The most common query parameters for paging include:
-
-| Parameter | Description | Example |
-| --------- | ----------- | ------- |
-| `q` | An optional query string to search for in selected fields. The query string should be lowercase and can be surrounded by double quotes to prevent it from being tokenized and to escape special characters. The characters `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` have special meaning and should be escaped with a backslash when appearing in the query string. | `demo collection` |
-| `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
-| `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
-| `limit` | Limit the number of collections returned. | `limit=5` |

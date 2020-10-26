@@ -39,19 +39,25 @@ All requests that contain a payload (POST, PUT, PATCH) require an additional hea
 
 ## Manage access to a container
 
-A container ID is the first path parameter for the instance APIs. All decisioning entities reside in what is called a container. A container is an isolation mechanism to keep different concerns apart. The first path element for the repository instance APIs following general endpoint is the container ID.
+A container is an isolation mechanism to keep different concerns apart. The container ID is the first path element for all repository APIs. All decisioning objects reside within a container.
 
 An administrator can group similar principals, resources, and access permissions into profiles. This reduces the management burden and is supported by [Adobe Admin Console](https://adminconsole.adobe.com/). You must be a product administrator for Adobe Experience Platform in your organization to create profiles and assign users to them. It is sufficient to create product profiles that match certain permissions in a one-time step and then simply add users to those profiles. Profiles act as groups that have been granted permissions and every real user or technical user in that group inherits those permissions.
 
-### List containers accessible to users and integrations
+Given administrator privileges, you can grant or withdraw permissions to users through the [Adobe Admin Console](https://adminconsole.adobe.com/). For more information, see the [Access control overview](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html).
 
-When the administrator has granted access to containers for regular users or integrations those containers will show up in the `HOME` list of the repository. The list may be different for different users or integrations as it is a subset of all containers accessible to the caller. The list of containers can be filtered by their association to product contexts. The filter parameter is called `product` and can be repeated. If more than one product context filter is given then the union of the containers that have associations with any of the given product contexts will be returned. Note that a single container can be associated to multiple product contexts.
+### List containers accessible to users and integrations
 
 **API format**
 
 ```http
-GET /{ENDPOINT_PATH}/?product={PRODUCT_CONTEXT}&property={PROPERTY_TYPE}==decisioning
+GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 ```
+
+| Parameter | Description | Example |
+| --------- | ----------- | ------- |
+| ENDPOINT_PATH | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| PRODUCT_CONTEXT | Filters the list of containers by their association to product contexts. | `acp` |
+| PROPERTY | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
 
 **Request**
 

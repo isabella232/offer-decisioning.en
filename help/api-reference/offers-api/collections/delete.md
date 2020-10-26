@@ -13,13 +13,14 @@ It may occasionally be necessary to remove (DELETE) a collection. Only collectio
 **API format**
 
 ```http
-DELETE /{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| {INSTANCE_ID} | The instance id of the collection you wish to update. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the collections are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the collection you wish to update. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Request**
 

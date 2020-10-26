@@ -15,13 +15,14 @@ For more information on JSON Patch, including available operations, see the offi
 **API format**
 
 ```http
-PATCH /{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the activities are located.| `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| {INSTANCE_ID} | The instance id of the activity. | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the activities are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the activity. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Request**
 

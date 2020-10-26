@@ -13,13 +13,14 @@ It may occasionally be necessary to remove (DELETE) a tag. Only tags that you cr
 **API format**
 
 ```http
-DELETE /{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {CONTAINER_ID} | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| {INSTANCE_ID} | The instance id of the tag you wish to update. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | The container where the tags are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | The instance id of the tag you wish to update. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Request**
 
