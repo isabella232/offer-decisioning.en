@@ -2,7 +2,7 @@
 product: Offer Decisioning
 audience: end-user
 user-guide-title: Offer Decisioning Help
-solution: Experience Platform
+solution: Experience Platform, Offer Decisioning
 type: Documentation
 index: yes
 ---
