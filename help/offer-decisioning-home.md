@@ -14,7 +14,7 @@ topic: Premium
 
   <em>Learn more on the Offer Decisioning service and access tutorial videos.</em>
 
-* [Tutorial videos](get-started/using/starting-offer-decisioning.md#tutorial-videos)
+* [Tutorial videos](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html)
 
   <em>Watch tutorial videos to learn more about Offer Decisioning and how to use it.</em>
 
