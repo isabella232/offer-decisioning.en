@@ -20,9 +20,9 @@ snippet: y
 
 Offer Decisioning is an Application Service integrated with Adobe Experience Platform. It allows you to leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
 
-![](assets/do-not-localize/how-to-video.png) Learn more about Offer Decisioning in **this video** (link TBD)
-
 ![](assets/offer-diagram.png) 
+
+![](assets/do-not-localize/how-to-video.png) [Watch these tutorial videos](#tutorial-videos) for more on Offer Decisioning.
 
 ## Offer Decisioning service architecture
 
@@ -66,3 +66,13 @@ Offer Decisioning capabilities and integration with Adobe Experience Platform al
 * Offer decisioning also helps you enhance your customers' experience when contacting your support team. Offer Decisioning APIs allow you to display in your call center agents' portal information about the customer's redeemed and next best offers.
 
     ![](assets/call-center.png) 
+
+## Tutorial videos {#tutorial-videos}
+
+The video below provides an introduction to Offer Decisioning key capabilities, architecture and use cases:
+
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+
+The video below shows how to use Offer Decisioning to define and manage your offers and leverage real-time customer data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)

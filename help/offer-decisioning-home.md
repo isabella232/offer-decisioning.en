@@ -12,7 +12,7 @@ topic: Premium
 
 * [What is Offer Decisioning?](get-started/using/starting-offer-decisioning.md)
 
-  <em>Learn more on the Offer Decisioning service.</em>
+  <em>Learn more on the Offer Decisioning service and access tutorial videos.</em>
 
 * [Discover the Offer Library user interface](get-started/using/user-interface.md)
 
@@ -23,7 +23,7 @@ topic: Premium
   <em>Discover the key steps to create an offer.</em>
 
 ## Additional Resources
-
+ 
 * [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Real-time Customer Profile documentation](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Experience Cloud XDM field definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
