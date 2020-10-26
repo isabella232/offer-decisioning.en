@@ -69,9 +69,13 @@ Offer Decisioning capabilities and integration with Adobe Experience Platform al
 
 ## Tutorial videos {#tutorial-videos}
 
+### What is Offer Decisioning? (#what-is-offer-decisioning)
+
 The video below provides an introduction to Offer Decisioning key capabilities, architecture and use cases:
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+
+### Use Offer Decisioning to define and manage your offers {#use-offer-decisioning}
 
 The video below shows how to use Offer Decisioning to define and manage your offers and leverage real-time customer data.
 

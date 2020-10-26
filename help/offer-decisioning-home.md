@@ -14,6 +14,10 @@ topic: Premium
 
   <em>Learn more on the Offer Decisioning service and access tutorial videos.</em>
 
+* [Tutorial videos](get-started/using/starting-offer-decisioning.md#tutorial-videos)
+
+  <em>Watch tutorial videos to learn more about Offer Decisioning and how to use it.</em>
+
 * [Discover the Offer Library user interface](get-started/using/user-interface.md)
 
   <em>Learn how to access and navigate in the Offer Library</em>
