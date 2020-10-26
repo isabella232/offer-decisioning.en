@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# About Offer Decisioning {#about-offer-decision}
+# Get started with Offer Decisioning {#about-offer-decision}
 
 >[!IMPORTANT]
 >
