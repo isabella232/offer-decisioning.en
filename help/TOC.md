@@ -11,7 +11,7 @@ index: yes
 
 + [Product documentation](offer-decisioning-home.md)
 + Get started with Offer Decisioning {#get-started}
-    + [About Offer Decisioning](get-started/using/starting-offer-decisioning.md)
+    + [Get started with Offer Decisioning](get-started/using/starting-offer-decisioning.md)
     + [User interface](get-started/using/user-interface.md)
     + [Glossary](get-started/using/glossary.md)
     + [Grant access to Offer Decisioning](get-started/using/granting-access-to-offer-decisioning.md)
