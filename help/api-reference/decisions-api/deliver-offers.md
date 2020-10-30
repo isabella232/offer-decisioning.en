@@ -67,12 +67,13 @@ curl -X GET \
     }'
 ```
 
-| Property | Description | Example |
-| -------- | ----------- | ------- |
-| `xdm:dryRun` | description | example |
-| `xdm:propositionRequests` | description | example |
-| `xdm:profiles` | description | example |
-| `xdm:responseFormat` | description | example |
+| Property | Description |
+| -------- | ----------- |
+| `xdm:dryRun` | Dry run indicates to the decision engine whether the call being made is a trial run or not. If it is a dry run, the decision engine doesn't affect the caps related to the option among other things. |
+| `xdm:propositionRequests` | description |
+| `xdm:profiles` | Profile with the identityMap and context data for each of the profile. For an API request this will contain one profile. |
+| `xdm:identityMap` | Defines a map containing a set of end user identities, keyed on the namespace integration code of the identity. The values of the map are an array, meaning that more than one identity of each namespace may be carried. |
+| `xdm:responseFormat` | A set of flags that formats the response content. |
 
 **Response**
 
