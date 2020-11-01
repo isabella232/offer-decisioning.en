@@ -27,7 +27,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 
 ```shell
 curl -X GET \
-  'https://platform.adobe.io/data/core/ode/ab574eca-f7a9-38d0-b3d9-297376ca9ee2/decisions' \
+  'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'x-api-key: {API_KEY}' \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
@@ -70,7 +70,7 @@ curl -X GET \
 | Property | Description |
 | -------- | ----------- |
 | `xdm:dryRun` | Dry run indicates to the decision engine whether the call being made is a trial run or not. If it is a dry run, the decision engine doesn't affect the caps related to the option among other things. |
-| `xdm:propositionRequests` | description |
+| `xdm:propositionRequests` | An array that contains placement and activity identifiers. |
 | `xdm:profiles` | Profile with the identityMap and context data for each of the profile. For an API request this will contain one profile. |
 | `xdm:identityMap` | Defines a map containing a set of end user identities, keyed on the namespace integration code of the identity. The values of the map are an array, meaning that more than one identity of each namespace may be carried. |
 | `xdm:responseFormat` | A set of flags that formats the response content. |
