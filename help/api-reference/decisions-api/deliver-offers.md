@@ -8,9 +8,9 @@ description: An offer is a marketing message that may have rules associated with
 
 # Deliver offers using the Decisions API
 
-Offer Decisioning is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
+Offer Decisioning is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
 
-You can create and deliver offers by making a POST request to the [!DNL Decisions](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/) API and providing your placement and activity IDs.
+You can create and deliver offers by making a POST request to the [!DNL Decisions](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/) API and providing your placement and activity IDs in the request body.
 
 **API format**
 
@@ -26,7 +26,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 **Request**
 
 ```shell
-curl -X GET \
+curl -X POST \
   'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'x-api-key: {API_KEY}' \
@@ -69,13 +69,15 @@ curl -X GET \
 
 | Property | Description |
 | -------- | ----------- |
-| `xdm:dryRun` | Dry run indicates to the decision engine whether the call being made is a trial run or not. If it is a dry run, the decision engine doesn't affect the caps related to the option among other things. |
-| `xdm:propositionRequests` | An array that contains placement and activity identifiers. |
-| `xdm:profiles` | Profile with the identityMap and context data for each of the profile. For an API request this will contain one profile. |
-| `xdm:identityMap` | Defines a map containing a set of end user identities, keyed on the namespace integration code of the identity. The values of the map are an array, meaning that more than one identity of each namespace may be carried. |
+| `xdm:dryRun` | Dry run indicates to the offer decision engine whether the call being made is a trial run or not. If dry run is set to `true`, the decision engine doesn't affect the caps related to the option. |
+| `xdm:propositionRequests` | An array that contains the placement and activity identifiers. |
+| `xdm:profiles` | An array that contains the identity map and context data for each of the profiles. For an API request this will contain one profile. |
+| `xdm:profiles.xdm:identityMap` | An array that contains a set of end user identities based on the namespace integration code of the identity. The identity map can carry more than one identity of each namespace. |
 | `xdm:responseFormat` | A set of flags that formats the response content. |
 
 **Response**
+
+A successful response returns information on your proposition, including its unique `propositionID`.
 
 ```json
 {
@@ -111,3 +113,14 @@ curl -X GET \
     "ode:createDate": 1604011243807
 }
 ```
+
+| Property | Description |
+| -------- | ----------- |
+| `xdm:propositionID` | The identity for the proposition entity associated with an XDM DecisionEvent. |
+| `xdm:propositions` | The schema for a single decision activity proposition. Multiple options could be returned for the activity. If no options can be found, then the activity's fallback offer is returned. There will always be either an `options` property or a `fallback` property present. If present, the `options` property cannot be empty. |
+| `xdm:propositions.xdm:options` | The schema for a single option. |
+| `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` as processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. |
+| `xdm:propositions.xdm:options.dc:format` | The physical or digital manifestation of the resource. Typically, format should include the media-type of the resource. The format may be used to determine the software, hardware or other equipment needed to display or operate the resource. It is recommended to select a value from a controlled vocabulary, for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats. |
+| `xdm:propositions.xdm:options.xdm:deliveryURL` | Provides the URL for the option. |
+| `xdm:factors` | Defines a map containing different factors that affected the propositions made, for example, responses from the profile service. |
+| `ode:createDate` | The time when the decision response message was created. This is represented as epoch time. |
