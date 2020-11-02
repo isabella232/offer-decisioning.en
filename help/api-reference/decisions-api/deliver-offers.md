@@ -3,7 +3,7 @@ keywords: Experience Platform;home;popular topics;offer decisioning;decisions;of
 solution: Experience Platform
 title: Deliver offers
 topic: API guide
-description: An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
+description: Offer Decisioning is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
 ---
 
 # Deliver offers using the Decisions API
