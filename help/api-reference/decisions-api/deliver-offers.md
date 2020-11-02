@@ -72,7 +72,7 @@ curl -X POST \
 | `xdm:dryRun` | Dry run indicates to the offer decision engine whether the call being made is a trial run or not. If dry run is set to `true`, the decision engine doesn't affect the caps related to the option. | `true` |
 | `xdm:propositionRequests` | An array that contains the placement and activity identifiers. | `"xdm:placementId": "xcore:offer-placement:122204529514a2c0"` |
 | `xdm:profiles` | An array that contains the identity map and context data for each of the profiles. For an API request this will contain one profile. |
-| `xdm:profiles.xdm:identityMap` | An array that contains a set of end user identities based on the namespace integration code of the identity. The identity map can carry more than one identity of each namespace. | `"Email": [{"xdm:id": "lilymass@google1.com"}]` |
+| `xdm:profiles.xdm:identityMap` | An array that contains a set of end user identities based on the namespace integration code of the identity. The identity map can carry more than one identity of each namespace. For more information on namespaces, see the [Identity namespace overview](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html). | `"Email": [{"xdm:id": "lilymass@google1.com"}]` |
 | `xdm:responseFormat` | A set of flags that formats the response content. |
 | `xdm:responseFormat.xdm:includeContent` | A boolean value that, if set to `true`, includes content to the response. | Response examples can be: `text`, `html block`, and `image link`. |
 | `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
