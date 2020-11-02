@@ -10,7 +10,7 @@ description: An offer is a marketing message that may have rules associated with
 
 Offer Decisioning is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
 
-You can create and deliver offers by making a POST request to the [!DNL Decisions](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/) API.
+You can create and deliver offers by making a POST request to the [[!DNL Decisions]](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml) API.
 
 This tutorial requires that you have already acquired unique values for your placement ID and and activity ID. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
 
