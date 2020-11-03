@@ -14,7 +14,7 @@ snippet: y
 
 # Glossary {#glossary}
 
-Here are the main concepts you will work with when using Offer Decisioning. 
+Here are the main concepts you will work with when using [!DNL Offer Decisioning]. 
 
 * **Activity** or **Offer Activity**: An Offer Activity contains the logic that informs the selection of an offer
 
@@ -28,7 +28,7 @@ Here are the main concepts you will work with when using Offer Decisioning.
 
 * **Eligible Offer**: An eligible offer meets the constraints defined upstream that can be consistently offered to a profile.
 
-* **Offer Decisioning** or **Offer Management**: Offer Decisioning is collection of services and UI that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
+* **[!DNL Offer Decisioning]** or **Offer Management**: [!DNL Offer Decisioning] is collection of services and UI that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
 
 * **Fallback Offers**: A fallback offer is the default offer displayed when an end-user is not eligible for any of the offers in the collection used.
 

@@ -10,11 +10,11 @@ index: yes
 # [!DNL Offer Decisioning] Help {#using}
 
 + [Product documentation](offer-decisioning-home.md)
-+ Get started with Offer Decisioning {#get-started}
-    + [Get started with Offer Decisioning](get-started/using/starting-offer-decisioning.md)
++ Get started with [!DNL Offer Decisioning] {#get-started}
+    + [Get started with [!DNL Offer Decisioning]](get-started/using/starting-offer-decisioning.md)
     + [User interface](get-started/using/user-interface.md)
     + [Glossary](get-started/using/glossary.md)
-    + [Grant access to Offer Decisioning](get-started/using/granting-access-to-offer-decisioning.md)
+    + [Grant access to [!DNL Offer Decisioning]](get-started/using/granting-access-to-offer-decisioning.md)
 + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Key steps to create an offer](offer-library/using/key-steps.md)
     + [Create placements](offer-library/using/creating-placements.md)

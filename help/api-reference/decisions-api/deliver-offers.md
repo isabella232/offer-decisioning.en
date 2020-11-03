@@ -8,7 +8,7 @@ description: Offer Decisioning is a collection of services and UI programs that 
 
 # Deliver offers using the Decisions API
 
-Offer Decisioning is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences, across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
+[!DNL Offer Decisioning] is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences, across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.
 
 You can create and deliver offers by making a POST request to the [[!DNL Decisions]](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml) API.
 

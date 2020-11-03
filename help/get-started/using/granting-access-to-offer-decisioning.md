@@ -12,11 +12,11 @@ internal: n
 snippet: y
 ---
 
-# Grant access to Offer Decisioning {#granting-acess-to-offer-decisioning}
+# Grant access to [!DNL Offer Decisioning] {#granting-acess-to-offer-decisioning}
 
-Users' permissions for Offer Decisioning are managed using the Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).    
+Users' permissions for [!DNL Offer Decisioning] are managed using the Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).    
 
-To grant access to the Offer Decisioning service, follow these steps:
+To grant access to the [!DNL Offer Decisioning] service, follow these steps:
 
 1. Open the Admin Console, then select **[!UICONTROL Adobe Experience Platform]**. 
 
