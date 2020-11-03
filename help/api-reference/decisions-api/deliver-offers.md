@@ -14,6 +14,15 @@ You can create and deliver offers by making a POST request to the [[!DNL Decisio
 
 This tutorial requires that you have a unique placement ID and activity ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
 
+## Accept and Content-Type headers
+
+The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+
+| Header name | Value |
+| ----------- | ----- |
+| Content-Type | application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0" |
+| Accept | application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=version=1.0" |
+
 **API format**
 
 ```https
