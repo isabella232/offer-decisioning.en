@@ -69,5 +69,5 @@ index: yes
         + [Create an activity](api-reference/activities-api/activities/create.md)
         + [Update an activity](api-reference/activities-api/activities/update.md)
         + [Delete an activity](api-reference/activities-api/activities/delete.md)
-    + Deliver offers using APIs {#decisions-api}
-        + [Deliver offers](api-reference/decisions-api/deliver-offers.md)
+    + Decisions API {#decisions-api}
+        + [Decisions API](api-reference/decisions-api/deliver-offers.md)
