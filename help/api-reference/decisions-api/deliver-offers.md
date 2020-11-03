@@ -12,11 +12,11 @@ Offer Decisioning is a collection of services and UI programs that enables marke
 
 You can create and deliver offers by making a POST request to the [[!DNL Decisions]](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#!acpdr/swagger-specs/decisioning-ode.yaml) API.
 
-This tutorial requires that you have already acquired unique values for your placement ID and and activity ID. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
+This tutorial requires that you have a unique placement ID and activity ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
 
 **API format**
 
-```http
+```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 ```
 
@@ -123,7 +123,7 @@ A successful response returns information on your proposition, including its uni
 | `xdm:propositionID` | The identity for the proposition entity associated with an XDM DecisionEvent. | `2347f8a4-ebf7-45ae-ac75-10d7d91497e1` |
 | `xdm:propositions` | The schema for a single decision activity proposition. Multiple options could be returned for the activity. If no options can be found, then the activity's fallback offer is returned. There will always be either an `options` property or a `fallback` property present. |
 | `xdm:propositions.xdm:options` | The schema for a single option. If present, this property cannot be empty. |
-| `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` acts as tje processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
+| `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` acts as tee processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:options.dc:format` | The physical or digital manifestation of the resource. Typically, format should include the media-type of the resource. The format may be used to determine the software, hardware or other equipment needed to display or operate the resource. It is recommended to select a value from a controlled vocabulary, for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats. | `image/jpeg`, `image/png` |
 | `xdm:propositions.xdm:options.xdm:deliveryURL` | Provides the URL for the option. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `xdm:factors` | Defines a map containing different factors that affected the propositions made, for example, responses from the profile service. |
