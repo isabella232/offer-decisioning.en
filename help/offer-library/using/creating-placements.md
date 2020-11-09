@@ -32,14 +32,14 @@ To create a placement, follow these steps:
 1. Define the placement's properties:
 
     * **[!UICONTROL Name]**: The name of the placement. Make sure to define a meaningful name to retrieve it more easily.
-    * **[!UICONTROL Channel type]**: the channel for which the placement will be used.
-    * **[!UICONTROL Content type]**: the type of content that the placement will be allowed to display: Text, HTML or Image Link.
+    * **[!UICONTROL Channel type]**: The channel for which the placement will be used.
+    * **[!UICONTROL Content type]**: The type of content that the placement will be allowed to display: Text, HTML or Image Link.
     * **[!UICONTROL Description]**: A description of the placement (optional).
 
     ![](assets/offers_placement_creation_properties.png)
 
 1. Click **[!UICONTROL Save]** to confirm.
 
-1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it. <!-- no suppression?-->
+1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it.
 
     ![](assets/placement_created.png)

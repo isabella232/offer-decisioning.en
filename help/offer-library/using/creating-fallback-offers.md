@@ -32,11 +32,9 @@ To create a fallback offer, follow these steps:
 
 1. Specify the fallback offer's name. You can also associate one or several existing tag(s) to it, allowing you to search and organize the Offer Library more easily.
 
-    offers attributes ? TBD, need some input
-
     ![](assets/fallback_details.png)
     
-1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating a personalized offer. See [](../../offer-library/using/creating-personalized-offers.md).
+1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating a personalized offer. See [Create personalized offers](../../offer-library/using/creating-personalized-offers.md).
 
     ![](assets/fallback_content.png)
 

@@ -35,7 +35,7 @@ In order to make calls to [!DNL Platform] APIs, you must first complete the [aut
 
 All requests that contain a payload (POST, PUT, PATCH) require an additional header:
 
-* Content-Type: application/json
+* `Content-Type: application/json`
 
 ## Manage access to a container
 
@@ -55,9 +55,9 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| ENDPOINT_PATH | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| PRODUCT_CONTEXT | Filters the list of containers by their association to product contexts. | `acp` |
-| PROPERTY | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
+| {ENDPOINT_PATH} | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| {PRODUCT_CONTEXT} | Filters the list of containers by their association to product contexts. | `acp` |
+| {PROPERTY} | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
 
 **Request**
 
