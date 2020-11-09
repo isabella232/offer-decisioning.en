@@ -20,9 +20,9 @@ It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** men
 
 >[!NOTE]
 >
->If you are having issues accessing the Offer Library or some of its feature, check with an Admin user that you have been granted the required rights. See [Grant access to Offer Decisioning](../../get-started/using/granting-access-to-offer-decisioning.md)
+>If you are having issues accessing the Offer Library or some of its feature, check with an Admin user that you have been granted the required rights. See [Grant access to [!DNL Offer Decisioning]](../../get-started/using/granting-access-to-offer-decisioning.md)
 
-The **[!UICONTROL Offers]** menu allows you to navigate through the different functionalities of Offer Decisioning. 
+The **[!UICONTROL Offers]** menu allows you to navigate through the different functionalities of [!DNL Offer Decisioning]. 
 
 ![](assets/offers_menu.png)
 
@@ -50,7 +50,7 @@ A **search bar** is available in some menus to allow you to search for an item.
 
 ## Customize displayed information
 
-Lists from Offer Decisioning menus can be personalized using the configuration button on the top right of the lists.
+Lists from [!DNL Offer Decisioning] menus can be personalized using the configuration button on the top right of the lists.
 
 This allows you to choose the information to display according to your needs.
 

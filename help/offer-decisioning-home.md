@@ -10,13 +10,13 @@ topic: Premium
 
 ## Get started
 
-* [What is Offer Decisioning?](get-started/using/starting-offer-decisioning.md)
+* [What is [!DNL Offer Decisioning]?](get-started/using/starting-offer-decisioning.md)
 
-  <em>Learn more on the Offer Decisioning service and access tutorial videos.</em>
+  <em>Learn more on the [!DNL Offer Decisioning] service and access tutorial videos.</em>
 
 * [Tutorial videos](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html)
 
-  <em>Watch tutorial videos to learn more about Offer Decisioning and how to use it.</em>
+  <em>Watch tutorial videos to learn more about [!DNL Offer Decisioning] and how to use it.</em>
 
 * [Discover the Offer Library user interface](get-started/using/user-interface.md)
 
