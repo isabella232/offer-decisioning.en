@@ -36,7 +36,7 @@ To create a collection, follow these steps:
 
 1. To create a dynamic collection, use the left pane to select the tag of the offers to add to the collection, then click **[!UICONTROL Save]**. All the offers with the selected tag will be saved in the collection.
 
-    For more on tags creation, see [](../../offer-library/using/creating-tags.md).
+    For more on tags creation, see [Create tags](../../offer-library/using/creating-tags.md).
 
     ![](assets/dynamic_collection.png)
 

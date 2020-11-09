@@ -57,6 +57,7 @@ To grant access to the Offer Decisioning service, follow these steps:
     * Read placements
     
     **[!UICONTROL Manage Decisioning Options]**:
+
     * Read, write, delete offers
     * Read activities
     * Read, write, delete placements

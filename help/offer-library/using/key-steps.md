@@ -16,16 +16,16 @@ snippet: y
 
 The main steps to create offers are as follows:  
 
-1. Create **placements**.
+1. **Create placements**.
 Placements are containers that will be used to showcase your offers. You can, for example, create a placement that will be dedicated to offers in the image format only, and situated to the top of your messages.
 
-1. Create **decision rules** that will specify the conditions under which the offers will be presented.
+1. **Create decision rules** that will specify the conditions under which the offers will be presented.
 
-1. Create **tags** that you will associate to the offers, allowing you to easily organize and search them into the library.
+1. **Create tags** that you will associate to the offers, allowing you to easily organize and search them into the library.
 
-1. Create the **offers' content and properties**.
+1. **Create the offers' content and properties**.
 
-1. Create **fallback offers**, which are the last resort offers to display if customers are not eligible for any of the selected offers.
+1. **Create fallback offers**, which are the last resort offers to display if customers are not eligible for any of the selected offers.
 
 <table>
 <tr>

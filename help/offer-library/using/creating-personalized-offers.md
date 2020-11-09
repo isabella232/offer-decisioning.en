@@ -16,9 +16,9 @@ snippet: y
 
 Before creating an offer, make sure that you created:
 
-* A **placement** in which the offer will be displayed. See [](../../offer-library/using/creating-placements.md)
-* A **decision rule** that will define the condition under which the offer will be presented. See [](../../offer-library/using/creating-decision-rules.md).
-* One or several **tags** that you want to associate to the offer. See [](../../offer-library/using/creating-tags.md).
+* A **placement** in which the offer will be displayed. See [Create placements](../../offer-library/using/creating-placements.md)
+* A **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../../offer-library/using/creating-decision-rules.md).
+* One or several **tags** that you want to associate to the offer. See [Create tags](../../offer-library/using/creating-tags.md).
 
 The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
 
@@ -84,9 +84,7 @@ To create an offer, follow these steps:
 
         >[!NOTE]
         >
-        >The number of times an offer is proposed is calculated at email preparation time.
-        >
-        >For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
+        >The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
         >
         >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
