@@ -20,27 +20,27 @@ To grant access to the [!DNL Offer Decisioning] service, follow these steps:
 
 1. Open the Admin Console, then select **[!UICONTROL Adobe Experience Platform]**. 
 
-    ![](assets/offers_admin_console.png)
+    ![](assets/do-not-localize/offers_admin_console.png)
 
 1. The product profiles for the service display. You can have as many product profiles as desired, corresponding to the various roles that you want to set up for your organization.
 
     To create a new product profile, click the **[!UICONTROL New Profile]** button. 
 
-    ![](assets/offers_rights_productprofile.png)
+    ![](assets/do-not-localize/offers_rights_productprofile.png)
 
 1. Specify the product profile's name and description then click **[!UICONTROL Next]** To access the product profile’s permissions, select the **[!UICONTROL Permissions]** line.
 
-    ![](assets/create-product-profile.png)
+    ![](assets/do-not-localize/create-product-profile.png)
 
 1. Select the services to enable for the product profile.
 
     By default, all services are selected, which is recommended to ensure that all the Experience Cloud functionalities are available.
 
-    ![](assets/enable-services.png)
+    ![](assets/do-not-localize/enable-services.png)
 
 1. In the **[!UICONTROL Decisioning]** , click the **+** button to assign permissions to the product profile, then click **[!UICONTROL Save]**.
 
-    ![](assets/configure-profile.png)
+    ![](assets/do-not-localize/configure-profile.png)
 
     Available permissions are:
     
@@ -66,4 +66,4 @@ To grant access to the [!DNL Offer Decisioning] service, follow these steps:
 
     For more details on how to manage users permissions, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).    
 
-    ![](assets/product-profile-created.png)
+    ![](assets/do-not-localize/product-profile-created.png)
