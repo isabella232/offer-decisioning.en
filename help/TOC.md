@@ -71,4 +71,4 @@ index: yes
         + [Delete an activity](api-reference/activities-api/activities/delete.md)
     + Offer Delivery {#offer-delivery}
         + [Decisions API](api-reference/decisions-api/deliver-offers.md)
-        + [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#offer-decisioning-overview)
+        + [Adobe Experience Platform Web SDK](api-reference/web-sdk.md)
