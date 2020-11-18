@@ -3,12 +3,12 @@ keywords: Experience Platform;home;popular topics;offer decisioning;getting star
 solution: Experience Platform
 title: Getting started
 topic: API guide
-description: 
+description: Learn how to start using the Offer Library API to perform key operations using the Offer Decisioning Engine.
 ---
 
 # [!DNL Offer Decisioning] API developer guide
 
-[!DNL Offer Decisioning] is an Application Service integrated with Adobe Experience Platform. It allows you leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
+[!DNL Offer Decisioning] is an Application Service integrated with Adobe Experience Platform. It allows you to leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
 
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Offer Decisioning Engine.
 
