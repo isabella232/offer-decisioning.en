@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;list tags
 solution: Experience Platform
+product: experience platform
 title: List tags
 topic: API guide
 description: Tags allow you to better organize and sort through your offers.

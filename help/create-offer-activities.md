@@ -1,4 +1,5 @@
 ---
+product: experience platform
 title: Create offer activities
 description: Learn how to create offer activities
 page-status-flag: never-activated

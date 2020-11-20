@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decision rules;delete decision rules
 solution: Experience Platform
+product: experience platform
 title: Delete decision rules
 topic: API guide
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.

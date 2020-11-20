@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;placements;update a placement
 solution: Experience Platform
+product: experience platform
 title: update a placement
 topic: API guide
 description: Placements are containers that are used to showcase your offers.

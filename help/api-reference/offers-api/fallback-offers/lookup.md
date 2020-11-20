@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;fallback offers;lookup fallback offers
 solution: Experience Platform
+product: experience platform
 title: lookup fallback offers
 topic: API guide
 description: A fallback offer is sent to customers if they are not eligible for other offers

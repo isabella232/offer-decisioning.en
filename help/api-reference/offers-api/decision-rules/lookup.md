@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decision rules;look up a decision rule
 solution: Experience Platform
+product: experience platform
 title: Look up a decision rule
 topic: API guide
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.

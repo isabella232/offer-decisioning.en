@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;getting started
 solution: Experience Platform
+product: experience platform
 title: Getting started
 topic: API guide
 description: Learn how to start using the Offer Library API to perform key operations using the Offer Decisioning Engine.

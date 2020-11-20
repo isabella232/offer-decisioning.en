@@ -1,15 +1,8 @@
 ---
+product: experience platform
+solution: Experience Platform
 title: Grant access to Offer Decisioning
 description: Learn how to manage users' permissions for the Offers Decisioning service via Adobe Admin Console.
-page-status-flag: never-activated
-uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
-contentOwner:
-products:
-audience: 
-content-type: reference
-discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
-internal: n
-snippet: y
 ---
 
 # Grant access to [!DNL Offer Decisioning] {#granting-acess-to-offer-decisioning}

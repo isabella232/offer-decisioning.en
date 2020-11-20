@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decision rules;create decision rules
 solution: Experience Platform
+product: experience platform
 title: Create decision rules
 topic: API guide
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.

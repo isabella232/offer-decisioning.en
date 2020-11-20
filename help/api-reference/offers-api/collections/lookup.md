@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;offer collections;collections;look up a collection
 solution: Experience Platform
+product: experience platform
 title: Look up a collection
 topic: API guide
 description: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.

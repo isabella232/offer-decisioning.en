@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;personalized offers;list;list personalized offers
 solution: Experience Platform
+product: experience platform
 title: List personalized offers
 topic: API guide
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.

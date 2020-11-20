@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;placements;create a placement
 solution: Experience Platform
+product: experience platform
 title: Create a placement
 topic: developer guide
 description: Placements are containers that are used to showcase your offers.

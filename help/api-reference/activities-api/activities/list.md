@@ -1,6 +1,7 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;activities;list activities
 solution: Experience Platform
+product: experience platform
 title: List activities
 topic: API guide
 description: An activity contains the logic that informs the selection of an offer.
