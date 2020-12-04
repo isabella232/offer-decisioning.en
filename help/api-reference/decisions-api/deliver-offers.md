@@ -22,7 +22,7 @@ The following table shows the valid values which comprise the *Content-Type* and
 | Header name | Value |
 | ----------- | ----- |
 | Content-Type | application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0" |
-| Accept | application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=version=1.0" |
+| Accept | application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0" |
 
 **API format**
 
