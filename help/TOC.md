@@ -3,6 +3,7 @@ product: Offer Decisioning
 audience: end-user
 user-guide-product: experience platform
 title: Offer Decisioning Help
+user-guide-description: Learn to define and manage offers, leverage real-time customer data, and deliver the right offers for customers at the right time.
 solution: Experience Platform, Offer Decisioning
 type: Documentation
 index: yes
