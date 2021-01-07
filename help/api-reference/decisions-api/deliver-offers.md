@@ -45,26 +45,35 @@ curl -X POST \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
   -d '{
-        "xdm:dryRun": false,
         "xdm:propositionRequests": [
             {
-                "xdm:placementId": "xcore:offer-placement:122204529514a2c0",
-                "xdm:activityId": "xcore:offer-activity:122208b3a8740558"
+            "xdm:placementId": "xcore:offer-placement:ffed0456",
+            "xdm:activityId": "xcore:offer-activity:ffed0123"
+            },
+            {
+            "xdm:placementId": "xcore:offer-placement:ffed0012",
+            "xdm:activityId": "xcore:offer-activity:fffc0789"
             }
         ],
         "xdm:profiles": [
             {
-                "xdm:validateContextData": false,
-                "xdm:identityMap":{
-                    "Email":[
-                        {
-                            "xdm:id": "lilymass@google1.com"
-                        }
-                    ]
-                },
-                "xdm:profileModel": "_xdm.context.profile"
+            "xdm:identityMap": {
+                "SWCUSTID": [
+                {
+                    "xdm:id": "123@abc.com"
+                }
+                ]
+            },
+            "xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"
             }
         ],
+        "xdm:allowDuplicatePropositions": {
+            "xdm:acrossActivities": true,
+            "xdm:acrossPlacements": true
+        },
+        "xdm:mergePolicy": {
+            "xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"
+        },
         "xdm:responseFormat": {
             "xdm:includeContent": true,
             "xdm:includeMetadata": {
@@ -73,21 +82,29 @@ curl -X POST \
             ],
             "xdm:option": [
                 "name"
+            ],
+            "xdm:placement": [
+                "name"
             ]
+            }
         }
-        }
-    }'
+        }'
 ```
 
 | Property | Description | Example |
 | -------- | ----------- | ------- |
-| `xdm:dryRun` | A boolean value that tells the offer decision engine whether the call being made is a trial run or not. If dry run is set to `true`, the decision engine doesn't affect the caps related to the option. | `true`, `false` |
-| `xdm:propositionRequests` | An array that contains the placement and activity identifiers. | `xcore:offer-placement:122204529514a2c0`, `xcore:offer-activity:122208b3a8740558` |
+| `xdm:propositionRequests` | An array that contains the placement and activity identifiers. | `xcore:offer-placement:ffed0012`, `xdm:activityId:ffed0123` |
 | `xdm:profiles` | An array that contains the identity map and context data for each of the profiles. For an API request this will contain one profile. |
 | `xdm:profiles.xdm:identityMap` | An array that contains a set of end user identities based on the namespace integration code of the identity. The identity map can carry more than one identity of each namespace. For more information on namespaces, see the [Identity namespace overview](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html). | `Email: [{xdm:id: lilymass@google1.com}]` |
+| `xdm:profiles.xdm:decisionRequestId` |
+| `xdm:allowDuplicatePropositions` |
+| `xdm:mergePolicy` |
 | `xdm:responseFormat` | A set of flags that formats the response content. |
 | `xdm:responseFormat.xdm:includeContent` | A boolean value that, if set to `true`, includes content to the response. | `text`, `html block`, `image link` |
 | `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
+| `xdm:responseFormat.xdm:activity` |
+| `xdm:responseFormat.xdm:option` |
+| `xdm:responseFormat.xdm:placement` |
 
 **Response**
 
@@ -95,36 +112,46 @@ A successful response returns information on your proposition, including its uni
 
 ```json
 {
-    "xdm:propositionID": "2347f8a4-ebf7-45ae-ac75-10d7d91497e1",
-    "xdm:propositions": [
+  "xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8",
+  "xdm:propositions": [
+    {
+      "xdm:activity": {
+        "xdm:id": "xcore:activity:ffed0123",
+        "repo:etag": 4
+      },
+      "xdm:placement": {
+        "xdm:id": "xcore:placement:ffed0456",
+        "repo:etag": 1
+      },
+      "xdm:options": [
         {
-            "xdm:activity": {
-                "xdm:id": "xcore:offer-activity:122208b3a8740558",
-                "repo:etag": "4"
-            },
-            "xdm:placement": {
-                "xdm:id": "xcore:offer-placement:122204529514a2c0",
-                "repo:etag": "3"
-            },
-            "xdm:options": [
-                {
-                    "xdm:id": "xcore:personalized-offer:12331b9dc92aa2f6",
-                    "repo:etag": "7",
-                    "xdm:characteristics": {
-                        "product": "savings",
-                        "region": "NA"
-                    },
-                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
-                    "dc:format": "image/jpeg",
-                    "xdm:deliveryURL": "https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec"
-                }
-            ]
+          "xdm:id": "xcore:personalized-option:ccc0111",
+          "repo:etag": 3,
+          "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
+          "xdm:content": "<html>some html</html>"
         }
-    ],
-    "xdm:factors": {
-        "xdm:numberOfIneligibleOffers": "2"
+      ]
     },
-    "ode:createDate": 1604011243807
+    {
+      "xdm:activity": {
+        "xdm:id": "xcore:activity:ffed0123",
+        "repo:etag": 4
+      },
+      "xdm:placement": {
+        "xdm:id": "xcore:placement:ffed0789",
+        "repo:etag": 2
+      },
+      "xdm:fallback": {
+        "xdm:id": "xcore:fallback:ccc0222",
+        "repo:etag": 5,
+        "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
+        "dc:format": "image/png",
+        "xdm:deliveryURL": "https://cdn.adobe.com/content/1445323-1134331.png",
+        "xdm:content": "https://www.adobe.com/index2.html"
+      }
+    }
+  ],
+  "ode:createDate": 1566497582038
 }
 ```
 
