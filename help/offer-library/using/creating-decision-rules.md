@@ -11,6 +11,8 @@ You can create offer decision rules based on data available in Adobe Experience 
 
 For example, you can specify that you only want a 'Women's Winter Clothing Offer' to be shown when (Gender = 'Female') and (Region = 'Northeast').
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 The list of created decision rules is accessible in the **[!UICONTROL Rules]** tab.
 
 ![](assets/decision_rules_list.png)
@@ -38,3 +40,7 @@ To create a decision rule, follow these steps:
 1. Once the rule is created, it displays in the placements list. You can select it to display its properties and edit or delete it.
 
     ![](assets/rule_created.png)
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

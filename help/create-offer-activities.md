@@ -17,6 +17,8 @@ snippet: y
 
 Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 The list of offer activities is accessible in the **[!UICONTROL Activities]** menu. Filters are available to help you retrieve activities according to their status or start and end dates.
 
 ![](assets/activities-list.png)
@@ -65,3 +67,7 @@ To create an offer activity, follow these steps:
     It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
 
     ![](assets/activities-created.png)
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

@@ -9,6 +9,8 @@ description: Learn how to create placements in Adobe Experience Platform.
 
 A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 In the example below, there are three placements, corresponding to different types of content (image, text, HTML).
 
 ![](assets/offers_placement_schema.png)
@@ -37,3 +39,9 @@ To create a placement, follow these steps:
 1. Once the placement is created, it displays in the placements list. You can select it to display its properties and edit it.
 
     ![](assets/placement_created.png)
+
+https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-placements.html?lang=en
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

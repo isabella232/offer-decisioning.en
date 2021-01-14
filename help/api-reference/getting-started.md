@@ -13,6 +13,8 @@ description: Learn how to start using the Offer Library API to perform key opera
 
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Offer Decisioning Engine.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 ## Prerequisites
 
 This guide requires a working understanding of the following components of Adobe Experience Platform:
@@ -121,3 +123,7 @@ A successful response returns information regarding offer decisioning containers
 ## Next steps
 
 This document covered the prerequisite knowledge required to make calls to the [!DNL Offer Library] API, including acquiring your container ID. You can now proceed to the sample calls provided in this developer guide and follow along with their instructions.
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
