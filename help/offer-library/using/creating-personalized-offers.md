@@ -69,7 +69,7 @@ To create an offer, follow these steps:
 
     1. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
     
-        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Segment of visitors]** option, then drag the desired decision rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/using/creating-decision-rules.md).
+        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/using/creating-decision-rules.md).
 
         ![](assets/offer_rule.png)
 

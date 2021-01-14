@@ -38,7 +38,7 @@ To create an offer activity, follow these steps:
 
     ![](assets/activities-name.png)
 
-1. Drag and drop a placement from the list to add it to the activity, then click **[!UICONTROL Add collection]** containing the desired offers.
+1. Drag and drop a placement from the list to add it to the activity, then click **[!UICONTROL Add collection]**.
 
     ![](assets/activities-placement.png)
 

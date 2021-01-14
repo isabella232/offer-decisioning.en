@@ -27,7 +27,7 @@ To grant access to the [!DNL Offer Decisioning] service, follow these steps:
 
 1. Select the services to enable for the product profile.
 
-    By default, all services are selected, which is recommended to ensure that all the Experience Cloud functionalities are available.
+    By default, all services are selected, which is recommended to ensure that all the Experience Platform functionalities are available.
 
     ![](assets/do-not-localize/enable-services.png)
 
