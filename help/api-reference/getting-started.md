@@ -58,9 +58,9 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {ENDPOINT_PATH} | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| {PRODUCT_CONTEXT} | Filters the list of containers by their association to product contexts. | `acp` |
-| {PROPERTY} | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | Filters the list of containers by their association to product contexts. | `acp` |
+| `{PROPERTY}` | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
 
 **Request**
 
