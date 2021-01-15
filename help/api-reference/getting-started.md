@@ -126,4 +126,6 @@ This document covered the prerequisite knowledge required to make calls to the [
 
 ## Tutorial video {#video}
 
+The following video is intended to support your understanding of the components of [!DNL Offer Decisioning].
+
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
