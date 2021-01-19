@@ -47,17 +47,17 @@ curl -X POST \
   -d '{
         "xdm:propositionRequests": [
             {
-            "xdm:placementId": "xcore:offer-placement:ffed0456",
-            "xdm:activityId": "xcore:offer-activity:ffed0123"
+              "xdm:placementId": "xcore:offer-placement:ffed0456",
+              "xdm:activityId": "xcore:offer-activity:ffed0123"
             },
             {
-            "xdm:placementId": "xcore:offer-placement:ffed0012",
-            "xdm:activityId": "xcore:offer-activity:fffc0789"
+              "xdm:placementId": "xcore:offer-placement:ffed0012",
+              "xdm:activityId": "xcore:offer-activity:fffc0789"
             }
         ],
         "xdm:profiles": [
             {
-            "xdm:identityMap": {
+              "xdm:identityMap": {
                 "SWCUSTID": [
                 {
                     "xdm:id": "123@abc.com"
@@ -103,9 +103,9 @@ curl -X POST \
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | If set to true, multiple activities may get assigned the same option. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | If set to true, multiple placements may get assigned the same option. | `"xdm:acrossPlacements": true` |
 | `xdm:mergePolicy.xdm:id` | Identifies the merge policy by which to govern the data returned by profile access service. If one is not specified in the request, [!DNL Offer Decisioning] won’t pass along anything profile access service, else it would pass the id provided by the caller. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
-| `xdm:responseFormat` | A set of flags that formats the response content. | `text`, `html block`, `image link` |
+| `xdm:responseFormat` | A set of flags that formats the response content. |
 | `xdm:responseFormat.xdm:includeContent` | A boolean value that, if set to `true`, includes content to the response. | `"xdm:includeContent": true` |
-| `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
+| `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what additional metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
 | `xdm:responseFormat.xdm:activity` | This flag identifies the specific metadata information returned for `xdm:activity`. | `name` |
 | `xdm:responseFormat.xdm:option` | This flag identifies the specific metadata information returned for `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | This flag identifies the specific metadata information returned for `xdm:placement`. | `name`, `channel`, `componentType` |
@@ -168,7 +168,7 @@ A successful response returns information on your proposition, including its uni
 | `xdm:propositions.xdm:options` | The schema for a single option. If present, this property cannot be empty. |
 | `xdm:propositions.xdm:options.xdm:id` | The unique identifier for a personalized option. | `xdm:id": "xcore:placement:ffed0456` |
 | `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` acts as the processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
-| `xdm:propositions.xdm:content` | The format of the response content determined in the request. | `text`, `html block`, `image link` |
+| `xdm:propositions.xdm:content` | The format of the response content. | Response content can be: `text`, `html block`, or `image link` |
 | `xdm:propositions.xdm:fallback` | The schema for a single fallback offer. |
 | `xdm:propositions.xdm:fallback.xdm:id` | The unique identifier for a fallback offer. | `"xdm:id": "xcore:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | The physical or digital manifestation of the resource. Typically, format should include the media-type of the resource. The format may be used to determine the software, hardware or other equipment needed to display or operate the resource. It is recommended to select a value from a controlled vocabulary, for example, the list of [Internet Media Types](http://www.iana.org/assignments/media-types/) defining computer media formats. | `"dc:format": "image/png"` or `"image/jpeg"`|
