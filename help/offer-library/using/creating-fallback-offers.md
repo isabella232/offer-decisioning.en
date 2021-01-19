@@ -9,6 +9,8 @@ description: Learn how to create offers in Adobe Experience Platform.
 
 The fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 The list of fallback offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
 
 ![](assets/offers_list.png)
@@ -42,3 +44,7 @@ To create a fallback offer, follow these steps:
     It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression? -->
 
     ![](assets/fallback_created.png)
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)

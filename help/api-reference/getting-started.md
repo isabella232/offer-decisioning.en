@@ -13,6 +13,8 @@ description: Learn how to start using the Offer Library API to perform key opera
 
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Offer Decisioning Engine.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 ## Prerequisites
 
 This guide requires a working understanding of the following components of Adobe Experience Platform:
@@ -56,9 +58,9 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
-| {ENDPOINT_PATH} | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| {PRODUCT_CONTEXT} | Filters the list of containers by their association to product contexts. | `acp` |
-| {PROPERTY} | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | Filters the list of containers by their association to product contexts. | `acp` |
+| `{PROPERTY}` | Filters the type of container that is returned. | `_instance.containerType==decisioning` |
 
 **Request**
 
@@ -121,3 +123,9 @@ A successful response returns information regarding offer decisioning containers
 ## Next steps
 
 This document covered the prerequisite knowledge required to make calls to the [!DNL Offer Library] API, including acquiring your container ID. You can now proceed to the sample calls provided in this developer guide and follow along with their instructions.
+
+## Tutorial video {#video}
+
+The following video is intended to support your understanding of the components of [!DNL Offer Decisioning].
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)

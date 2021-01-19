@@ -13,6 +13,8 @@ Before creating an offer, make sure that you created:
 * A **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../../offer-library/using/creating-decision-rules.md).
 * One or several **tags** that you want to associate to the offer. See [Create tags](../../offer-library/using/creating-tags.md).
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
 
 ![](assets/offers_list.png)
@@ -67,7 +69,7 @@ To create an offer, follow these steps:
 
     1. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
     
-        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Segment of visitors]** option, then drag the desired decision rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/using/creating-decision-rules.md).
+        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/using/creating-decision-rules.md).
 
         ![](assets/offer_rule.png)
 
@@ -100,3 +102,7 @@ To create an offer, follow these steps:
     It is now ready to be delivered to customers. You can select it to display its properties and edit or suppress it.
 
     ![](assets/offer_created.png)
+
+## Tutorial video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
