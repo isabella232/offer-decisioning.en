@@ -13,7 +13,9 @@ description: Offer Decisioning is a collection of services and UI programs that 
 
 You can create and deliver offers by making a POST request to the [!DNL Decisions] API.
 
-This tutorial requires that you have a unique placement ID and activity ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
+This tutorial requires a working understanding of APIs, specifically with regards to [!DNL Offer Decisioning]. For more information, see the [[!DNL Offer Decisioning] API developer guide](../getting-started.md). This tutorial also requires that you have a unique placement ID and activity ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
+
+![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 ## Accept and Content-Type headers
 
@@ -47,26 +49,35 @@ curl -X POST \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
   -d '{
-        "xdm:dryRun": false,
         "xdm:propositionRequests": [
             {
-                "xdm:placementId": "xcore:offer-placement:122204529514a2c0",
-                "xdm:activityId": "xcore:offer-activity:122208b3a8740558"
+              "xdm:placementId": "xcore:offer-placement:ffed0456",
+              "xdm:activityId": "xcore:offer-activity:ffed0123"
+            },
+            {
+              "xdm:placementId": "xcore:offer-placement:ffed0012",
+              "xdm:activityId": "xcore:offer-activity:fffc0789"
             }
         ],
         "xdm:profiles": [
             {
-                "xdm:validateContextData": false,
-                "xdm:identityMap":{
-                    "Email":[
-                        {
-                            "xdm:id": "lilymass@google1.com"
-                        }
-                    ]
-                },
-                "xdm:profileModel": "_xdm.context.profile"
+              "xdm:identityMap": {
+                "SWCUSTID": [
+                {
+                    "xdm:id": "123@abc.com"
+                }
+                ]
+            },
+            "xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"
             }
         ],
+        "xdm:allowDuplicatePropositions": {
+            "xdm:acrossActivities": true,
+            "xdm:acrossPlacements": true
+        },
+        "xdm:mergePolicy": {
+            "xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"
+        },
         "xdm:responseFormat": {
             "xdm:includeContent": true,
             "xdm:includeMetadata": {
@@ -75,68 +86,103 @@ curl -X POST \
             ],
             "xdm:option": [
                 "name"
+            ],
+            "xdm:placement": [
+                "name"
             ]
+            }
         }
-        }
-    }'
+        }'
 ```
 
 | Property | Description | Example |
 | -------- | ----------- | ------- |
-| `xdm:dryRun` | A boolean value that tells the offer decision engine whether the call being made is a trial run or not. If dry run is set to `true`, the decision engine doesn't affect the caps related to the option. | `true`, `false` |
-| `xdm:propositionRequests` | An array that contains the placement and activity identifiers. | `xcore:offer-placement:122204529514a2c0`, `xcore:offer-activity:122208b3a8740558` |
-| `xdm:profiles` | An array that contains the identity map and context data for each of the profiles. For an API request this will contain one profile. |
-| `xdm:profiles.xdm:identityMap` | An array that contains a set of end user identities based on the namespace integration code of the identity. The identity map can carry more than one identity of each namespace. For more information on namespaces, see the [Identity namespace overview](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html). | `Email: [{xdm:id: lilymass@google1.com}]` |
+| `xdm:propositionRequests` | This object contains the placement and activity identifiers. |
+| `xdm:propositionRequests.xdm:placementId` | The unique placement identifier. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | The unique activity identifier. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:profiles` | This object holds information about the profile for which the decision is requested. For an API request this will contain one profile. |
+| `xdm:profiles.xdm:identityMap` | This object holds a set of end user identities based on the namespace integration code of the identity. The identity map can carry more than one identity of each namespace. For more information on namespaces, see the [Identity namespace overview](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:decisionRequestId` | The ID generated by the client that can be used to uniquely identify a profile decision request. This ID is echoed back in the response and does not influence the outcome of the decision. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
+| `xdm:allowDuplicatePropositions` | This object the control structure of the De-duplication rules. It consists of a series of flags that indicate if the same option can be proposed across a certain dimension. A flag that is set to true means duplicates are allowed and should not be removed across the category indicated by the flag. A flag set to false means that the decision engine should not make the same proposition across the dimension and instead pick the next best option for one of the sub-decisions. |
+| `xdm:allowDuplicatePropositions.xdm:acrossActivities` | If set to true, multiple activities may get assigned the same option. | `"xdm:acrossActivities": true` |
+| `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | If set to true, multiple placements may get assigned the same option. | `"xdm:acrossPlacements": true` |
+| `xdm:mergePolicy.xdm:id` | Identifies the merge policy by which to govern the data returned by profile access service. If one is not specified in the request, [!DNL Offer Decisioning] won’t pass along anything profile access service, else it would pass the id provided by the caller. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | A set of flags that formats the response content. |
-| `xdm:responseFormat.xdm:includeContent` | A boolean value that, if set to `true`, includes content to the response. | `text`, `html block`, `image link` |
-| `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
+| `xdm:responseFormat.xdm:includeContent` | A boolean value that, if set to `true`, includes content to the response. | `"xdm:includeContent": true` |
+| `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what additional metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
+| `xdm:responseFormat.xdm:activity` | This flag identifies the specific metadata information returned for `xdm:activity`. | `name` |
+| `xdm:responseFormat.xdm:option` | This flag identifies the specific metadata information returned for `xdm:option`. | `name`, `characteristics` |
+| `xdm:responseFormat.xdm:placement` | This flag identifies the specific metadata information returned for `xdm:placement`. | `name`, `channel`, `componentType` |
 
 **Response**
 
-A successful response returns information on your proposition, including its unique `xdm:propositionID`.
+A successful response returns information on your proposition, including its unique `xdm:propositionId`.
 
 ```json
 {
-    "xdm:propositionID": "2347f8a4-ebf7-45ae-ac75-10d7d91497e1",
-    "xdm:propositions": [
+  "xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8",
+  "xdm:propositions": [
+    {
+      "xdm:activity": {
+        "xdm:id": "xcore:activity:ffed0123",
+        "repo:etag": 4
+      },
+      "xdm:placement": {
+        "xdm:id": "xcore:placement:ffed0456",
+        "repo:etag": 1
+      },
+      "xdm:options": [
         {
-            "xdm:activity": {
-                "xdm:id": "xcore:offer-activity:122208b3a8740558",
-                "repo:etag": "4"
-            },
-            "xdm:placement": {
-                "xdm:id": "xcore:offer-placement:122204529514a2c0",
-                "repo:etag": "3"
-            },
-            "xdm:options": [
-                {
-                    "xdm:id": "xcore:personalized-offer:12331b9dc92aa2f6",
-                    "repo:etag": "7",
-                    "xdm:characteristics": {
-                        "product": "savings",
-                        "region": "NA"
-                    },
-                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
-                    "dc:format": "image/jpeg",
-                    "xdm:deliveryURL": "https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec"
-                }
-            ]
+          "xdm:id": "xcore:personalized-option:ccc0111",
+          "repo:etag": 3,
+          "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
+          "xdm:content": "<html>some html</html>"
         }
-    ],
-    "xdm:factors": {
-        "xdm:numberOfIneligibleOffers": "2"
+      ]
     },
-    "ode:createDate": 1604011243807
+    {
+      "xdm:activity": {
+        "xdm:id": "xcore:activity:ffed0123",
+        "repo:etag": 4
+      },
+      "xdm:placement": {
+        "xdm:id": "xcore:placement:ffed0789",
+        "repo:etag": 2
+      },
+      "xdm:fallback": {
+        "xdm:id": "xcore:fallback:ccc0222",
+        "repo:etag": 5,
+        "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
+        "dc:format": "image/png",
+        "xdm:deliveryURL": "https://cdn.adobe.com/content/1445323-1134331.png",
+        "xdm:content": "https://www.adobe.com/index2.html"
+      }
+    }
+  ],
+  "ode:createDate": 1566497582038
 }
 ```
 
 | Property | Description | Example |
 | -------- | ----------- | ------- |
-| `xdm:propositionID` | The identity for the proposition entity associated with an XDM DecisionEvent. | `2347f8a4-ebf7-45ae-ac75-10d7d91497e1` |
-| `xdm:propositions` | The schema for a single decision activity proposition. Multiple options could be returned for the activity. If no options can be found, then the activity's fallback offer is returned. There will always be either an `options` property or a `fallback` property present. |
-| `xdm:propositions.xdm:options` | The schema for a single option. If present, this property cannot be empty. |
-| `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` acts as tee processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
-| `xdm:propositions.xdm:options.dc:format` | The physical or digital manifestation of the resource. Typically, format should include the media-type of the resource. The format may be used to determine the software, hardware or other equipment needed to display or operate the resource. It is recommended to select a value from a controlled vocabulary, for example, the list of [Internet Media Types](http://www.iana.org/ assignments/media-types/) defining computer media formats. | `image/jpeg`, `image/png` |
-| `xdm:propositions.xdm:options.xdm:deliveryURL` | Provides the URL for the option. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
-| `xdm:factors` | Defines a map containing different factors that affected the propositions made, for example, responses from the profile service. |
-| `ode:createDate` | The time when the decision response message was created. This is represented as epoch time. | `1604011243807` |
+| `xdm:propositionId` | The unique identifier for the proposition entity associated with an XDM DecisionEvent. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
+| `xdm:propositions` | This object contains a single decision activity proposition. Multiple options can be returned for the activity. If no options are found, then the activity's fallback offer is returned. Single decision activity propositions always includes either an `options` property or a `fallback` property. When present, the `options` property cannot be empty. |
+| `xdm:propositions.xdm:activity` | This object contains the unique identifier for an offer activity. | `"xdm:id": "xcore:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | This object contains the unique identifier for an offer placement. | `"xdm:id": "xcore:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | This object contains a single option, including its unique identifier. If present, this object cannot be empty. | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` acts as the processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
+| `xdm:propositions.xdm:content` | The format of the response content. | Response content can be: `text`, `html block`, or `image link` |
+| `xdm:propositions.xdm:fallback` | This object contains a single fallback offer, including its unique identifier. | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback.dc:format` | The physical or digital manifestation of the resource. Typically, format should include the media-type of the resource. The format may be used to determine the software, hardware or other equipment needed to display or operate the resource. It is recommended to select a value from a controlled vocabulary, for example, the list of [Internet Media Types](http://www.iana.org/assignments/media-types/) defining computer media formats. | `"dc:format": "image/png"` or `"image/jpeg"`|
+| `xdm:propositions.xdm:fallback.xdm:deliveryURL` | An optional URL to read the asset from a content delivery network or service endpoint. This URL is used to access the asset publicly from a user agent. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
+| `ode:createDate` | The time when the decision response message was created. This is represented as epoch time. | `"ode:createDate": 1566497582038` |
+
+## Tutorial video {#video}
+
+The following video is intended to support your understanding of the components of [!DNL Offer Decisioning].
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+
+## Next steps
+
+By following this API guide, you have created and delivered offers using the [!DNL Decisions] API. For more information, see the [overview on Offer Decisioning](../../offer-decisioning-home.md).
