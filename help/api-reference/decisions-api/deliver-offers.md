@@ -175,6 +175,11 @@ A successful response returns information on your proposition, including its uni
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | An optional URL to read the asset from a content delivery network or service endpoint. This URL is used to access the asset publicly from a user agent. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | The time when the decision response message was created. This is represented as epoch time. | `"ode:createDate": 1566497582038` |
 
+## Tutorial video
+The following video is intended to support your understanding of the components of [!DNL Offer Decisioning].
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+
 ## Next steps
 
 By following this API guide, you have created and delivered offers using the [!DNL Decisions] API. For more information, see the [overview on Offer Decisioning](../../offer-decisioning-home.md).
