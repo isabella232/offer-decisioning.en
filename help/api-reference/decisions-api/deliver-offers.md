@@ -13,7 +13,7 @@ description: Offer Decisioning is a collection of services and UI programs that 
 
 You can create and deliver offers by making a POST request to the [!DNL Decisions] API.
 
-This tutorial requires that you have a unique placement ID and activity ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
+This tutorial requires a working understanding of APIs, specifically with regards to [!DNL Offer Decisioning]. For more information, see the [[!DNL Offer Decisioning] API developer guide](../getting-started.md). This tutorial also requires that you have a unique placement ID and activity ID value available. If you have not acquired these values, see the tutorials for [creating a placement](../offers-api/placements/create.md) and [creating an activity](../activities-api/activities/create.md).
 
 ## Accept and Content-Type headers
 
