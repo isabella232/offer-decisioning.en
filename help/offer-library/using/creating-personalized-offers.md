@@ -41,6 +41,12 @@ To create an offer, follow these steps:
 
 1. For each representation, specify the **[!UICONTROL Channel]** and the **[!UICONTROL Placement]** where the offer will be displayed.
 
+    ![](assets/channel-placement.png)     
+
+    The **[!UICONTROL Browse]** button allows you to filter available placements and filter them according to their channel and/or content type.
+    
+    ![](assets/browse-placements.png)  
+
 1. Add content to each representation coming from Adobe Experience Cloud Assets library or from an external public location.
 
     * To add content from Adobe Experience Cloud Assets library, drag and drop it from the left pane into the representation area, then specify the URL to associate with the content in the **[!UICONTROL Destination link]** field.
@@ -105,7 +111,7 @@ To create an offer, follow these steps:
 
 >[!NOTE]
 >
->Once an offer has been created, you can monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes).
+>Once an offer has been created, you can monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)).
 
 
 
