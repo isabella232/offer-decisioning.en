@@ -33,6 +33,6 @@ Fixed an issue which prevented from approving offers saved as drafts.
 
 A new parameter in the APIs now allows you to return the top N offers for a given decision scope. Read more (link TBD)
 
-A new parameter in the APIs now allows you t return the etag in the decision response, allowing you to keep track of version changes. Read more (link TBD)
+A new parameter in the APIs now allows you to return the etag in the decision response, allowing you to keep track of version changes. Read more (link TBD)
 
 A new parameter in the APIs now allows you to return the ranking score for an offer. Read more (link TBD)
