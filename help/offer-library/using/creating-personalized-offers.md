@@ -53,7 +53,7 @@ To create an offer, follow these steps:
 
         >[!NOTE]
         >
-        >Content can only be dragged and dropped from the Asset Picker in the left panel. Only content corresponding to the placement's content type is available for use.
+        >Contents can only be dragged and dropped from the Asset Picker in the left panel. Only content corresponding to the placement's content type is available for use.
 
         ![](assets/offer_drag_content.png)
 
@@ -109,7 +109,8 @@ To create an offer, follow these steps:
 
     ![](assets/offer_created.png)
 
-Once an offer has been created, you click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)). 
+
+Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)).
 
 
 

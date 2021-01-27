@@ -63,15 +63,13 @@ The offers and offer activities lists also allow you to perform bulk actions on 
 
 ![](assets/bulk-actions.png)
 
-Note that you can also duplicate an existing offer or offer activity in order to create a copy with the **[!UICONTROL Draft]** status. This can be performed either from the information pane or from an offer or offer activity's **[!UICONTROL Details]** tab.
+Note that you can also duplicate an existing offer or offer activity in order to create a copy with the **[!UICONTROL Draft]** status. This can be performed either from the information pane or from an offer or an offer activity's detailed view.
 
 ![](assets/duplicate-offer.png)
 
-## Monitoring changes to offers and offer-activities {#monitoring-changes}
+## Monitoring changes to offers and offer activities {#monitoring-changes}
 
-The Offer Library allows you to monitor any change that has been made to an offer or an offer activity.
-
-To do this, open the offer or offer activity by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
+The Offer Library allows you to monitor any change that has been made to an offer or an offer activity. To do this, open the offer or offer activity by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
 
 All the changes that have been made display in this screen, as well as the name of the user that performed the changes.
 
