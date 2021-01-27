@@ -59,7 +59,7 @@ For offers and offer activities, you can also click its name from the list to ac
 
 ![](assets/information-pane.png)
 
-The offers and offer activities lists also allow you to perform bulk actions on several elements. To do this, select the desired offers or offer activities, then select the action you want to perform from the information pane.
+The offers and offer activities lists also allow you to perform bulk actions on several elements. To do this, select the desired offers or offer activities, then select the action you want to perform from the information pane. 
 
 ![](assets/bulk-actions.png)
 
