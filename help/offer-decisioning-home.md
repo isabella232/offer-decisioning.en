@@ -17,7 +17,7 @@ topic: Premium
 
 * [Tutorial videos](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html)
 
-  <em>Watch tutorial videos to learn more about [!DNL Offer Decisioning] and how to use it.</em>
+  <em>Watch tutorial videos to learn more about [!DNL Offer Decisioning] and how to use it.</em> 
 
 * [Discover the Offer Library user interface](get-started/using/user-interface.md)
 
