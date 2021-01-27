@@ -109,9 +109,7 @@ To create an offer, follow these steps:
 
     ![](assets/offer_created.png)
 
->[!NOTE]
->
->Once an offer has been created, you can monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)).
+Once an offer has been created, you click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)).
 
 
 
