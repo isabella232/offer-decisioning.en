@@ -1,6 +1,6 @@
 ---
-product: adobe campaign
-solution: Offer Decisioning Orchestration
+product: experience platform
+solution: Offer Decisioning
 title: Documentation updates
 description: Learn about the latest documentation updates for Offer Decisioning.
 ---
