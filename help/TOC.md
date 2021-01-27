@@ -12,6 +12,9 @@ index: yes
 # [!DNL Offer Decisioning] Help {#using}
 
 + [Product documentation](offer-decisioning-home.md)
++ What's new? {#new}
+    + [Release notes](release-notes.md)
+    + [Documentation updates](documentation-updates.md)
 + Get started with [!DNL Offer Decisioning] {#get-started}
     + [Get started with [!DNL Offer Decisioning]](get-started/using/starting-offer-decisioning.md)
     + [User interface](get-started/using/user-interface.md)

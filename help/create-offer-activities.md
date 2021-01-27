@@ -68,6 +68,10 @@ To create an offer activity, follow these steps:
 
     ![](assets/activities-created.png)
 
+>[!NOTE]
+>
+>Once an offer activity has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)).
+
 ## Tutorial video {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

@@ -29,11 +29,11 @@ To create a fallback offer, follow these steps:
 
     ![](assets/fallback_details.png)
     
-1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating a personalized offer. See [Create personalized offers](../../offer-library/using/creating-personalized-offers.md).
+1. Create one or several representations for the fallback offer. To do this, select a channel, a placement then drag and drop assets from the left pane, like when creating a personalized offer. See [Create personalized offers](../../offer-library/using/creating-personalized-offers.md).
 
     ![](assets/fallback_content.png)
 
-1. Once the fallback offer's representations have been added, a summary displays. If everything is configured properly and your fallback offer is ready to be presented to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
+1. Once the fallback offer's representations have been configured, a summary displays. If everything is configured properly and your fallback offer is ready to be presented to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
 
     You can also save the fallback offer as a draft, in order to edit and approve it later on.
 

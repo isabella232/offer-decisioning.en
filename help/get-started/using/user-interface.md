@@ -51,10 +51,28 @@ Note that columns personalization is saved for each user.
 
 ![](assets/columns.png)
 
-## Information pane
+## Information pane and additional actions {#information-pane-actions}
 
 In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element.
 
+For offers and offer activities, you can also click its name from the list to access a dedicated **[!UICONTROL Details]** tab.
+
 ![](assets/information-pane.png)
 
-<!-- add info on shortcuts?-->
+The offers and offer activities lists also allow you to perform bulk actions on several elements. To do this, select the desired offers or offer activities, then select the action you want to perform from the information pane.
+
+![](assets/bulk-actions.png)
+
+Note that you can also duplicate an existing offer or offer activity in order to create a copy with the **[!UICONTROL Draft]** status. This can be performed either from the information pane or from an offer or offer activity's **[!UICONTROL Details]** tab.
+
+![](assets/duplicate-offer.png)
+
+## Monitoring changes to offers and offer-activities {#monitoring-changes}
+
+The Offer Library allows you to monitor any change that has been made to an offer or an offer activity.
+
+To do this, open the offer or offer activity by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
+
+All the changes that have been made display in this screen, as well as the name of the user that performed the changes.
+
+![](assets/change-logs.png)

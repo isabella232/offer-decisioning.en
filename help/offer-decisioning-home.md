@@ -27,6 +27,10 @@ topic: Premium
 
   <em>Discover the key steps to create an offer.</em>
 
+* [Discover what’s new](release-notes.md)
+
+  <em>Find out details about the lastest releases.</em>
+
 ## Additional Resources
  
 * [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
