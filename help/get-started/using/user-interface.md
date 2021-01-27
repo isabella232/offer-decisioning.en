@@ -53,7 +53,7 @@ Note that columns personalization is saved for each user.
 
 ## Information pane and additional actions {#information-pane-actions}
 
-In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element.
+In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element. 
 
 For offers and offer activities, you can also click its name from the list to access a dedicated **[!UICONTROL Details]** tab.
 
