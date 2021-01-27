@@ -25,7 +25,7 @@ To create a fallback offer, follow these steps:
 
     ![](assets/create_fallback.png)
 
-1. Specify the fallback offer's name. You can also associate one or several existing tag(s) to it, allowing you to search and organize the Offer Library more easily.
+1. Specify the fallback offer's name. You can also associate one or several existing tag(s) to it, allowing you to search and organize the Offer Library more easily. 
 
     ![](assets/fallback_details.png)
     
