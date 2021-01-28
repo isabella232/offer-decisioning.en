@@ -15,7 +15,7 @@ You can also consult the latest documentation updates[here](documentation-update
 
 Detailed information about an offer or an offer activity is now accessible by clicking its name in the list. [Read more](get-started/using/user-interface.md#information-pane-actions)
 
-You can now monitor all changes that have been made to an offer or an offer activity using the **[!UICONTROL Change log]** tab. [Read more](get-started/using/user-interface.md#monitoring-changes)
+You can now vizualise all the changes that have been made to an offer or an offer activity using the **[!UICONTROL Change log]** tab. [Read more](get-started/using/user-interface.md#changes-log)
 
 The offers and offer activities lists now allow you to perform bulk actions on multiple elements. [Read more](get-started/using/user-interface.md#information-pane-actions)
 
