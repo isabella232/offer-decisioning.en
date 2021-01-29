@@ -31,8 +31,8 @@ The message in the representation configuration screen has been made clearer to 
 
 Fixed an issue which prevented from approving offers saved as drafts.
 
-A new parameter in the APIs now allows you to return the top N offers for a given decision scope. Read more (link TBD)
+A new parameter in the APIs now allows you to return the top N offers for a given decision scope. [Read more](api-reference/getting-started.md)
 
-A new parameter in the APIs now allows you to return the etag in the decision response, allowing you to keep track of version changes. Read more (link TBD)
+A new parameter in the APIs now allows you to return the etag in the decision response, allowing you to keep track of version changes. [Read more](api-reference/getting-started.md)
 
-A new parameter in the APIs now allows you to return the ranking score for an offer. Read more (link TBD)
+A new parameter in the APIs now allows you to return the ranking score for an offer. [Read more](api-reference/getting-started.md)
