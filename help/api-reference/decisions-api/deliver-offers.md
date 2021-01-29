@@ -93,7 +93,7 @@ curl -X POST \
             ]
             }
         }
-        }'
+      }'
 ```
 
 | Property | Description | Example |
