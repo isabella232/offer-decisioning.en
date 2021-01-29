@@ -7,7 +7,7 @@ description: Learn more about the Offer Library User Interface.
 
 # User Interface {#user-interface}
 
-The Offer Library allows you to create and manage your placements and offers in one single place, as well as monitor all the created offer activities.
+The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created offer activities.
 
 It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
 
@@ -53,8 +53,22 @@ Note that columns personalization is saved for each user.
 
 ## Information pane
 
-In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element.
+In the different lists, select an element to display an information pane that will allow you to retrieve information and perform basic actions on the element. 
 
 ![](assets/information-pane.png)
 
-<!-- add info on shortcuts?-->
+The offers and offer activities lists also allow you to perform bulk actions on several elements. To do this, select the desired offers or offer activities, then select the action you want to perform from the information pane. 
+
+![](assets/bulk-actions.png)
+
+Note that you can also duplicate an existing offer or offer activity in order to create a copy with the **[!UICONTROL Draft]** status. This can be performed either from the information pane or from an offer or an offer activity's detailed view.
+
+![](assets/duplicate-offer.png)
+
+## Offers and offer activities change logs {#changes-logs}
+
+The Offer Library allows you to vizualise all the changes that have been made to an offer or an offer activity. To do this, open the offer or offer activity by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
+
+All the changes that have been made display in this screen, as well as the name of the user that performed the changes.
+
+![](assets/change-logs.png)

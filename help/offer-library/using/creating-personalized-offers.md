@@ -93,7 +93,7 @@ To create an offer, follow these steps:
 
 1. Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
 
-    You can also save the offer as a draft, in order to edit and approve it later on.
+    You can also save the offer as a draft, in order to edit and approve it later on. 
 
     ![](assets/offer_review.png)
 
@@ -102,6 +102,9 @@ To create an offer, follow these steps:
     It is now ready to be delivered to customers. You can select it to display its properties and edit or suppress it.
 
     ![](assets/offer_created.png)
+
+
+Once an offer has been created, you can click its name in the list to access detailed information, as well as vizualise all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and offer activities changes log](../../get-started/using/user-interface.md#changes-log)).
 
 ## Tutorial video {#video}
 

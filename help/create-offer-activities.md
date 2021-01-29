@@ -62,11 +62,15 @@ To create an offer activity, follow these steps:
 
     ![](assets/save-activities.png)
 
-1. The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step.
+1. The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
 
     It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
 
     ![](assets/activities-created.png)
+
+>[!NOTE]
+>
+>Once an offer activity has been created, you can click its name in the list to access detailed information, and vizualise all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and offer activities changes log](get-started/using/user-interface.md#changes-log)). 
 
 ## Tutorial video {#video}
 
