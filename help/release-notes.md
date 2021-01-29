@@ -9,7 +9,7 @@ description: Learn about the new features and improvements for Offer Decisioning
 
 This page lists all the new features and improvements for [!DNL Offer Decisioning].
 
-You can also consult the latest documentation updates[here](documentation-updates.md).
+You can also consult the latest documentation updates [here](documentation-updates.md).
 
 ## January 2021 Release {#january-release}
 
