@@ -13,7 +13,7 @@ description: Learn how to start using the Offer Library API to perform key opera
 
 This developer guide provides steps to help you start using the [!DNL Offer Library] API. The guide then provides sample API calls for performing key operations using the Offer Decisioning Engine.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 ## Prerequisites
 
