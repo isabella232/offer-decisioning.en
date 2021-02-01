@@ -11,7 +11,7 @@ topic: Premium
 
 ## Get started
 
-* [What is [!DNL Offer Decisioning]?](get-started/using/starting-offer-decisioning.md)
+* [What is [!DNL Offer Decisioning]?](get-started/starting-offer-decisioning.md)
 
   <em>Learn more on the [!DNL Offer Decisioning] service and access tutorial videos.</em>
 
@@ -19,11 +19,11 @@ topic: Premium
 
   <em>Watch tutorial videos to learn more about [!DNL Offer Decisioning] and how to use it.</em> 
 
-* [Discover the Offer Library user interface](get-started/using/user-interface.md)
+* [Discover the Offer Library user interface](get-started/user-interface.md)
 
   <em>Learn how to access and navigate in the Offer Library</em>
 
-* [Key steps to create an offer](offer-library/using/key-steps.md)
+* [Key steps to create an offer](offer-library/key-steps.md)
 
   <em>Discover the key steps to create an offer.</em>
 
