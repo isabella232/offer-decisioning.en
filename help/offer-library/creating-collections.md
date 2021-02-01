@@ -9,11 +9,11 @@ description: Learn how to organize offers using collections.
 
 Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a "sport" collection that will contain sport-related offers only. 
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+![](../../../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The list of offer collections is accessible in the **[!UICONTROL Collections]** tab.   
 
-![](assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 You can create two types of collections: 
 
@@ -27,17 +27,17 @@ To create a collection, follow these steps:
 
 1. Specify the name and type of collection to create.
 
-    ![](assets/collection_create.png)
+    ![](../../assets/collection_create.png)
 
 1. To create a dynamic collection, use the left pane to select the tag of the offers to add to the collection, then click **[!UICONTROL Save]**. All the offers with the selected tag will be saved in the collection.
 
-    For more on tags creation, see [Create tags](../../offer-library/using/creating-tags.md).
+    For more on tags creation, see [Create tags](../../offer-library/creating-tags.md).
 
-    ![](assets/dynamic_collection.png)
+    ![](../../assets/dynamic_collection.png)
 
 1. To create a static collection, use the left pane to filter the list of offers (status, tag, date, channel, content type), then select the offers to add to the collection.
 
-    ![](assets/static_collection.png)
+    ![](../../assets/static_collection.png)
 
     >[!NOTE]
     >
@@ -45,7 +45,7 @@ To create a collection, follow these steps:
 
 1. Once the collection is created, it displays in the list. You can select it to edit or delete it.
 
-    ![](assets/collection_created.png)
+    ![](../../assets/collection_created.png)
 
 ## Tutorial video {#video}
 

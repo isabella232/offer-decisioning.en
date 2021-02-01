@@ -9,25 +9,25 @@ description: Learn how to create personalized offers in Adobe Experience Platfor
 
 Before creating an offer, make sure that you created:
 
-* A **placement** in which the offer will be displayed. See [Create placements](../../offer-library/using/creating-placements.md)
-* A **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../../offer-library/using/creating-decision-rules.md).
-* One or several **tags** that you want to associate to the offer. See [Create tags](../../offer-library/using/creating-tags.md).
+* A **placement** in which the offer will be displayed. See [Create placements](../../offer-library/creating-placements.md)
+* A **decision rule** that will define the condition under which the offer will be presented. See [Create decision rules](../../offer-library/creating-decision-rules.md).
+* One or several **tags** that you want to associate to the offer. See [Create tags](../../offer-library/creating-tags.md).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
 
-![](assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 To create an offer, follow these steps:
 
 1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
 
-    ![](assets/create_offer.png)
+    ![](../../assets/create_offer.png)
 
 1. Specify the offer's name as well as its start and end date and time. You can also associate one or several existing tag(s) to the offer, allowing you to search and organize the Offer Library more easily.
 
-    ![](assets/offer_details.png)
+    ![](../../assets/offer_details.png)
 
     >[!NOTE]
     >
@@ -41,11 +41,11 @@ To create an offer, follow these steps:
 
 1. For each representation, specify the **[!UICONTROL Channel]** and the **[!UICONTROL Placement]** where the offer will be displayed.
 
-    ![](assets/channel-placement.png)     
+    ![](../../assets/channel-placement.png)     
 
     The **[!UICONTROL Browse]** button allows you to filter available placements and filter them according to their channel and/or content type.
     
-    ![](assets/browse-placements.png)  
+    ![](../../assets/browse-placements.png)  
 
 1. Add content to each representation coming from Adobe Experience Cloud Assets library or from an external public location.
 
@@ -55,13 +55,13 @@ To create an offer, follow these steps:
         >
         >Contents can only be dragged and dropped from the Asset Picker in the left panel. Only content corresponding to the placement's content type is available for use.
 
-        ![](assets/offer_drag_content.png)
+        ![](../../assets/offer_drag_content.png)
 
     * To add content from an external public location, click the **[!UICONTROL Add content]** button, then specify the name, URL, and Destination link of the content to add.
 
         Make sure that the content you are adding corresponds to the selected placement's content type.
 
-        ![](assets/offer_add_content.png)
+        ![](../../assets/offer_add_content.png)
 
     * You can also insert text-type content. To do this, click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
 
@@ -69,15 +69,15 @@ To create an offer, follow these steps:
         >
         >This option is not available for image-type placements.
 
-        ![](assets/offer_text_content.png)
+        ![](../../assets/offer_text_content.png)
 
 1. Add eligibility rules and constraint to the offer. These are rules that will define the conditions under which an offer will be displayed.
 
     1. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
     
-        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/using/creating-decision-rules.md).
+        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../../offer-library/creating-decision-rules.md).
 
-        ![](assets/offer_rule.png)
+        ![](../../assets/offer_rule.png)
 
     1. Define the **[!UICONTROL Priority]** of the offer compared to other ones. The highest an offer's priority will be, the highest its priority will be compared to other offers.
 
@@ -89,7 +89,7 @@ To create an offer, follow these steps:
         >
         >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
 
-        ![](assets/offer_capping.png)
+        ![](../../assets/offer_capping.png)
         
         In the example above:
 
@@ -101,16 +101,16 @@ To create an offer, follow these steps:
 
     You can also save the offer as a draft, in order to edit and approve it later on. 
 
-    ![](assets/offer_review.png)
+    ![](../../assets/offer_review.png)
 
 1. The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
     It is now ready to be delivered to customers. You can select it to display its properties and edit or suppress it.
 
-    ![](assets/offer_created.png)
+    ![](../../assets/offer_created.png)
 
 
-Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/using/user-interface.md#monitoring-changes)).
+Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../../get-started/user-interface.md#monitoring-changes)).
 
 
 
