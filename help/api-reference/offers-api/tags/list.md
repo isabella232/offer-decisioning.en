@@ -11,7 +11,7 @@ description: Tags allow you to better organize and sort through your offers.
 
 Tags allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
 
-Tags can also be used to group offers together into collections. For more information, see the tutorial on [creating collections](../../../offer-library/creating-collections.md).
+Tags can also be used to group offers together into collections. For more information, see the tutorial on [creating collections](../../offer-library/creating-collections.md).
 
 You can view a list of all tags within a container by performing a single GET request to the [!DNL Offer Library] API.
 

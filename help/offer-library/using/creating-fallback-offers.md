@@ -29,7 +29,7 @@ To create a fallback offer, follow these steps:
 
     ![](../assets/fallback_details.png)
     
-1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating a personalized offer. See [Create personalized offers](../../offer-library/creating-personalized-offers.md).
+1. Create one or several representations for the fallback offer. To do this, drag and drop placements from the left pane, like when creating a personalized offer. See [Create personalized offers](../offer-library/creating-personalized-offers.md).
 
     ![](../assets/fallback_content.png)
 

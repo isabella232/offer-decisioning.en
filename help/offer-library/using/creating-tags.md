@@ -9,7 +9,7 @@ description: Learn how to create offers in Adobe Experience Platform.
 
 Associating tags to your offers make it easier to keep them organized. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
 
-Tags can also be used to group offers together into offer collections. See [Create collections](../../offer-library/creating-collections.md).
+Tags can also be used to group offers together into offer collections. See [Create collections](../offer-library/creating-collections.md).
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 

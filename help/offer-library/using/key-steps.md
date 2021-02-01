@@ -22,9 +22,9 @@ Placements are containers that will be used to showcase your offers. You can, fo
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../../offer-library/creating-placements.md">Create placements</a></p></td>
-<td><img src="../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../../offer-library/creating-decision-rules.md">Create decision rules</a></p></td>
-<td><img src="../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../../offer-library/creating-tags.md">Create tags</a></p></td>
-<td><img src="../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../../offer-library/creating-personalized-offers.md">Create offers' content and properties</a></p></td>
-<td><img src="../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../../offer-library/creating-fallback-offers.md">Create fallback offers</a></p></td></tr>
+<td><img src="../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Create placements</a></p></td>
+<td><img src="../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Create decision rules</a></p></td>
+<td><img src="../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Create tags</a></p></td>
+<td><img src="../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Create offers' content and properties</a></p></td>
+<td><img src="../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Create fallback offers</a></p></td></tr>
 </table>
