@@ -13,6 +13,15 @@ You can modify or update a collection by making a PATCH request to the [!DNL Off
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
 
+## Accept and Content-Type headers
+
+The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+
+| Header name | Value |
+| ----------- | ----- |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+
 **API format**
 
 ```http
@@ -30,6 +39,8 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```shell
 curl -X PATCH \
   'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0bf31c20-13f1-11eb-a752-e58fd7dc4cb3' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'x-api-key: {API_KEY}' \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \

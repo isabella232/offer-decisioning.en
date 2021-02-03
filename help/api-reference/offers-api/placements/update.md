@@ -13,6 +13,15 @@ You can modify or update a placement in your container by making a PATCH request
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
 
+## Accept and Content-Type headers
+
+The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
+
+| Header name | Value |
+| ----------- | ----- |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+
 **API format**
 
 ```http
@@ -30,6 +39,8 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```shell
 curl -X PATCH \
   'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/9aa58fd0-13d7-11eb-928b-576735ea4db8' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"' \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'x-api-key: {API_KEY}' \
   -H 'x-gw-ims-org-id: {IMS_ORG}' \
