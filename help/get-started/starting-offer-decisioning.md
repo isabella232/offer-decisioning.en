@@ -1,7 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: About Offer Decisioning
+title: Get started with Offer Decisioning
+user-guide-description: Get started with the [!DNL Offer Decisioning] application service. Learn more about its architecture, offers and offer activites, as well as common use cases it allows you to perform.
 description: Personalize your emails at scale by continuously delivering the best offers to your customers.
 ---
 
