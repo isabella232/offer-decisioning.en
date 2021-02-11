@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Key steps to create an offer
 description: Discover the key steps to create an offer.
-user-guide-description: Discover the key steps that are required to create an offer.
+description: Discover the key steps that are required to create an offer.
 ---
 
 # Key steps to create an offer {#key-steps}
