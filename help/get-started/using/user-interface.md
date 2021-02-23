@@ -29,7 +29,7 @@ The **[!UICONTROL Offers]** menu allows you to navigate through the different fu
 
 * **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../offer-library/creating-tags.md).
 
-The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Create offer activities](../../create-offer-activities.md)
+The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Create offer activities](../../offer-activities/create-offer-activities.md)
 
 ![](../assets/offer_activities.png)
 
