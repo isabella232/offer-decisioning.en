@@ -56,7 +56,7 @@ To create an offer activity, follow these steps:
     >
     >By default, if multiple offers are eligible for this placement, the offers with the highest priority score will be delivered to the customer.
     >
-    >If you want to use a specific formula to choose which eligible offer to deliver, select a custom ranking in the **[!UICONTORL Rank offers by]** drop-down list. For more on this, refer to [this section](../../offer-activities/rankings.md).
+    >If you want to use a specific formula to choose which eligible offer to deliver, select a custom ranking in the **[!UICONTORL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/rankings.md).
 
 1. Select the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints, then click **[!UICONTROL Next]**.
 
