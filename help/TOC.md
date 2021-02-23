@@ -30,7 +30,7 @@ index: yes
     + [Create collections](offer-library/creating-collections.md)
 + Create and manage offer activities {#create-manage-activities}
     + [Create offer activities](offer-activities/create-offer-activities.md)
-    + [Configure rankings](offer-activities/rankings.md)
+    + [Configure offers selection in activities](offer-activities/rankings.md)
 + API Reference {#api-reference}
     + [Getting started](api-reference/getting-started.md)
     + Create and manage offers using APIs {#offers-api}
