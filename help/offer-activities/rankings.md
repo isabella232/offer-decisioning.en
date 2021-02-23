@@ -46,7 +46,7 @@ To create a manual ranking, follow the steps below:
 
 To assign a manual ranking to a placement, follow the steps below:
 
-* Create an offer activity or edit an existing one, then create the placements that will contain your offers (see [Create offer activities(../offer-activities/create-offer-activities.md)).
+* Create an offer activity or edit an existing one, then create the placements that will contain your offers (see [Create offer activities](../offer-activities/create-offer-activities.md)).
 
 * For each placement, select **[!UICONTROL Custom ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
 
