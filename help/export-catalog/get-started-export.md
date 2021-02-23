@@ -7,16 +7,16 @@ description: Learn how to export your offer catalog as a dataset.
 
 # Get started with offer catalog export {#export-catalog}
 
-Offer Decisioning allows you to automatically export your offer catalog as Adobe Experience Platform datasets.
+Offer Decisioning allows you to automatically export your offer catalog to Adobe Experience Platform.
 
-The export creates one dataset for each object of your Offer Library:
+The export creates one dataset for each object of your Offer Library (see [Access exported datasets](../export-catalog/access-dataset.md)). It includes:
 
 * Personalized offers
 * Fallback offers
 * Placements
 * Offer activities
 
-Each time one of these objects is modified, a new export job is automatically executed to update the dataset.
+Each time one of these objects is modified in the Offer Library, a new export job is automatically executed to update the datasets.
 
 >[!NOTE]
 >
