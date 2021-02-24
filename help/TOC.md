@@ -33,7 +33,7 @@ index: yes
     + [Configure offers selection in activities](offer-activities/rankings.md)
 + Export your offer catalog {#export-catalog}
     + [Get started with offer catalog export ](export-catalog/get-started-export.md)
-    + [Access the exported dataset](export-catalog/access-dataset.md)
+    + [Access the exported offer catalog](export-catalog/access-dataset.md)
 + API Reference {#api-reference}
     + [Getting started](api-reference/getting-started.md)
     + Create and manage offers using APIs {#offers-api}
