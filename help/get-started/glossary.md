@@ -4,6 +4,9 @@ solution: Experience Platform
 title: Glossary
 description: Glossary for Offers
 
+feature: Activities
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Glossary {#glossary}

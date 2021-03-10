@@ -5,6 +5,9 @@ product: experience platform
 title: List activities
 topic: API guide
 description: An activity contains the logic that informs the selection of an offer.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # List activities

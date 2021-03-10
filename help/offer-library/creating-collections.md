@@ -3,6 +3,9 @@ product: experience platform
 solution: Experience Platform
 title: Create collections
 description: Learn how to organize offers using collections.
+feature: Collections
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Create collections {#creating-collections}

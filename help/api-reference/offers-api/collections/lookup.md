@@ -5,6 +5,9 @@ product: experience platform
 title: Look up a collection
 topic: API guide
 description: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Look up a collection

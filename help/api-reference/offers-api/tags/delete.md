@@ -5,6 +5,9 @@ product: experience platform
 title: Delete tags
 topic: API guide
 description: Tags allow you to better organize and sort through your offers.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Delete a tag
