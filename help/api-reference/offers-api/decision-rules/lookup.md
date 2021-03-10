@@ -5,6 +5,9 @@ product: experience platform
 title: Look up a decision rule
 topic: API guide
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Look up a decision rules

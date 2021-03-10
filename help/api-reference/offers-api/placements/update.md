@@ -5,6 +5,9 @@ product: experience platform
 title: update a placement
 topic: API guide
 description: Placements are containers that are used to showcase your offers.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Update a placement

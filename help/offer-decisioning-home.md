@@ -3,6 +3,8 @@ keywords: Offer Decisioning;home;popular topics
 product: experience platform
 title: Offer Decisioning product documentation
 topic: Premium
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Help Center {#offer-decisioning-documentation}

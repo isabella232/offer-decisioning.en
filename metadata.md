@@ -10,6 +10,8 @@ tutorials-url: https://experienceleague.adobe.com/docs/offer-decisioning-learn/t
 git-repo: https://github.com/AdobeDocs/offer-decisioning.en
 index: yes
 
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Metadata for Offer Decisioning

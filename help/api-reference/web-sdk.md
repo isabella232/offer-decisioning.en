@@ -5,6 +5,9 @@ product: experience platform
 title: Adobe Experience Platform Web SDK
 topic: API guide
 description: The Adobe Experience Platform Web SDK allows you to retrieve and render personalized offers that you have created using APIs or the Offer Library.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Adobe Experience Platform Web SDK
