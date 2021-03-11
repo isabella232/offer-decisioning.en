@@ -3,6 +3,9 @@ product: experience platform
 solution: Experience Platform
 title: Create decision rules
 description: Learn how to create decision rules in Adobe Experience Platform.
+feature: Activities
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Create decision rules {#creating-decision-rules}

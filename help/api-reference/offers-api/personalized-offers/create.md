@@ -5,6 +5,9 @@ product: experience platform
 title: Create personalized offers
 topic: API guide
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Create a personalized offer

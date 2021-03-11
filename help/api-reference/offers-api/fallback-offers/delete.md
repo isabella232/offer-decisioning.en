@@ -5,6 +5,9 @@ product: experience platform
 title: Delete a fallback offer
 topic: API guide
 description: A fallback offer is sent to customers if they are not eligible for other offers
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Delete a fallback offer

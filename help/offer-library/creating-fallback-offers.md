@@ -3,6 +3,9 @@ product: experience platform
 solution: Experience Platform
 title: Create fallback offers
 description: Learn how to create offers in Adobe Experience Platform.
+feature: Activities
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Create fallback offers {#creating-fallback-offers}

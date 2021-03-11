@@ -5,6 +5,9 @@ product: experience platform
 title: Create a placement
 topic: developer guide
 description: Placements are containers that are used to showcase your offers.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Create a placement

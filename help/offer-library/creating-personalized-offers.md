@@ -3,6 +3,9 @@ product: experience platform
 solution: Experience Platform
 title: Create personalized offers
 description: Learn how to create personalized offers in Adobe Experience Platform.
+feature: Activities
+role: Business Practitioner
+level: Intermediate
 ---
 
 # Create personalized offers {#creating-personalized-offers}

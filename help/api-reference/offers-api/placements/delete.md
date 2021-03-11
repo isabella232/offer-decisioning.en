@@ -5,6 +5,9 @@ product: experience platform
 title: delete placements
 topic: API guide
 description: Placements are containers that are used to showcase your offers.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Delete a placement
