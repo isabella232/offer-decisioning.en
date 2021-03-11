@@ -3,6 +3,9 @@ product: experience platform
 solution: Experience Platform
 title: User interface
 description: Learn more about the Offer Library User Interface.
+feature: Collections
+role: Business Practitioner
+level: Intermediate
 ---
 
 # User Interface {#user-interface}

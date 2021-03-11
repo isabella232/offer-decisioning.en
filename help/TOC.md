@@ -7,6 +7,8 @@ description: Learn how to define and manage offers, leverage real-time custome
 solution: Experience Platform, Offer Decisioning
 type: Documentation
 index: yes
+role: Business Practitioner
+level: Intermediate
 ---
 
 # [!DNL Offer Decisioning] Help {#using}

@@ -5,6 +5,9 @@ product: experience platform
 title: Look up a tag
 topic: API guide
 description: Tags allow you to better organize and sort through your offers.
+feature: API
+role: Data Architect
+level: Experienced
 ---
 
 # Look up a tag
