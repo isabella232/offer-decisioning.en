@@ -40,8 +40,6 @@ To create a placement, follow these steps:
 
     ![](../assets/placement_created.png)
 
-https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-placements.html?lang=en
-
 ## Tutorial video {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
