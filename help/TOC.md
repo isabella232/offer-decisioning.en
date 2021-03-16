@@ -30,7 +30,7 @@ level: Intermediate
     + [Create personalized offers](offer-library/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/creating-fallback-offers.md)
     + [Create collections](offer-library/creating-collections.md)
-    + [Create ranking formulas](offer-library/creating-ranking-formulas.md)
+    + [Create ranking formulas](offer-library/create-ranking-formulas.md)
 + Create and manage offer activities {#create-manage-activities}
     + [Create offer activities](offer-activities/create-offer-activities.md)
     + [Configure offers selection in activities](offer-activities/configure-offer-selection.md)

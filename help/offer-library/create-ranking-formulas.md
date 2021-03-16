@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Intermediate
 ---
 
-# Create ranking formulas {#creating-ranking-formulas}
+# Create ranking formulas {#create-ranking-formulas}
 
 **Ranking formulas** are rules that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores.
 

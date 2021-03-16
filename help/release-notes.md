@@ -24,8 +24,8 @@ You can also consult the latest documentation updates [here](documentation-updat
 <tbody>
 <tr>
 <td>
-<p>You can now create <strong>manual rankings</strong> and assign them to offer activities. These are formulas that determine which offer should be presented first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
-<p>For more information, refer to the <a href="offer-activities/rankings.md">detailed documentation</a>.</p>
+<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be presented first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
+<p>For more information, refer to the <a href="offer-activities/configure-offer-selection.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -43,21 +43,6 @@ You can also consult the latest documentation updates [here](documentation-updat
 <p>Offer Decisioning now allows you to automatically export your offer catalog to Adobe Experience Platform as datasets. Each time an update is made to the offer catalog, a new export job is automatically executed to update the datasets.
 </p>
 <p>For more information, refer to the <a href="export-catalog/get-started-export.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Mobile SDK support for Offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>xxxx</p>
 </td>
 </tr>
 </tbody>
