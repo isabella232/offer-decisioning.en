@@ -30,9 +30,10 @@ level: Intermediate
     + [Create personalized offers](offer-library/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/creating-fallback-offers.md)
     + [Create collections](offer-library/creating-collections.md)
+    + [Create ranking formulas](offer-library/creating-ranking-formulas.md)
 + Create and manage offer activities {#create-manage-activities}
     + [Create offer activities](offer-activities/create-offer-activities.md)
-    + [Configure offers selection in activities](offer-activities/rankings.md)
+    + [Configure offers selection in activities](offer-activities/configure-offer-selection.md)
 + Export your offer catalog {#export-catalog}
     + [Get started with offer catalog export ](export-catalog/get-started-export.md)
     + [Access the exported offer catalog](export-catalog/access-dataset.md)
