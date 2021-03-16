@@ -14,17 +14,15 @@ level: Intermediate
 
 **Ranking formulas** allow you to define rules that will determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores.
 
-For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running".
-
 Ranking formulas are expressed in **PQL syntax** and can leverage profile attributes, context data and offer attributes. For more on how to use the PQL syntax, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-Once a ranking formula has been created, you can assign it to a placement in an offer activity. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
+Once a ranking formula has been created, you can assign it to a placement in an offer activity (see [Configure offers selection in activities](../offer-activities/configure-offer-selection.md)).
 
 ## Create a ranking formula {#create-ranking-formula}
 
 To create a ranking formula, follow the steps below:
 
-* Access the **[!UICONTROL Activities]** menu, then the **[!UICONTROL ranking formulas]** tab.
+* Access the **[!UICONTROL Activities]** menu, then select the **[!UICONTROL ranking formulas]** tab.
 
 * All created ranking formulas display here. Click **[!UICONTROL Create formula]** to create a new ranking formula.
 

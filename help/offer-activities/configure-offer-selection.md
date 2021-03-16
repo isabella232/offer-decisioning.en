@@ -22,9 +22,7 @@ By default, when several offers are eligible for a given placement, the offers w
 
 ![](../assets/offer-priority.png)
 
-Additionally, Offer Decisioning allows you to create **ranking formulas**. These are formulas that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores.
-
-For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running". 
+Additionally, Offer Decisioning allows you to create **ranking formulas**. These are formulas that determine which offer should be presented first for a given placement, rather than taking into account the offers' priority scores. For example, you can boost the priority of all offers where the end date is less than 24 hours from now, or boost offers from the "running" category if the profile's point of interest is "running". 
 
 For more on how to create a ranking formula, refer to [this section](../offer-library/create-ranking-formulas.md).
 
