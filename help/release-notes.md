@@ -13,6 +13,41 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
+## February 2021 Release {#february-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Determining offers' selection using manual rankings</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be presented first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
+<p>For more information, refer to the <a href="offer-activities/configure-offer-selection.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Export your offer catalog to Adobe Experience Platform</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Offer Decisioning now allows you to automatically export your offer catalog to Adobe Experience Platform as datasets. Each time an update is made to the offer catalog, a new export job is automatically executed to update the datasets.
+</p>
+<p>For more information, refer to the <a href="export-catalog/get-started-export.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## January 2021 Release {#january-release}
 
 Detailed information about an offer or an offer activity is now accessible by clicking its name in the list. [Read more](get-started/user-interface.md#information-pane-actions)

@@ -13,6 +13,13 @@ This page lists all the documentation updates for [!DNL Offer Decisioning].
 
 You can also consult the [!DNL Offer Decisioning] release notes [here](release-notes.md).
 
+## February 2021 {#february-2021}
+
+Information has been added on how to create ranking formulas and use them in offer activities:
+
+* [Create ranking formulas](offer-library/create-ranking-formulas.md)
+* [Configure offers selection in activities](offer-activities/configure-offer-selection.md) 
+
 ## January 2021 {#january-2021}
 
 Information has been added about the detailed view accessible when clicking an offer or an offer activity's name in the list. [Read more](get-started/user-interface.md#information-pane-actions) 
