@@ -18,7 +18,7 @@ You can also consult the latest documentation updates [here](documentation-updat
 <table>
 <thead>
 <tr>
-<th><strong>Determining offers' selection using manual rankings</strong><br/></th>
+<th><strong>Determining offers' selection using ranking formulas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
