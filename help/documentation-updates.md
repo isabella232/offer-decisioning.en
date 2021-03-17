@@ -15,6 +15,8 @@ You can also consult the [!DNL Offer Decisioning] release notes [here](release-n
 
 ## February 2021 {#february-2021}
 
+A new section has been added on how to automatically export your offer catalog to Adobe Experience Platform. [Read more](export-catalog/get-started-export.md).
+
 Information has been added on how to create ranking formulas and use them in offer activities:
 
 * [Create ranking formulas](offer-library/create-ranking-formulas.md)
