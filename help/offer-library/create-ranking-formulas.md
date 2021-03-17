@@ -22,9 +22,9 @@ Once a ranking formula has been created, you can assign it to a placement in an 
 
 To create a ranking formula, follow the steps below:
 
-* Access the **[!UICONTROL Activities]** menu, then select the **[!UICONTROL ranking formulas]** tab.
+* Access the **[!UICONTROL Activities]** menu, then select the **[!UICONTROL Rankings]** tab.
 
-* All created ranking formulas display here. Click **[!UICONTROL Create formula]** to create a new ranking formula.
+* Click **[!UICONTROL Create formula]** to create a new ranking formula.
 
     ![](../assets/ranking-create-formula.png)
 

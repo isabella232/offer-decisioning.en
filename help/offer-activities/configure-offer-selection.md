@@ -18,6 +18,8 @@ level: Intermediate
 
 # Configure offers selection in activities {#offers-selection-in-activities}
 
+## About Offers priority {#about-offers-priority}
+
 By default, when several offers are eligible for a given placement, the offers with the highest **priority** will be delivered to the customers first. Offers' priority scores are assigned when creating an offer (see [Create a personalized offer](../offer-library/creating-personalized-offers.md)).
 
 ![](../assets/offer-priority.png)
@@ -26,11 +28,13 @@ Additionally, Offer Decisioning allows you to create **ranking formulas**. These
 
 For more on how to create a ranking formula, refer to [this section](../offer-library/create-ranking-formulas.md).
 
+## Assign a ranking formula to a placement {#assign-ranking-formula}
+
 Once a ranking formula has been created, you can assign it to a placement in an offer activity. To do this, follow the steps below:
 
 * Create an offer activity or edit an existing one, then create the placements that will contain your offers (see [Create offer activities](../offer-activities/create-offer-activities.md)).
 
-* For each placement, select **[!UICONTROL Custom ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
+* For each placement, select **[!UICONTROL Ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
 
     ![](../assets/offer-activity-ranking.png)
 
