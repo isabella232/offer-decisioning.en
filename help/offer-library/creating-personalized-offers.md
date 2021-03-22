@@ -10,6 +10,37 @@ level: Intermediate
 
 # Create personalized offers {#creating-personalized-offers}
 
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="About offer constraints"
+>abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="About offer eligibility"
+>abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
+>additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html" text="Create decision rules"
+>additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="About offer priority"
+>abstract="In this field, you can specify priority settings for the offer. This will help determine which offer to deliver if the user qualifies for more than one offer."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="About offer capping"
+>abstract="In this field, you can specify how many times the offer can be presented across all users."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="About offer attributes"
+>abstract="With offer attribues, you can associate key value pairs with the offer for reporting and analysis purposes."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
 Before creating an offer, make sure that you created:
 
 * A **placement** in which the offer will be displayed. See [Create placements](../offer-library/creating-placements.md)
@@ -82,9 +113,9 @@ To create an offer, follow these steps:
 
         ![](../assets/offer_rule.png)
 
-    1. Define the **[!UICONTROL Priority]** of the offer compared to other ones. The highest an offer's priority will be, the highest its priority will be compared to other offers.
+    1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The highest an offer's priority will be, the highest its priority will be compared to other offers
 
-    1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per user.
+    1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per user. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
 
         >[!NOTE]
         >
@@ -100,7 +131,7 @@ To create an offer, follow these steps:
         * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
         * The offer will be presented only once per user.
 
-1. Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
+1. Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to users, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
 
     You can also save the offer as a draft, in order to edit and approve it later on. 
 
@@ -108,7 +139,7 @@ To create an offer, follow these steps:
 
 1. The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
-    It is now ready to be delivered to customers. You can select it to display its properties and edit or suppress it.
+    It is now ready to be delivered to users. You can select it to display its properties and edit or suppress it.
 
     ![](../assets/offer_created.png)
 
