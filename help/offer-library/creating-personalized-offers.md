@@ -26,7 +26,7 @@ level: Intermediate
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="About offer priority"
->abstract="In this field, you can specify priority settings for the offer. This will help determine which offer to deliver if the user qualifies for more than one offer."
+>abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
 >additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
 
 >[!CONTEXTUALHELP]
@@ -38,7 +38,7 @@ level: Intermediate
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="About offer attributes"
->abstract="With offer attribues, you can associate key value pairs with the offer for reporting and analysis purposes."
+>abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
 >additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
 
 Before creating an offer, make sure that you created:
