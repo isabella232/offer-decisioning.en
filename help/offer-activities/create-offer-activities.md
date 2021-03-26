@@ -59,7 +59,7 @@ Before creating an offer activity, make sure that the components below have been
 
     If you want to use a specific formula to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTROL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
 
-1. The **[!UICONTROL Constraints]** field allows you to restrict the presentation of the offers to the members of one or several Adobe Experience Platform segments. To do this, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add Segments]**.
+1. The **[!UICONTROL Constraints]** field allows you to restrict the presentation of the offers to the members of one or several Adobe Experience Platform segments. To do this, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add segments]**.
 
     ![](../assets/activity_constraint_segment.png)
     
