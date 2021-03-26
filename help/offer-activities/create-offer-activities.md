@@ -26,20 +26,22 @@ The list of offer activities is accessible in the **[!UICONTROL Activities]** me
 
 ![](../assets/activities-list.png)
 
-To create an offer activity, follow these steps:
+Before creating an offer activity, make sure that the components below have been created in the Offer Library:
 
-1. Make sure that the components below have been created in the Offer Library:
+* [Placements](../offer-library/creating-placements.md),
+* [Collections](../offer-library/creating-collections.md),
+* [Personalized offers](../offer-library/creating-personalized-offers.md),
+* [Fallback offers](../offer-library/creating-fallback-offers.md).
 
-    * [Placements](../offer-library/creating-placements.md),
-    * [Collections](../offer-library/creating-collections.md),
-    * [Personalized offers](../offer-library/creating-personalized-offers.md),
-    * [Fallback offers](../offer-library/creating-fallback-offers.md).
+## Create the offer activity {#create-activity}
 
 1. Select the **[!UICONTROL Activities]** menu, then click **[!UICONTROL Create activity]**.
 
 1. Specify the activity's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
 
     ![](../assets/activities-name.png)
+
+## Add decisions {#add-decisions}
 
 1. Drag and drop a placement from the list to add it to the activity, then click **[!UICONTROL Add collection]**.
 
@@ -49,33 +51,47 @@ To create an offer activity, follow these steps:
 
     ![](../assets/activities-collection.png)
 
-1. The selected offers are added to the placement. Click **[!UICONTROL Next]** to confirm.
-
-    In this example, we selected two offers that will display into a JSON-type placement aimed at presenting offers into a call center solution.
+1. The selected offers are added to the placement. In this example, we selected two offers that will display into a JSON-type placement aimed at presenting offers into a call center solution.
 
     ![](../assets/offers-added.png)
 
-    >[!NOTE]
-    >
-    >By default, if multiple offers are eligible for this placement, the offers with the highest priority score will be delivered to the customer.
-    >
-    >If you want to use a specific formula to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTORL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
+1. By default, if multiple offers are eligible for this placement, the offers with the highest priority score will be delivered to the customer.
 
-1. Select the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints, then click **[!UICONTROL Next]**.
+    If you want to use a specific formula to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTROL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
 
-    ![](../assets/add-fallback-offer.png)
+1. The **[!UICONTROL Constraints]** field allows you to restrict the presentation of the offers to the members of one or several Adobe Experience Platform segments. To do this, select **[!UICONTROL Segments]**, then click **[!UICONTROL Add Segments]**.
 
-1. If everything is configured properly and your activity is ready to be used to  present offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
+    ![](../assets/activity_constraint_segment.png)
+    
+    Add one or several segments from the left pane, combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators, then click **[!UICONTROL Select]** to confirm.
 
-    You can also save the activity as draft, in order to edit and activate it later on.
+    For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-    ![](../assets/save-activities.png)
+    ![](../assets/activity_constraint_segment2.png)
 
-1. The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
+    If you want to associate a specific decision rule to the offers contained in the placement, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md). 
 
-    It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
+    ![](../assets/activity_constraint_rule.png)
 
-    ![](../assets/activities-created.png)
+## Add a fallback offer {#add-fallback}
+
+Select the fallback offer that will be presented as a last resort to the customers that do not match the offers eligibility rules and constraints, then click **[!UICONTROL Next]**.
+
+![](../assets/add-fallback-offer.png)
+
+## Review and save the offer activity {#review}
+
+If everything is configured properly and your activity is ready to be used to  present offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
+
+You can also save the activity as draft, in order to edit and activate it later on.
+
+![](../assets/save-activities.png)
+
+The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
+
+It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
+
+![](../assets/activities-created.png)
 
 >[!NOTE]
 >

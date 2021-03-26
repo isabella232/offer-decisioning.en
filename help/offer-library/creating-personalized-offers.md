@@ -115,9 +115,9 @@ Eligibility rules and constrains allow you to define the conditions under which 
     
     You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
+    For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    
     ![](../assets/offer-eligibility-segment.png)
-
-
 
     If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
@@ -125,7 +125,7 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The highest an offer's priority will be, the highest its priority will be compared to other offers
 
-1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per user. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
+1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per uer. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
 
     >[!NOTE]
     >
