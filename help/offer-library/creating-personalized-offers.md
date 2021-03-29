@@ -53,7 +53,7 @@ The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab
 
 ![](../assets/offers_list.png)
 
-To create an offer, follow these steps:
+To create an **offer**, follow these steps:
 
 1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
 
