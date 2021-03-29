@@ -119,7 +119,7 @@ Eligibility rules and constrains allow you to define the conditions under which 
     
     ![](../assets/offer-eligibility-segment.png)
 
-    If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
+    If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
     ![](../assets/offer_rule.png)
 
