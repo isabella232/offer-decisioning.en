@@ -8,8 +8,8 @@ description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: ff0f1675-9020-4a06-abd3-ace1b62101dc
 ---
-
 # List tags
 
 Tags allow you to better organize and sort through your offers. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.
@@ -141,4 +141,3 @@ A successful response returns a list of tags that are present within the contain
     }
 }
 ```
-

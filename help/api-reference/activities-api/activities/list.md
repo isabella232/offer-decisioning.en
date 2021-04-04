@@ -8,8 +8,8 @@ description: An activity contains the logic that informs the selection of an off
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 5d063d49-01a7-4c2f-b4f2-32b14139a8b3
 ---
-
 # List activities
 
 An activity contains the logic that informs the selection of an offer.

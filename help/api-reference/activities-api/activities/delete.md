@@ -8,8 +8,8 @@ description: An activity contains the logic that informs the selection of an off
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 1bf44682-d0b0-460f-8eba-22c50a02c39e
 ---
-
 # Delete an activity
 
 It may occasionally be necessary to remove (DELETE) an activity. Only activities that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the fallback offer you wish to delete.

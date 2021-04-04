@@ -8,8 +8,8 @@ description: The Adobe Experience Platform Web SDK allows you to retrieve and re
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 16618726-890e-4dd4-b235-dd8a85f53706
 ---
-
 # Adobe Experience Platform Web SDK
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en#video-overview) is a client-side JavaScript library that allows customers of the Adobe Experience Cloud to interact with the various services in the Experience Cloud through the Adobe Experience Platform Edge Network.
@@ -21,4 +21,3 @@ For more on how to deliver personalized offers using Adobe Experience Platform W
 >[!NOTE]
 >
 >The use of Offer Decisioning in Adobe Experience Platform Web SDK is currently available in early access to select users. This functionality is not available to all IMS organizations.
-

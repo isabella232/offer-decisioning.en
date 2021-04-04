@@ -8,8 +8,8 @@ description: Collections are subsets of offers based on predefined conditions de
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 00d2a16d-5149-4c63-b6e1-5ffc442fa791
 ---
-
 # Create a collection
 
 Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.

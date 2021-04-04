@@ -8,8 +8,8 @@ description: Decision rules are constraints added to a personalized offer and ap
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 8813ee9f-271d-46da-800d-4fbe678a416b
 ---
-
 # Look up a decision rules
 
 You can look up a specific decision rule by making a GET request to the [!DNL Offer Library] API that includes either the decision rule `@id` or the name of the decision rule in the request path.

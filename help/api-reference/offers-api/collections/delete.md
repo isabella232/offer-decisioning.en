@@ -8,8 +8,8 @@ description: Collections are subsets of offers based on predefined conditions de
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 4e665afe-ac41-4c12-aaed-95783191daed
 ---
-
 # Delete a collection
 
 It may occasionally be necessary to remove (DELETE) a collection. Only collections that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the collection you wish to delete.

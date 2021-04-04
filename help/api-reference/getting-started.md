@@ -8,8 +8,8 @@ description: Learn how to start using the Offer Library API to perform key opera
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: e1a42b81-1b6f-4ff3-bcf2-5d49aa141d2e
 ---
-
 # [!DNL Offer Decisioning] API developer guide
 
 [!DNL Offer Decisioning] is an Application Service integrated with Adobe Experience Platform. It allows you to leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.

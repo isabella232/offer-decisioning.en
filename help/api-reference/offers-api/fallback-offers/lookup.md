@@ -8,8 +8,8 @@ description: A fallback offer is sent to customers if they are not eligible for 
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 4acdf4af-3b88-4272-83fc-898b297c88bb
 ---
-
 # Look up fallback offers
 
 You can look up specific fallback offers by making a GET request to the [!DNL Offer Library] API that includes either the fallback offer `@id` or the name of the fallback offer in the request path.

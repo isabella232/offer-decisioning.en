@@ -6,8 +6,8 @@ description: Learn more about the Offer Library User Interface.
 feature: Collections
 role: Business Practitioner
 level: Intermediate
+exl-id: 66e7d8ae-826a-49dc-9034-9e9c700cdf21
 ---
-
 # User Interface {#user-interface}
 
 The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created offer activities.

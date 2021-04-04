@@ -5,8 +5,8 @@ title: Offer Decisioning product documentation
 topic: Premium
 role: Business Practitioner
 level: Intermediate
+exl-id: aebe1ea8-3402-4ecf-b316-b78d096b9b75
 ---
-
 # Help Center {#offer-decisioning-documentation}
 
 ![](assets/do-not-localize/banneroffers.png) 

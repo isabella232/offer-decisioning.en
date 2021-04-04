@@ -8,8 +8,8 @@ description: An activity contains the logic that informs the selection of an off
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 86057ff6-9a37-42cc-ae81-790755b68209
 ---
-
 # Look up an activity
 
 You can look up specific activities by making a GET request to the [!DNL Offer Library] API that includes either the activities `@id` or the name of the activity in the request path.

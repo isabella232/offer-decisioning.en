@@ -14,8 +14,8 @@ snippet: y
 feature: Ranking formulas
 role: Business Practitioner
 level: Intermediate
+exl-id: 9ced0011-8000-4d87-b591-1587530acf73
 ---
-
 # Configure offers selection in activities {#offers-selection-in-activities}
 
 ## About Offers priority {#about-offers-priority}

@@ -8,8 +8,8 @@ description: An activity contains the logic that informs the selection of an off
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 9a4f568b-d33c-46a6-a614-80722465e0e8
 ---
-
 # Create an activity
 
 You can create an activity by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

@@ -8,8 +8,8 @@ description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 1fa10b45-9043-4193-9b83-5e4d729b0b39
 ---
-
 # Look up a tag
 
 You can look up specific tags by making a GET request to the [!DNL Offer Library] API that includes either the tag `@id` or the name of the tag in the request path.

@@ -6,8 +6,8 @@ description: Learn how to create offers in Adobe Experience Platform.
 feature: Activities
 role: Business Practitioner
 level: Intermediate
+exl-id: f7ef6f2f-fd44-4711-ac47-adf9eb5b723a
 ---
-
 # Create fallback offers {#creating-fallback-offers}
 
 The fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.

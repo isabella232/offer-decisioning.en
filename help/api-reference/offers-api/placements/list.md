@@ -8,8 +8,8 @@ description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 463a6928-7920-4f13-b490-346ec48bd605
 ---
-
 # List placements
 
 Placements are containers that are used to showcase your offers. A placement helps ensure that the right offer content shows up in the right location within your message. When you add content to an offer, you will be asked to select a placement in which that content can be shown.

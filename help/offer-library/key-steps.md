@@ -6,8 +6,8 @@ description: Discover the key steps that are required to create an offer.
 feature: Activities
 role: Business Practitioner
 level: Intermediate
+exl-id: fbbce00b-ca96-4ffc-aa0d-e4212833e347
 ---
-
 # Key steps to create an offer {#key-steps}
 
 The main steps to create offers are as follows:  

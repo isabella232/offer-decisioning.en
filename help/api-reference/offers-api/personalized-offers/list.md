@@ -8,8 +8,8 @@ description: A personalized offer is a customizable marketing message based on e
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 363ffd4d-808e-45cb-b322-e432955ff4b1
 ---
-
 # List personalized offers
 
 A personalized offer is a customizable marketing message based on eligibility rules and constraints.
