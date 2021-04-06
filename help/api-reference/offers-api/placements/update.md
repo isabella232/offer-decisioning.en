@@ -8,8 +8,8 @@ description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 7ca10425-eea9-4a64-b0e3-d6f86429e0c6
 ---
-
 # Update a placement
 
 You can modify or update a placement in your container by making a PATCH request to the [!DNL Offer Library] API.

@@ -8,8 +8,8 @@ description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: cf15e944-e8cf-4c76-b5a5-f963b9e891e6
 ---
-
 # Delete a tag
 
 It may occasionally be necessary to remove (DELETE) a tag. Only tags that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the tag you wish to delete.

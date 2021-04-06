@@ -8,8 +8,8 @@ description: A fallback offer is sent to customers if they are not eligible for 
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 66b570be-ea8c-4a16-aea4-30d8f0cacddc
 ---
-
 # List fallback offers
 
 A fallback offer is sent to customers if they are not eligible for other offers. The steps to create a fallback offer consist in creating one or several representations, like when creating an offer.

@@ -8,8 +8,8 @@ description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 85bcbeb4-37d7-43f6-be37-4c0dabae24a5
 ---
-
 # Create a placement
 
 You can create a placement by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

@@ -8,8 +8,8 @@ description: Decision rules are constraints added to a personalized offer and ap
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 19759ed4-969d-4474-becd-e1d5949156e9
 ---
-
 # Delete a decision rule
 
 It may occasionally be necessary to remove (DELETE) a decision rule. Only decision rules that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the instance ID of the decision rule you wish to delete.

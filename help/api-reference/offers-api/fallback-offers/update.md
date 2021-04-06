@@ -8,8 +8,8 @@ description: A fallback offer is sent to customers if they are not eligible for 
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 0a7d2d03-5500-4dc1-917d-351d4ebb1e3a
 ---
-
 # Update a fallback offer
 
 You can modify or update a fallback offer in your container by making a PATCH request to the [!DNL Offer Library] API.

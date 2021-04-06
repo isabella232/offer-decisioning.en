@@ -5,8 +5,8 @@ title: Documentation updates
 description: Learn about the latest documentation updates for Offer Decisioning.
 role: Business Practitioner
 level: Intermediate
+exl-id: e6f856aa-f755-4ab0-9f53-e53f19c1fbe8
 ---
-
 # Documentation updates
 
 This page lists all the documentation updates for [!DNL Offer Decisioning].

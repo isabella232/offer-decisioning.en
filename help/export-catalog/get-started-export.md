@@ -3,8 +3,8 @@ product: experience platform
 solution: Experience Platform
 title: Get started with offer catalog export
 description: Learn how to export your offer catalog as a dataset.
+exl-id: 8fab280c-b4ea-47f8-9191-8c8102961242
 ---
-
 # Get started with offer catalog export {#export-catalog}
 
 Offer Decisioning allows you to automatically export your offer catalog to Adobe Experience Platform.

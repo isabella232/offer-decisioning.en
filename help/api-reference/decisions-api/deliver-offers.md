@@ -8,8 +8,8 @@ description: Offer Decisioning is a collection of services and UI programs that 
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: ae8647e3-a97c-4ac6-a105-8217eff5cce5
 ---
-
 # Deliver offers using the Decisions API
 
 [!DNL Offer Decisioning] is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences, across channels and applications using business logic and decision rules. An offer is a marketing message that may have rules associated with it that specify who is eligible to see the offer.

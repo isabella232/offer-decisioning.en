@@ -8,8 +8,8 @@ description: Decision rules are constraints added to a personalized offer and ap
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 2cae445f-7ad0-4bf4-8972-14f7f97a85ce
 ---
-
 # List decision rules
 
 Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility. YYou can view a list of existing decision rules within a container by performing a single GET request to the [!DNL Offer Library] API.

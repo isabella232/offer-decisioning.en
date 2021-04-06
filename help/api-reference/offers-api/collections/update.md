@@ -8,8 +8,8 @@ description: Collections are subsets of offers based on predefined conditions de
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: ce8c0d8a-740d-461a-b897-ccaa773e9cc9
 ---
-
 # Update a collection
 
 You can modify or update a collection by making a PATCH request to the [!DNL Offer Library] API

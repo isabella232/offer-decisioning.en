@@ -8,8 +8,8 @@ description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 350fed66-54f2-428e-9fe2-9af7b399f1e8
 ---
-
 # Create a tag
 
 You can create a tag by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

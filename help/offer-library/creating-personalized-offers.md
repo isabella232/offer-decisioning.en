@@ -6,8 +6,8 @@ description: Learn how to create personalized offers in Adobe Experience Platfor
 feature: Activities
 role: Business Practitioner
 level: Intermediate
+exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
-
 # Create personalized offers {#creating-personalized-offers}
 
 >[!CONTEXTUALHELP]
@@ -54,6 +54,8 @@ The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab
 ![](../assets/offers_list.png)
 
 ## Create the offer {#create-offer}
+
+To create an **offer**, follow these steps:
 
 1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
 

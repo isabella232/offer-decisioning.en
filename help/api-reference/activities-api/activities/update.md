@@ -8,8 +8,8 @@ description: An activity contains the logic that informs the selection of an off
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 371486be-fa92-48ef-a4c0-f02189f1d56d
 ---
-
 # Update an activity
 
 You can modify or update an activity in your container by making a PATCH request to the [!DNL Offer Library] API.

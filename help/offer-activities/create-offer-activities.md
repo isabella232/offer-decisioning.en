@@ -14,8 +14,8 @@ snippet: y
 feature: Activities
 role: Business Practitioner
 level: Intermediate
+exl-id: 80803cac-d33e-4693-bbd5-829e398861b5
 ---
-
 # Create offer activities {#create-offer-activities}
 
 Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
