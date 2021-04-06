@@ -8,8 +8,8 @@ description: A fallback offer is sent to customers if they are not eligible for 
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 08bc48ec-ca6c-4746-88b4-5e408f96f9fa
 ---
-
 # Create a fallback offer
 
 You can create a fallback offer by making a POST request to the [!DNL Offer Library] API, while providing your container ID.

@@ -3,8 +3,8 @@ product: experience platform
 solution: Experience Platform
 title: Access the exported offer catalog
 description: Learn how to access the offer catalog on Adobe Experience Platform once it has been exported.
+exl-id: 3072ccec-4878-42d4-bef9-a6b21960c852
 ---
-
 # Access the exported offer catalog {#access-exported-catalog}
 
 The exported offer catalog is accessible in Adobe Experience Platform **[!UICONTROL Datasets]** menu. One dataset is created for each object of your Offer Library.

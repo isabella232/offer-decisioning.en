@@ -8,8 +8,8 @@ description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 987e63e5-a31b-4b35-a135-38cf3b8e5f3a
 ---
-
 # Delete a placement
 
 It may occasionally be necessary to remove (DELETE) a placement. Only placements that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the instance ID of the placement you wish to delete.

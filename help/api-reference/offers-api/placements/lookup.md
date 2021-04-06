@@ -8,8 +8,8 @@ description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 8c12f4f3-b7ce-47b5-b9be-435ddc264ae0
 ---
-
 # Look up a placement 
 
 You can look up specific placements by making a GET request to the [!DNL Offer Library] API that includes either the placement `@id` or the name of the placement in the request path.

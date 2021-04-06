@@ -8,8 +8,8 @@ description: A personalized offer is a customizable marketing message based on e
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 155cae16-5b14-44fe-9ad1-263fe1288bad
 ---
-
 # Update a personalized offer
 
 You can modify or update a personalized offer by making a PATCH request to the [!DNL Offer Library] API

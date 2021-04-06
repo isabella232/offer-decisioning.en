@@ -8,8 +8,8 @@ description: Decision rules are constraints added to a personalized offer and ap
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 962843ad-c630-4eef-8181-5a74831c2c58
 ---
-
 # Update a decision rule
 
 You can modify or update decision rules in in your container by making a PATCH request to the [!DNL Offer Library] API.

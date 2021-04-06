@@ -6,8 +6,8 @@ description: Learn how to create offers in Adobe Experience Platform.
 feature: Activities
 role: Business Practitioner
 level: Intermediate
+exl-id: b106874b-f54f-4268-b1fe-388e0b3a42c8
 ---
-
 # Create tags {#creating-tags}
 
 Associating tags to your offers make it easier to keep them organized. For example, you could label your Black Friday offers with the "Black Friday" tag. You can then use the search functionality in the Offer Library to easily locate all of the offers with that tag.

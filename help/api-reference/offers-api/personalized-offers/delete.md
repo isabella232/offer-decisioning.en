@@ -8,8 +8,8 @@ description: A personalized offer is a customizable marketing message based on e
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: d00454c8-b597-4069-bf11-ebe26628ed79
 ---
-
 # Delete a personalized offer
 
 It may occasionally be necessary to remove (DELETE) a personalized offer. Only personalized offers that you create in the tenant container may be deleted. This is done by performing a DELETE request to the [!DNL Offer Library] API using the $id of the personalized offer you wish to delete.

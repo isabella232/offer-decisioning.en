@@ -8,8 +8,8 @@ description: Decision rules are constraints added to a personalized offer and ap
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: f59d6842-78e0-444e-b39c-9d57ebaa351a
 ---
-
 # Create a decision rule
 
 Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.

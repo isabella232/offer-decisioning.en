@@ -8,8 +8,8 @@ description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 0d6b084c-48fe-46fc-abde-b00da63cf8f5
 ---
-
 # Update a tag
 
 You can modify or update a tag in your container by making a PATCH request to the [!DNL Offer Library] API.

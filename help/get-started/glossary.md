@@ -7,8 +7,8 @@ description: Glossary for Offers
 feature: Activities
 role: Business Practitioner
 level: Intermediate
+exl-id: 175523ba-e0f1-40df-b72a-c3834802f7fa
 ---
-
 # Glossary {#glossary}
 
 Here are the main concepts you will work with when using [!DNL Offer Decisioning]. 

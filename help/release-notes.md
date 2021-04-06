@@ -5,8 +5,8 @@ title: Release notes
 description: Learn about the new features and improvements for Offer Decisioning.
 role: Business Practitioner
 level: Intermediate
+exl-id: 25079153-87f9-4535-b03f-d8977925a0a6
 ---
-
 # Release notes {#release-notes}
 
 This page lists all the new features and improvements for [!DNL Offer Decisioning].

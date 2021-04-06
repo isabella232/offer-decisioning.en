@@ -6,8 +6,8 @@ description: Learn how to manage users' permissions for the Offers Decisioning s
 feature: Collections
 role: Business Practitioner
 level: Intermediate
+exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 ---
-
 # Grant access to [!DNL Offer Decisioning] {#granting-acess-to-offer-decisioning}
 
 Users' permissions for [!DNL Offer Decisioning] are managed using the Adobe Admin Console. For more details on the Admin Console itself, refer to the [dedicated documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).    
