@@ -13,6 +13,12 @@ This page lists all the documentation updates for [!DNL Offer Decisioning].
 
 You can also consult the [!DNL Offer Decisioning] release notes [here](release-notes.md).
 
+## March 2021 {#march-2021}
+
+Information has been added on how to use a decision rule or a segment as a constraint in an offer activity. [Read more](offer-activities/create-offer-activities.md#add-decisions)
+
+Information has been added on how to use a segment to determine an offer's eligibility. [Read more](offer-library/creating-personalized-offers.md#eligibility)
+
 ## February 2021 {#february-2021}
 
 A new section has been added on how to automatically export your offer catalog to Adobe Experience Platform. [Read more](export-catalog/get-started-export.md).
