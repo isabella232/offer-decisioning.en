@@ -24,7 +24,7 @@ You can also consult the latest documentation updates [here](documentation-updat
 <tbody>
 <tr>
 <td>
-<p>When creating an offer activity, you can now use a decision rule or a segment as a constraint to restrict the presentation of the offers contained in a placement.</p>
+<p>When creating an offer activity, you can now use a decision rule or a segment as a constraint to restrict the selection of the offers contained in a placement.</p>
 <p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#add-decisions">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -40,7 +40,7 @@ You can also consult the latest documentation updates [here](documentation-updat
 <tbody>
 <tr>
 <td>
-<p>You can now limit the presentation of an offer to the members of one or several Adobe Experience Platform segments.</p>
+<p>You can now limit the selection of an offer to the members of one or several Adobe Experience Platform segments.</p>
 <p>For more information, refer to the <a href="offer-library/creating-personalized-offers.md#eligibility">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -64,7 +64,7 @@ Fixed an issue which prevented from specifying a **[!UICONTROL Public location]*
 <tbody>
 <tr>
 <td>
-<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be presented first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
+<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be selected first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
 <p>For more information, refer to the <a href="offer-activities/configure-offer-selection.md">detailed documentation</a>.</p>
 </td>
 </tr>

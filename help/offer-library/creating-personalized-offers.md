@@ -125,7 +125,7 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
 1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The highest an offer's priority will be, the highest its priority will be compared to other offers
 
-1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per uer. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
+1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total across all users. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
 
     >[!NOTE]
     >
