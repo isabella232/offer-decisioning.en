@@ -53,6 +53,8 @@ The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab
 
 ![](../assets/offers_list.png)
 
+## Create the offer {#create-offer}
+
 To create an **offer**, follow these steps:
 
 1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
@@ -66,7 +68,9 @@ To create an **offer**, follow these steps:
     >[!NOTE]
     >
     >The **[!UICONTROL Offer attributes]** section allows you to associate key value pairs with the offer for reporting and analysis purposes.
-    
+
+## Configure the offer's representations {#representations}
+
 1. Add one or multiple representations for your offer using the **[!UICONTROL Add representation]** button.
 
     >[!NOTE]
@@ -105,48 +109,55 @@ To create an **offer**, follow these steps:
 
         ![](../assets/offer_text_content.png)
 
-1. Add eligibility rules and constraint to the offer. These are rules that will define the conditions under which an offer will be displayed.
+## Add eligibility rules and constraints {#eligibility}
 
-    1. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
+Eligibility rules and constrains allow you to define the conditions under which an offer will be displayed.
+
+1. Configure the **[!UICONTROL Offer eligibility]**. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
     
-        If you want to associate a specific decision rule to the offer, select the **[!UICONTROL Decision rule]** option, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
+    You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
-        ![](../assets/offer_rule.png)
+    For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    
+    ![](../assets/offer-eligibility-segment.png)
 
-    1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The highest an offer's priority will be, the highest its priority will be compared to other offers
+    If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
-    1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total per user. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
+    ![](../assets/offer_rule.png)
 
-        >[!NOTE]
-        >
-        >The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
-        >
-        >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
+1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The highest an offer's priority will be, the highest its priority will be compared to other offers
 
-        ![](../assets/offer_capping.png)
+1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total across all users. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
+
+    >[!NOTE]
+    >
+    >The number of times an offer is proposed is calculated at email preparation time. For example, if you prepare an email with a number of offers, those numbers count towards your max cap regardless of whether or not the email is sent.
+    >
+    >If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.
+
+    ![](../assets/offer_capping.png)
         
-        In the example above:
+    In the example above:
 
-        * The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
-        * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
-        * The offer will be presented only once per user.
+    * The offer's priority is set to "50", meaning the offer will be presented before offers with a priority between 1 and 49, and after the ones with a priority of at least 51.
+    * The offer will be considered for users that match the "Gold Loyalty Customers" decision rule only.
+    * The offer will be presented only once per user.
 
-1. Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to users, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
+## Review the offer {#review}
 
-    You can also save the offer as a draft, in order to edit and approve it later on. 
+Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to users, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
 
-    ![](../assets/offer_review.png)
+You can also save the offer as a draft, in order to edit and approve it later on. 
 
-1. The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
+![](../assets/offer_review.png)
 
-    It is now ready to be delivered to users. You can select it to display its properties and edit or suppress it.
+The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
-    ![](../assets/offer_created.png)
+It is now ready to be delivered to users. You can select it to display its properties and edit or suppress it.
 
+![](../assets/offer_created.png)
 
 Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../get-started/user-interface.md#monitoring-changes)).
-
-
 
 ## Tutorial video {#video}
 

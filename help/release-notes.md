@@ -13,6 +13,46 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
+## March 2021 Release {#march-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Use a decision rule or a segment as a constraint in an offer activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When creating an offer activity, you can now use a decision rule or a segment as a constraint to restrict the selection of the offers contained in a placement.</p>
+<p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#add-decisions">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Directly use a segment to determine an offer's eligibility</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now limit the selection of an offer to the members of one or several Adobe Experience Platform segments.</p>
+<p>For more information, refer to the <a href="offer-library/creating-personalized-offers.md#eligibility">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Other improvements
+
+Fixed an issue that could display the wrong eligibility rule applied to an offer when browsing an offer's details from the list.
+
+Fixed an issue which prevented from specifying a **[!UICONTROL Public location]** or **[!UICONTROL Destination link]** in an offer representation if the URL exceeded 255 characters.
+
 ## February 2021 Release {#february-release}
 
 <table>
@@ -24,7 +64,7 @@ You can also consult the latest documentation updates [here](documentation-updat
 <tbody>
 <tr>
 <td>
-<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be presented first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
+<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be selected first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
 <p>For more information, refer to the <a href="offer-activities/configure-offer-selection.md">detailed documentation</a>.</p>
 </td>
 </tr>
