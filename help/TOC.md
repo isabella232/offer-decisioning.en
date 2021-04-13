@@ -34,7 +34,7 @@ level: Intermediate
 + Create and manage offer activities {#create-manage-activities}
     + [Create offer activities](offer-activities/create-offer-activities.md)
     + [Configure offers selection in activities](offer-activities/configure-offer-selection.md)
-+ Monitor Offer Decisioning events in Adobe Experience Platform {monitor-offer-events}
++ Monitor Offer Decisioning events {monitor-offer-events}
     + [Get started with Offer Decisioning events](monitor-events/monitor-offer-events.md)
     + [Offer Decisioning events key information](monitor-events/key-information.md)
     + [Access events XDM fields](monitor-events/xdm-fields.md)
