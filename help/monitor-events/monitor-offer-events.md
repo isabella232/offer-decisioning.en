@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
-# Monitor Offer Decisioning events in Adobe Experience Platform {#monitor-offer-events}
+# Monitor Offer Decisioning events {#monitor-offer-events}
 
 Each time the Offer Decisioning Service makes a decision for a given profile, information related to these events are automatically sent to Adobe Experience Platform.
 
