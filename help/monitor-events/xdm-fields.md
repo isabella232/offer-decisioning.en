@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
-#  Access events XDM fields {#decisioningevents-xdm-schema}
+# Access events XDM fields {#decisioningevents-xdm-schema}
 
 You can access the DecisioningEvents XDM schema directly from a dataset containing Offer Decisioning events.
 
