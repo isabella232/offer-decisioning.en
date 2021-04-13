@@ -26,5 +26,5 @@ These datasets are based on the **[!UICONTROL ODE DecisionEvents]** schema, whic
 
 **Related topics:**
 
-* [Offer Decisioning events key information](../../monitor-events/key-information.md)
-* [Access events XDM fields](../../monitor-events/xdm-fields.md)
+* [Offer Decisioning events key information](../monitor-events/key-information.md)
+* [Access events XDM fields](../monitor-events/xdm-fields.md)
