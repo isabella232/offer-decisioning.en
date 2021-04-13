@@ -1,37 +1,24 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Monitor Offer Decisioning events in Adobe Experience Platform
-description: Learn how to monitor Offer Decisioning events in Adobe Experience Platform.
+title: Offer Decisioning events key information
+description: Learn more about the key information sent with each Offer Decisioning event.
 feature: Activities
 role: Business Practitioner
 level: Intermediate
 exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
-# Key information passed to Adobe Experience Platform
+# Offer Decisioning events key information {#events-key-information}
 
-Each event that is sent has four key data points (in propositionDetails) that get automatically recorded for every decision that's made to.
+Each event that is sent when a decision is made contains four key data points that you can leverage for analysis and reporting purposes. 
 
-SCREENSHOT
+![](../assets/events-dataset-preview.png)
 
+* **[!UICONTROL Fallback]**: Name and ID of the fallback offer, if no personalized offer was selected,
+* **[!UICONTROL Placement]**: Name, ID and channel of the placement used to deliver the offer,
+* **[!UICONTROL Selections]**: Name and ID of the offer selected for the profile,
+* **[!UICONTROL Activity]**: Name and ID of the offer activity.
 
-These proposition objects are made up of:
+Additionally, you can also leverage the **[!UICONTROL identityMap]** and **[!UICONTROL Timestamp]** fields to retrieve information on the profile and the time at which the offer was delivered.
 
-* Fallback
-If a fallback is returned, name and id
-
-* Placement
-Placement name and ID and channel identifier
-
-* Selections: what offer was selected.
--offer name (Decision Option Name)
--unique identifier for that (Decision Option Identifier) -_repo / Decision Option ETag:  unique ID d. So the selection is basically what offer was selected. 
-* Activity
-Activity name and identifier 
-
-
-other key information:
-
-* Timestamp
-
-* identitiyMap: user identity
+For more information on all the XDM fields that are sent with each decision, refer to [this section](xdm-fields.md).
