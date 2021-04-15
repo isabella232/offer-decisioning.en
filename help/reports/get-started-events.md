@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Get started with Offer Decisioning events
-description: Learn how to monitor Offer Decisioning events in Adobe Experience Platform.
+description: Learn how to create Offer Decisioning reports in Adobe Experience Platform.
 feature: Activities
 role: Business Practitioner
 level: Intermediate
@@ -26,5 +26,5 @@ These datasets are based on the **[!UICONTROL ODE DecisionEvents]** schema, whic
 
 **Related topics:**
 
-* [Offer Decisioning events key information](../monitor-events/key-information.md)
-* [Access events XDM fields](../monitor-events/xdm-fields.md)
+* [Offer Decisioning events key information](../reports/key-information.md)
+* [Access events XDM fields](../reports/xdm-fields.md)
