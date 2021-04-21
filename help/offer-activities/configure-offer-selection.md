@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 internal: n
 snippet: y
-feature: Ranking formulas
+feature: Ranking Formulas
 role: Business Practitioner
 level: Intermediate
 exl-id: 9ced0011-8000-4d87-b591-1587530acf73
