@@ -12,29 +12,32 @@ exl-id: 66e7d8ae-826a-49dc-9034-9e9c700cdf21
 
 The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activity).
 
-It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
-
 >[!NOTE]
 >
 >If you are having issues accessing the Offer Library or some of its feature, check with an Admin user that you have been granted the required rights. See [Grant access to [!DNL Offer Decisioning]](../get-started/granting-access-to-offer-decisioning.md)
 
-The **[!UICONTROL Offers]** menu allows you to navigate through the different functionalities of [!DNL Offer Decisioning]. 
+The **[!UICONTROL Offers]** menu allows you to manage personalized and fallback offers, organize them into collections, and deliver them by creating decisions.
 
 ![](../assets/offers_menu.png)
 
-* **[!UICONTROL Browse]**: access your personalized and fallback offers or create new ones. See [Creating an offer](../offer-library/creating-personalized-offers.md) and [Creating a fallback offer](../offer-library/creating-fallback-offers.md).
+* **[!UICONTROL Offers]**: Access your personalized and fallback offers or create new ones. See [Creating an offer](../offer-library/creating-personalized-offers.md) and [Creating a fallback offer](../offer-library/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: create and manage static and dynamic offer collections. See [About offer collections](../offer-library/creating-collections.md).
+* **[!UICONTROL Collections]**: Create and manage static and dynamic offer collections. See [About offer collections](../offer-library/creating-collections.md).
 
-* **[!UICONTROL Placements]**: create and manage placements where your offers will display and tags for your offers. See [Creating placements](../offer-library/creating-placements.md).
+* **[!UICONTROL Decisions]**: create and manage decisions to deliver your offers. See [Create decisions](../offer-activities/create-offer-activities.md).
 
-* **[!UICONTROL Decision Rules]**: manage the conditions under which your offers are presented. See [Creating a decision rule](../offer-library/creating-decision-rules.md).
-
-* **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../offer-library/creating-tags.md).
-
-The **[!UICONTROL Activities]** menu allows you to see all the decisions that have been created to deliver your offers. See [Create decisions](../offer-activities/create-offer-activities.md)
+The **[!UICONTROL Components]** menu allows you to manage the components required to create offers.
 
 ![](../assets/offer_activities.png)
+
+* **[!UICONTROL Placements]**: create and manage placements where your offers will display. See [Creating placements](../offer-library/creating-placements.md).
+
+* **[!UICONTROL Tags]**: create and manage tags to organize and filter your offers. See [Creating tags](../offer-library/creating-tags.md).
+
+* **[!UICONTROL Rules]**: manage the conditions under which your offers are presented. See [Creating a decision rule](../offer-library/creating-decision-rules.md).
+
+* **[!UICONTROL Rankings]**: create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../offer-library/create-ranking-formulas.md).
+
 
 ## Search and filter information
 
