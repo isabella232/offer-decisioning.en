@@ -157,7 +157,7 @@ It is now ready to be delivered to users. You can select it to display its prope
 
 ![](../assets/offer_created.png)
 
-Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and offer activities](../get-started/user-interface.md#monitoring-changes)).
+Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and decisions](../get-started/user-interface.md#monitoring-changes)).
 
 ## Tutorial video {#video}
 

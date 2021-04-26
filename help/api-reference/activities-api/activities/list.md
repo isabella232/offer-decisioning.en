@@ -14,7 +14,7 @@ exl-id: 5d063d49-01a7-4c2f-b4f2-32b14139a8b3
 
 An activity contains the logic that informs the selection of an offer.
 
-You can view a list of all offer activities within a container by performing a single GET request to the [!DNL Offer Library] API.
+You can view a list of all decisions within a container by performing a single GET request to the [!DNL Offer Library] API.
 
 **API format**
 

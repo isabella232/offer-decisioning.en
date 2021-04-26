@@ -179,7 +179,7 @@ A successful response returns information on your proposition, including its uni
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | The unique identifier for the proposition entity associated with an XDM DecisionEvent. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | This object contains a single decision activity proposition. Multiple options can be returned for the activity. If no options are found, then the activity's fallback offer is returned. Single decision activity propositions always includes either an `options` property or a `fallback` property. When present, the `options` property cannot be empty. |
-| `xdm:propositions.xdm:activity` | This object contains the unique identifier for an offer activity. | `"xdm:id": "xcore:activity:ffed0123"` |
+| `xdm:propositions.xdm:activity` | This object contains the unique identifier for a decision (previously known as offer activity). | `"xdm:id": "xcore:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | This object contains the unique identifier for an offer placement. | `"xdm:id": "xcore:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | This object contains a single option, including its unique identifier. If present, this object cannot be empty. | `xdm:id": "xcore:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | Defines the type of the component. `@type` acts as the processing contract for the client. When the experience is assembled, the composer will look for the component(s) that have a specific type. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |

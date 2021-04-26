@@ -30,7 +30,7 @@ Benefits include:
 * Improved workflows: instead of creating multiple deliveries or campaigns, marketing teams can improve workflows by creating a single delivery and vary the offers in different parts of the template,
 * Control over the number of times an offer is shown across campaigns and customers.
 
-## About offers and offer activities {#offers-offer-activities}
+## About offers and decisions {#offers-offer-activities}
 
 An **Offer** is made up of content, eligibility rules and constraints that define the conditions under which it is presented to your customers.
 
@@ -38,9 +38,9 @@ It is created using the **Offer Library**, which provides a central offer catalo
 
 ![](../assets/offer_structure.png) 
 
-Once the Offer Library has been enriched with offers, you can integrate your offers into **offer activities**.
+Once the Offer Library has been enriched with offers, you can integrate your offers into **decisions**.
 
-Offer activities are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
+decisions are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
 
 ## Common use cases
 

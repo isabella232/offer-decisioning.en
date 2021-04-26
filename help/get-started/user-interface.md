@@ -10,7 +10,7 @@ exl-id: 66e7d8ae-826a-49dc-9034-9e9c700cdf21
 ---
 # User Interface {#user-interface}
 
-The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created offer activities.
+The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions.
 
 It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
 
@@ -32,7 +32,7 @@ The **[!UICONTROL Offers]** menu allows you to navigate through the different fu
 
 * **[!UICONTROL Tags]**: create and manage placements tags to organize and filter your offers. See [Creating tags](../offer-library/creating-tags.md).
 
-The **[!UICONTROL Activities]** menu allows you to see all the offer activities that have been created to deliver your offers. See [Create offer activities](../offer-activities/create-offer-activities.md)
+The **[!UICONTROL Activities]** menu allows you to see all the decisions that have been created to deliver your offers. See [Create decisions](../offer-activities/create-offer-activities.md)
 
 ![](../assets/offer_activities.png)
 
@@ -60,17 +60,17 @@ In the different lists, select an element to display an information pane that wi
 
 ![](../assets/information-pane.png)
 
-The offers and offer activities lists also allow you to perform bulk actions on several elements. To do this, select the desired offers or offer activities, then select the action you want to perform from the information pane. 
+The offers and decisions lists also allow you to perform bulk actions on several elements. To do this, select the desired offers or decisions, then select the action you want to perform from the information pane. 
 
 ![](../assets/bulk-actions.png)
 
-Note that you can also duplicate an existing offer or offer activity in order to create a copy with the **[!UICONTROL Draft]** status. This can be performed either from the information pane or from an offer or an offer activity's detailed view.
+Note that you can also duplicate an existing offer or decision in order to create a copy with the **[!UICONTROL Draft]** status. This can be performed either from the information pane or from an offer or a decision's detailed view.
 
 ![](../assets/duplicate-offer.png)
 
-## Offers and offer activities change logs {#changes-logs}
+## Offers and decisions change logs {#changes-logs}
 
-The Offer Library allows you to vizualise all the changes that have been made to an offer or an offer activity. To do this, open the offer or offer activity by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
+The Offer Library allows you to vizualise all the changes that have been made to an offer or a decision. To do this, open the offer or decision by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
 
 All the changes that have been made display in this screen, as well as the name of the user that performed the changes.
 

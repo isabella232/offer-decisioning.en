@@ -31,8 +31,8 @@ level: Intermediate
     + [Create fallback offers](offer-library/creating-fallback-offers.md)
     + [Create collections](offer-library/creating-collections.md)
     + [Create ranking formulas](offer-library/create-ranking-formulas.md)
-+ Create and manage offer activities {#create-manage-activities}
-    + [Create offer activities](offer-activities/create-offer-activities.md)
++ Create and manage decisions {#create-manage-activities}
+    + [Create decisions](offer-activities/create-offer-activities.md)
     + [Configure offers selection in activities](offer-activities/configure-offer-selection.md)
 + Create Offer Decisioning reports {create-reports}
     + [Get started with Offer Decisioning events](reports/get-started-events.md)
