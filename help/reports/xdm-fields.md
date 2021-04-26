@@ -6,7 +6,7 @@ description: Learn more about the DecisioningEvents XDM schema.
 feature: Activities
 role: Business Practitioner
 level: Intermediate
-exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0,5c32f13e-b054-4aa5-b51d-61603fe02965
+exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
 # Access events XDM fields {#decisioningevents-xdm-schema}
 
