@@ -9,10 +9,6 @@ exl-id: 0e5759e5-7c95-4965-a84b-90f5e02df008
 ---
 # Get started with [!DNL Offer Decisioning] {#about-offer-decision}
 
->[!IMPORTANT]
->
->To get access to the [!DNL Offer Decisioning] service, reach out to Adobe Customer Care or visit [Adobe Enterprise Support page](https://experienceleague.adobe.com/?support-solution=Experience+Platform#support).
-
 [!DNL Offer Decisioning] is an Application Service integrated with Adobe Experience Platform. It allows you to leverage Adobe Experience Platform to deliver the best offer and experience to your customers across all touch points at the right time.
 
 ![](../assets/offer-diagram.png) 
