@@ -49,7 +49,7 @@ Before creating an offer, make sure that you created:
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
+The list of personalized offers is accessible in the **[!UICONTROL Offers]** menu.
 
 ![](../assets/offers_list.png)
 
@@ -57,7 +57,7 @@ The list of personalized offers is accessible in the **[!UICONTROL Browse]** tab
 
 To create an **offer**, follow these steps:
 
-1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
+1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Personalized offer]**.
 
     ![](../assets/create_offer.png)
 
@@ -160,5 +160,6 @@ It is now ready to be delivered to users. You can select it to display its prope
 Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and decisions](../get-started/user-interface.md#monitoring-changes)).
 
 ## Tutorial video {#video}
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

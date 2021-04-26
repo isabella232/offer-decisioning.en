@@ -43,7 +43,7 @@ To grant access to the [!DNL Offer Decisioning] service, follow these steps:
     **[!UICONTROL Manage Decisioning Activities]**:
     
     * Read, write, delete offers
-    * Read, write, delete decisions (previously known as offer activity)
+    * Read, write, delete decisions (previously known as offer activities)
     * Read, write, delete placements
 
     **[!UICONTROL Execute Decisioning Activities]**:

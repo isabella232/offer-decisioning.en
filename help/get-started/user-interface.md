@@ -73,7 +73,7 @@ Note that you can also duplicate an existing offer or decision in order to creat
 
 ## Offers and decisions change logs {#changes-logs}
 
-The Offer Library allows you to vizualise all the changes that have been made to an offer or a decision. To do this, open the offer or decision by clicking on its name in the **[!UICONTROL Browse]** tab, then select the **[!UICONTROL Change log]** tab.
+The Offer Library allows you to vizualise all the changes that have been made to an offer or a decision. To do this, open the offer or decision by clicking on its name in the list, then select the **[!UICONTROL Change log]** tab.
 
 All the changes that have been made display in this screen, as well as the name of the user that performed the changes.
 

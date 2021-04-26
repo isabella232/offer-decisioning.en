@@ -18,11 +18,11 @@ exl-id: 80803cac-d33e-4693-bbd5-829e398861b5
 ---
 # Create decisions {#create-offer-activities}
 
-Decisions (previously known as offer activity) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
+Decisions (previously known as offer activities) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of decisions is accessible in the **[!UICONTROL Activities]** menu. Filters are available to help you retrieve decisions according to their status or start and end dates.
+The list of decisions is accessible in the **[!UICONTROL Offers]** menu / **[!UICONTROL Decisions]** tab. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
 ![](../assets/activities-list.png)
 
@@ -35,15 +35,15 @@ Before creating a decision, make sure that the components below have been create
 
 ## Create the decision {#create-activity}
 
-1. Select the **[!UICONTROL Activities]** menu, then click **[!UICONTROL Create activity]**.
+1. Access the decisions list, then click **[!UICONTROL Create activity]**.
 
-1. Specify the activity's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
+1. Specify the decision's name as well as its start and end date and time, then click **[!UICONTROL Next]**.
 
     ![](../assets/activities-name.png)
 
 ## Add decisions {#add-decisions}
 
-1. Drag and drop a placement from the list to add it to the activity, then click **[!UICONTROL Add collection]**.
+1. Drag and drop a placement from the list to add it to the decision, then click **[!UICONTROL Add collection]**.
 
     ![](../assets/activities-placement.png)
 
@@ -83,13 +83,13 @@ Select the fallback offer that will be presented as a last resort to the custome
 
 ## Review and save the decision {#review}
 
-If everything is configured properly and your activity is ready to be used to  present offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
+If everything is configured properly and your decision is ready to be used to  present offers to customers, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and activate]**.
 
-You can also save the activity as draft, in order to edit and activate it later on.
+You can also save the decision as draft, in order to edit and activate it later on.
 
 ![](../assets/save-activities.png)
 
-The activity displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
+The decision displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
 
 It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
 

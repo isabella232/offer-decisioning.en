@@ -14,7 +14,7 @@ Collections allows you to organize your offers by regrouping them into categorie
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of offer collections is accessible in the **[!UICONTROL Collections]** tab.   
+The list of offer collections is accessible in the **[!UICONTROL Offers]** menu.   
 
 ![](../assets/collections_list.png)
 

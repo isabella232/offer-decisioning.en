@@ -14,7 +14,7 @@ The fallback offer is sent to customers if they are not eligible for other offer
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of fallback offers is accessible in the **[!UICONTROL Browse]** tab, which displays by default when accessing the **[!UICONTROL Offers]** menu.
+The list of fallback offers is accessible in the **[!UICONTROL Offers]** menu.
 
 ![](../assets/offers_list.png)
 
@@ -24,7 +24,7 @@ To create a fallback offer, follow these steps:
 >
 >Note that, unlike personalized offers, fallback offers have no eligibility rules and constraint parameters, because they are presented to customers as last resorts with no condition.
 
-1. In the **[!UICONTROL Browse]** tab, click **[!UICONTROL Create offer]**, then select **[!UICONTROL Fallback offer]**.
+1. Click **[!UICONTROL Create offer]**, then select **[!UICONTROL Fallback offer]**.
 
     ![](../assets/create_fallback.png)
 
@@ -44,10 +44,11 @@ To create a fallback offer, follow these steps:
 
 1. The fallback offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
 
-    It is now ready to be delivered to customers. You can select it to display its properties and edit it.
+    It is now ready to be delivered to customers. You can select it to display its properties and edit it. <!-- no suppression? -->
 
     ![](../assets/fallback_created.png)
 
 ## Tutorial video {#video}
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
