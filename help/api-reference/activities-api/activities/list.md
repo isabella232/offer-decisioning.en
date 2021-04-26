@@ -1,18 +1,18 @@
 ---
-keywords: Experience Platform;home;popular topics;offer decisioning;activities;list activities
+keywords: Experience Platform;home;popular topics;offer decisioning;decisions;list decisions
 solution: Experience Platform
 product: experience platform
-title: List activities
+title: List decisions
 topic: API guide
-description: An activity contains the logic that informs the selection of an offer.
+description: A decision contains the logic that informs the selection of an offer.
 feature: API
 role: Data Architect
 level: Experienced
 exl-id: 5d063d49-01a7-4c2f-b4f2-32b14139a8b3
 ---
-# List activities
+# List decisions
 
-An activity contains the logic that informs the selection of an offer.
+A decision (previously known as offer activity) contains the logic that informs the selection of an offer.
 
 You can view a list of all decisions within a container by performing a single GET request to the [!DNL Offer Library] API.
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the activities are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Defines the schema associated with activities. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | Defines the schema associated with decisions. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `{QUERY_PARAMS}` | Optional query parameters to filter results by. | `limit=2` |
 
 **Request**
@@ -55,11 +55,11 @@ The most common query parameters for paging include:
 | `qop` | Applies AND or OR operator to values in q query string param. | `AND` / `OR` |
 | `field` | Optional list of fields to limit the search to. This param can be repeated like so: field=field1[,field=field2,…] and (path expressions are in the form of dot separated paths such as _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sort results by a specific property. Adding a `-` before title (`orderby=-title`) will sort items by title in descending order (Z-A). | `-repo:createdDate` |
-| `limit` | Limit the number of activities returned. | `limit=5` |
+| `limit` | Limit the number of decisions returned. | `limit=5` |
 
 **Response**
 
-A successful response returns a list of activities that are present within the container you have access to.
+A successful response returns a list of decisions that are present within the container you have access to.
 
 ```json
 {

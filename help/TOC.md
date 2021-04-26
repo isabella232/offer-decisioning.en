@@ -33,7 +33,7 @@ level: Intermediate
     + [Create ranking formulas](offer-library/create-ranking-formulas.md)
 + Create and manage decisions {#create-manage-activities}
     + [Create decisions](offer-activities/create-offer-activities.md)
-    + [Configure offers selection in activities](offer-activities/configure-offer-selection.md)
+    + [Configure offers selection in decisions](offer-activities/configure-offer-selection.md)
 + Create Offer Decisioning reports {create-reports}
     + [Get started with Offer Decisioning events](reports/get-started-events.md)
     + [Offer Decisioning events key information](reports/key-information.md)
@@ -80,12 +80,12 @@ level: Intermediate
             + [Create a fallback offer](api-reference/offers-api/fallback-offers/create.md)
             + [Update a fallback offer](api-reference/offers-api/fallback-offers/update.md)
             + [Delete a fallback offer](api-reference/offers-api/fallback-offers/delete.md)
-    + Create and manage activities using APIs {#activities-api}
-        + [List activities](api-reference/activities-api/activities/list.md)
-        + [Lookup an activity](api-reference/activities-api/activities/lookup.md)
-        + [Create an activity](api-reference/activities-api/activities/create.md)
-        + [Update an activity](api-reference/activities-api/activities/update.md)
-        + [Delete an activity](api-reference/activities-api/activities/delete.md)
+    + Create and manage decisions using APIs {#activities-api}
+        + [List decisions](api-reference/activities-api/activities/list.md)
+        + [Lookup a decision](api-reference/activities-api/activities/lookup.md)
+        + [Create a decision](api-reference/activities-api/activities/create.md)
+        + [Update a decision](api-reference/activities-api/activities/update.md)
+        + [Delete a decision](api-reference/activities-api/activities/delete.md)
     + Offer Delivery {#offer-delivery}
         + [Decisions API](api-reference/decisions-api/deliver-offers.md)
         + [Adobe Experience Platform Web SDK](api-reference/web-sdk.md)

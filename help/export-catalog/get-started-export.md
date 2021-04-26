@@ -14,7 +14,7 @@ The export creates one dataset for each object of your Offer Library (see [Acces
 * Personalized offers
 * Fallback offers
 * Placements
-* decisions
+* decisions (previously known as offer activities)
 
 Each time one of these objects is modified in the Offer Library, a new export job is automatically executed to update the datasets.
 

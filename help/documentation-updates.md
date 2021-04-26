@@ -30,7 +30,7 @@ A new section has been added on how to automatically export your offer catalog t
 Information has been added on how to create ranking formulas and use them in decisions:
 
 * [Create ranking formulas](offer-library/create-ranking-formulas.md)
-* [Configure offers selection in activities](offer-activities/configure-offer-selection.md) 
+* [Configure offers selection in decisions](offer-activities/configure-offer-selection.md) 
 
 ## January 2021 {#january-2021}
 

@@ -18,11 +18,11 @@ exl-id: 80803cac-d33e-4693-bbd5-829e398861b5
 ---
 # Create decisions {#create-offer-activities}
 
-decisions are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
+Decisions (previously known as offer activity) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver, depending on the target of the delivery.
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of decisions is accessible in the **[!UICONTROL Activities]** menu. Filters are available to help you retrieve activities according to their status or start and end dates.
+The list of decisions is accessible in the **[!UICONTROL Activities]** menu. Filters are available to help you retrieve decisions according to their status or start and end dates.
 
 ![](../assets/activities-list.png)
 

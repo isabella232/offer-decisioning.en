@@ -10,7 +10,7 @@ exl-id: 66e7d8ae-826a-49dc-9034-9e9c700cdf21
 ---
 # User Interface {#user-interface}
 
-The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions.
+The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activity).
 
 It is accessible from Adobe Experience Platform **[!UICONTROL Decisioning]** menu.
 

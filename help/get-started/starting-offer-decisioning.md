@@ -40,7 +40,7 @@ It is created using the **Offer Library**, which provides a central offer catalo
 
 Once the Offer Library has been enriched with offers, you can integrate your offers into **decisions**.
 
-decisions are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
+Decisions (previously known as offer activity) are containers for your offers that will leverage the Offer Decision Engine in order to pick the best offer to deliver depending on the target of the delivery.
 
 ## Common use cases
 

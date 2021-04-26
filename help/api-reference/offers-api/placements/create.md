@@ -55,7 +55,7 @@ curl -X POST \
 
 **Response**
 
-A successful response returns the details of the newly created placement, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your placement. You can use your unique placement `@id` in later tutorials to create activities, decision rules, and fallback offers.
+A successful response returns the details of the newly created placement, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your placement. You can use your unique placement `@id` in later tutorials to create decisions (previously known as offer activity), decision rules, and fallback offers.
 
 ```json
 {

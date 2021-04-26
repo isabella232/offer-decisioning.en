@@ -58,7 +58,7 @@ curl -X POST \
 
 **Response**
 
-A successful response returns information on the newly created collection, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your collection. You can use your unique collection `@id` in a later tutorial to create an activity.
+A successful response returns information on the newly created collection, including its unique instance ID and placement `@id`. You can use the instance ID in later steps to update or delete your collection. You can use your unique collection `@id` in a later tutorial to create a decision (previously known as offer activity).
 
 ```json
 {

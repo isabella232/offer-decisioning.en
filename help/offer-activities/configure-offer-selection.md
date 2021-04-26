@@ -1,7 +1,7 @@
 ---
 product: experience platform
-title: Configure offers selection in activities
-description: Learn how to manage offers selection into activities.
+title: Configure offers selection in decisions
+description: Learn how to manage offers selection into decisions.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner:
@@ -16,7 +16,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 9ced0011-8000-4d87-b591-1587530acf73
 ---
-# Configure offers selection in activities {#offers-selection-in-activities}
+# Configure offers selection in decisions {#offers-selection-in-activities}
 
 ## About Offers priority {#about-offers-priority}
 
@@ -30,7 +30,7 @@ For more on how to create a ranking formula, refer to [this section](../offer-li
 
 ## Assign a ranking formula to a placement {#assign-ranking-formula}
 
-Once a ranking formula has been created, you can assign it to a placement in a decision. To do this, follow the steps below:
+Once a ranking formula has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this, follow the steps below:
 
 * Create a decision or edit an existing one, then create the placements that will contain your offers (see [Create decisions](../offer-activities/create-offer-activities.md)).
 
