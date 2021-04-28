@@ -116,7 +116,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:includeContent` | A boolean value that, if set to `true`, includes content to the response. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | An object that is used to specify what additional metadata is returned. If this property is not included, then `xdm:id` and `repo:etag` are returned by default. | `name` |
 | `xdm:responseFormat.xdm:activity` | This flag identifies the specific metadata information returned for `xdm:activity`. | `name` |
-| `xdm:responseFormat.xdm:option` | This flag identifies the specific metadata information returned for `xdm:option`. | `name`, `characteristics` |
+| `xdm:responseFormat.xdm:option` | This flag identifies the specific metadata information returned for `xdm:option`. | `name`, `characteristics`, `priority` |
 | `xdm:responseFormat.xdm:placement` | This flag identifies the specific metadata information returned for `xdm:placement`. | `name`, `channel`, `componentType` |
 
 **Response**
