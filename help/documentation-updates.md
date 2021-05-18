@@ -17,6 +17,8 @@ You can also consult the [!DNL Offer Decisioning] release notes [here](release-n
 
 A new section has been added on how to create Offer Decisioning reports in Adobe Experience Platform. [Read more](reports/get-started-events.md)
 
+The documentation has been updated to reflect the new navigation in Offer Decisioning functionalities.
+
 ## March 2021 {#march-2021}
 
 Information has been added on how to use a decision rule or a segment as a constraint in a decision. [Read more](offer-activities/create-offer-activities.md#add-decisions)

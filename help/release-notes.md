@@ -13,6 +13,25 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
+
+## April 2021 Release {#april2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>New navigation in Offer Decisioning</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The navigation in Offer Decisioning functionalities has been reorganized into two new menus: <b>Offers</b> and <b>Components</b>.</p>
+<p>Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the <b>Offers</b> menu / <b>Decisions</b> tab.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## March 2021 Release {#march-release}
 
 <table>
