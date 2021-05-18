@@ -10,37 +10,6 @@ exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
 # Create personalized offers {#creating-personalized-offers}
 
->[!CONTEXTUALHELP]
->id="od_offer_constraints"
->title="About offer constraints"
->abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
->additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
-
->[!CONTEXTUALHELP]
->id="od_offer_eligibility"
->title="About offer eligibility"
->abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
->additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html" text="Create decision rules"
->additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
-
->[!CONTEXTUALHELP]
->id="od_offer_priority"
->title="About offer priority"
->abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
->additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
-
->[!CONTEXTUALHELP]
->id="od_offer_globalcap"
->title="About offer capping"
->abstract="In this field, you can specify how many times the offer can be presented across all users."
->additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
-
->[!CONTEXTUALHELP]
->id="od_offer_attributes"
->title="About offer attributes"
->abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
->additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
-
 Before creating an offer, make sure that you created:
 
 * A **placement** in which the offer will be displayed. See [Create placements](../offer-library/creating-placements.md)
@@ -54,6 +23,12 @@ The list of personalized offers is accessible in the **[!UICONTROL Offers]** men
 ![](../assets/offers_list.png)
 
 ## Create the offer {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="About offer attributes"
+>abstract="With offer attributes, you can associate key value pairs with the offer for reporting and analysis purposes."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
 
 To create an **offer**, follow these steps:
 
@@ -110,6 +85,31 @@ To create an **offer**, follow these steps:
         ![](../assets/offer_text_content.png)
 
 ## Add eligibility rules and constraints {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="About offer constraints"
+>abstract="With constraints, you can specify how the offer is prioritized and presented to the user compared to other offers."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="About offer eligibility"
+>abstract="In this section, you can use decision rules to determine which users are eligible to the offer."
+>additional-url="https://experienceleague.adobe.com/docs/offer-decisioning/using/managing-offers-in-the-offer-library/creating-decision-rules.html" text="Create decision rules"
+>additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="About offer priority"
+>abstract="In this field, you can specify priority settings for the offer. Priority is a number used to rank offers that meet all constraints such as eligibility, dates, and capping."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="About offer capping"
+>abstract="In this field, you can specify how many times the offer can be presented across all users."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Watch demo video"
 
 Eligibility rules and constrains allow you to define the conditions under which an offer will be displayed.
 
