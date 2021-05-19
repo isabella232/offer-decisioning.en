@@ -11,6 +11,14 @@ exl-id: aebe1ea8-3402-4ecf-b316-b78d096b9b75
 
 ![](assets/do-not-localize/banneroffers.png) 
 
+## What's new
+
+* **New navigation in Offer Decisioning**
+
+  The navigation in Offer Decisioning has been reorganized into two new menus: **[!UICONTROL Offers]** and **[!UICONTROL Components]**. Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the **[!UICONTROL Offers]** menu, **[!UICONTROL Decisions]** tab.
+
+[More updates](documentation-updates.md)
+
 ## Get started
 
 * [What is [!DNL Offer Decisioning]?](get-started/starting-offer-decisioning.md)
@@ -24,10 +32,6 @@ exl-id: aebe1ea8-3402-4ecf-b316-b78d096b9b75
 * [Discover the Offer Library user interface](get-started/user-interface.md)
 
   <em>Learn how to access and navigate in the Offer Library</em>
-
-* [Key steps to create an offer](offer-library/key-steps.md)
-
-  <em>Discover the key steps to create an offer.</em>
 
 ## Additional Resources
  
