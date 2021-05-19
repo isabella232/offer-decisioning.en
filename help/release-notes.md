@@ -13,18 +13,37 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
-## March 2021 Release {#march-release}
+
+## April 2021 Release {#april2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Use a decision rule or a segment as a constraint in an offer activity</strong><br/></th>
+<th><strong>New navigation in Offer Decisioning</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>When creating an offer activity, you can now use a decision rule or a segment as a constraint to restrict the selection of the offers contained in a placement.</p>
+<p>The navigation in Offer Decisioning functionalities has been reorganized into two new menus: <b>Offers</b> and <b>Components</b>.</p>
+<p>Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the <b>Offers</b> menu / <b>Decisions</b> tab.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## March 2021 Release {#march-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Use a decision rule or a segment as a constraint in a decision</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When creating a decision, you can now use a decision rule or a segment as a constraint to restrict the selection of the offers contained in a placement.</p>
 <p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#add-decisions">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -64,7 +83,7 @@ Fixed an issue which prevented from specifying a **[!UICONTROL Public location]*
 <tbody>
 <tr>
 <td>
-<p>You can now create <strong>ranking formulas</strong> and assign them to offer activities. These are formulas that determine which offer should be selected first for a given placement in an offer activity, rather than taking into account the offers' priority scores.</p>
+<p>You can now create <strong>ranking formulas</strong> and assign them to decisions. These are formulas that determine which offer should be selected first for a given placement in a decision, rather than taking into account the offers' priority scores.</p>
 <p>For more information, refer to the <a href="offer-activities/configure-offer-selection.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -90,17 +109,17 @@ Fixed an issue which prevented from specifying a **[!UICONTROL Public location]*
 
 ## January 2021 Release {#january-release}
 
-Detailed information about an offer or an offer activity is now accessible by clicking its name in the list. [Read more](get-started/user-interface.md#information-pane-actions)
+Detailed information about an offer or a decision is now accessible by clicking its name in the list. [Read more](get-started/user-interface.md#information-pane-actions)
 
-You can now vizualise all the changes that have been made to an offer or an offer activity using the **[!UICONTROL Change log]** tab. [Read more](get-started/user-interface.md#changes-log)
+You can now vizualise all the changes that have been made to an offer or a decision using the **[!UICONTROL Change log]** tab. [Read more](get-started/user-interface.md#changes-log)
 
-The offers and offer activities lists now allow you to perform bulk actions on multiple elements. [Read more](get-started/user-interface.md#information-pane-actions)
+The offers and decisions lists now allow you to perform bulk actions on multiple elements. [Read more](get-started/user-interface.md#information-pane-actions)
 
 You can now browse and filter available placements when configuring personalized and fallback offers representations. [Read more](offer-library/creating-personalized-offers.md)
 
-You can now use the **[!UICONTROL Language]** drop-down list to select the language for an offer or offer activity's representation. [Read more](offer-library/creating-personalized-offers.md)
+You can now use the **[!UICONTROL Language]** drop-down list to select the language for an offer or decision's representation. [Read more](offer-library/creating-personalized-offers.md)
 
-You can now duplicate offers and offer activities to create copies with the "Draft" status. [Read more](get-started/user-interface.md#information-pane-actions)
+You can now duplicate offers and decisions to create copies with the "Draft" status. [Read more](get-started/user-interface.md#information-pane-actions)
 
 Fixed an issue which prevented filters from working when selecting the channel and content type for a representation.
 

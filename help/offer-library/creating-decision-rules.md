@@ -16,7 +16,7 @@ For example, you can specify that you only want a 'Women's Winter Clothing Offer
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of created decision rules is accessible in the **[!UICONTROL Rules]** tab.
+The list of created decision rules is accessible in the **[!UICONTROL Components]** menu.
 
 ![](../assets/decision_rules_list.png)
 
@@ -45,5 +45,6 @@ To create a decision rule, follow these steps:
     ![](../assets/rule_created.png)
 
 ## Tutorial video {#video}
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

@@ -43,19 +43,19 @@ To grant access to the [!DNL Offer Decisioning] service, follow these steps:
     **[!UICONTROL Manage Decisioning Activities]**:
     
     * Read, write, delete offers
-    * Read, write, delete activities
+    * Read, write, delete decisions (previously known as offer activities)
     * Read, write, delete placements
 
     **[!UICONTROL Execute Decisioning Activities]**:
     
     * Read offers
-    * Read activities
+    * Read decisions
     * Read placements
     
     **[!UICONTROL Manage Decisioning Options]**:
 
     * Read, write, delete offers
-    * Read activities
+    * Read decisions
     * Read, write, delete placements
 
 1. A summary of the product profile's permissions displays. You can now assign users to the product profile so that they access these permissions.

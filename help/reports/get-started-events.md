@@ -10,7 +10,7 @@ exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
 # Get started with Offer Decisioning events {#monitor-offer-events}
 
-Each time the Offer Decisioning Service makes a decision for a given profile, information related to these events are automatically sent to Adobe Experience Platform.
+Each time Offer Decisioning makes a decision for a given profile, information related to these events are automatically sent to Adobe Experience Platform.
 
 This allows you to export these data to analyze them into your own reporting system. You can also leverage Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html) in combination with other tools for enhanced analysis and reporting purposes.
 
@@ -18,7 +18,7 @@ The datasets containing Offer Decisioning events are accessible from Adobe Exper
 
 ![](../assets/events-datasets-list.png)
 
-These datasets are based on the **[!UICONTROL ODE DecisionEvents]** schema, which contains all the XDM fields that are required to send information from the Offer Decisioning Service to Adobe Experience Platform.  
+These datasets are based on the **[!UICONTROL ODE DecisionEvents]** schema, which contains all the XDM fields that are required to send information from Offer Decisioning to Adobe Experience Platform.  
 
 >[!NOTE]
 >

@@ -1,18 +1,18 @@
 ---
-keywords: Experience Platform;home;popular topics;offer decisioning;activities;list activities
+keywords: Experience Platform;home;popular topics;offer decisioning;decisions;list decisions
 solution: Experience Platform
 product: experience platform
-title: List activities
+title: List decisions
 topic: API guide
-description: An activity contains the logic that informs the selection of an offer.
+description: A decision contains the logic that informs the selection of an offer.
 feature: API
 role: Data Architect
 level: Experienced
 exl-id: 86057ff6-9a37-42cc-ae81-790755b68209
 ---
-# Look up an activity
+# Look up a decision
 
-You can look up specific activities by making a GET request to the [!DNL Offer Library] API that includes either the activities `@id` or the name of the activity in the request path.
+You can look up specific decisions (previously known as offer activities) by making a GET request to the [!DNL Offer Library] API that includes either the decisions `@id` or the name of the activity in the request path.
 
 **API format**
 
@@ -23,8 +23,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the activities are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Defines the schema associated with activities. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | Defines the schema associated with decisions. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | A string used to match the `@id` property of the entities. The string is matched exactly. The parameters `id` and `name` cannot be used together. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | A string used to match the xdm:name property of the entities. The string is matched exactly, with capitalization, but wild card characters can be used. The parameter "id" and "name" cannot be used together | `LBAR` |
 

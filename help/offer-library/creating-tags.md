@@ -16,7 +16,7 @@ Tags can also be used to group offers together into offer collections. See [Crea
 
 ![](../assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
-The list of created tags is accessible in the **[!UICONTROL Tags]** tab.
+The list of created tags is accessible in the **[!UICONTROL Components]** menu.
 
 ![](../assets/tags_list.png)
 
@@ -33,5 +33,6 @@ To create a tag, follow these steps:
     ![](../assets/tags_created.png)
 
 ## Tutorial video {#video}
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

@@ -13,19 +13,17 @@ exl-id: 175523ba-e0f1-40df-b72a-c3834802f7fa
 
 Here are the main concepts you will work with when using [!DNL Offer Decisioning]. 
 
-* **Activity** or **Offer Activity**: An Offer Activity contains the logic that informs the selection of an offer
-
 * **Capping** or **Frequency Capping**: Capping is used as a constraint to define how many times an offer is presented. There are two types of caps, how many times an offer can be proposed across the combined target audience, also known as "Total caps" and how many times an offer can be proposed to the same end user, also known as "Profile Cap".
 
 * **Collections**: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.
 
-* **Decision**: A decision is the logic that defines and controls the what, when, where, and how an offer is presented to end-users.
+* **Decision**: A decision (previously known as offer activity) contains the logic that informs the selection of an offer
 
 * **Decision Rule**: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 
 * **Eligible Offer**: An eligible offer meets the constraints defined upstream that can be consistently offered to a profile.
 
-* **[!DNL Offer Decisioning]** or **Offer Management**: [!DNL Offer Decisioning] is collection of services and UI that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
+* **[!DNL Offer Decisioning]**: [!DNL Offer Decisioning] is collection of services and UI that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
 
 * **Fallback Offers**: A fallback offer is the default offer displayed when an end-user is not eligible for any of the personalized offers in the collection.
 

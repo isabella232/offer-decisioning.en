@@ -1,18 +1,18 @@
 ---
-keywords: Experience Platform;home;popular topics;offer decisioning;activities;update activities
+keywords: Experience Platform;home;popular topics;offer decisioning;decisions;update decisions
 solution: Experience Platform
 product: experience platform
-title: Update activities
+title: Update decisions
 topic: API guide
-description: An activity contains the logic that informs the selection of an offer.
+description: A decision contains the logic that informs the selection of an offer.
 feature: API
 role: Data Architect
 level: Experienced
 exl-id: 371486be-fa92-48ef-a4c0-f02189f1d56d
 ---
-# Update an activity
+# Update a decision
 
-You can modify or update an activity in your container by making a PATCH request to the [!DNL Offer Library] API.
+You can modify or update a decision (previously known as offer activity) in your container by making a PATCH request to the [!DNL Offer Library] API.
 
 For more information on JSON Patch, including available operations, see the official [JSON Patch documentation](http://jsonpatch.com/).
 
@@ -34,7 +34,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the activities are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | The instance id of the activity. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Request**

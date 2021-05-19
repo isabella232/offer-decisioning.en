@@ -14,7 +14,7 @@ You can access the DecisioningEvents XDM schema directly from a dataset containi
 
 ![](../assets/access-schema.png)
 
-The schema contains all the fields that are required to send information from the Offer Decisioning Service to Adobe Experience Platform.
+The schema contains all the fields that are required to send information from Offer Decisioning to Adobe Experience Platform.
 
 To get more information on a specific field, select it to display an information pane with the field's properties.
 

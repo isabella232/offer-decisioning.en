@@ -1,18 +1,18 @@
 ---
-keywords: Experience Platform;home;popular topics;offer decisioning;activities;create activities
+keywords: Experience Platform;home;popular topics;offer decisioning;decisions;create decisions
 solution: Experience Platform
 product: experience platform
-title: Create activities
+title: Create decisions
 topic: API guide
-description: An activity contains the logic that informs the selection of an offer.
+description: A decision contains the logic that informs the selection of an offer.
 feature: API
 role: Data Architect
 level: Experienced
 exl-id: 9a4f568b-d33c-46a6-a614-80722465e0e8
 ---
-# Create an activity
+# Create a decision
 
-You can create an activity by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
+You can create a decision (previously known as offer activity) by making a POST request to the [!DNL Offer Library] API, while providing your container ID.
 
 ## Accept and Content-Type headers
 
@@ -32,7 +32,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parameter | Description | Example |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | The container where the activities are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | The container where the decisions are located. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Request**
 

@@ -18,13 +18,13 @@ In the example below, there are three placements, corresponding to different typ
 
 ![](../assets/offers_placement_schema.png)
 
-The list of placements is accessible in the **[!UICONTROL Placements]** tab. Filters are available to help you retrieve placements according to a specific channel or content.
+The list of placements is accessible in the **[!UICONTROL Components]** menu. Filters are available to help you retrieve placements according to a specific channel or content.
 
 ![](../assets/placements_filter.png)
 
 To create a placement, follow these steps:
 
-1. Go to the **[!UICONTROL Placements]** tab, then click **[!UICONTROL Create placement]**.
+1. Click **[!UICONTROL Create placement]**.
 
     ![](../assets/offers_placement_creation.png)
 
@@ -44,5 +44,6 @@ To create a placement, follow these steps:
     ![](../assets/placement_created.png)
 
 ## Tutorial video {#video}
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
