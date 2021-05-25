@@ -49,9 +49,7 @@ To create a ranking strategy, follow the steps below:
         >You can select all metric types if needed.
 
         There are two types of optimization metrics:
-
         * **[!UICONTROL Impression]**: Currently impression events correspond to all offers that are displayed.
-
         * **[!UICONTROL Conversion]**: Conversion events correspond to all offers that result in clicks via email or web.
 
         All selected impression events and/or conversion events will be automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
