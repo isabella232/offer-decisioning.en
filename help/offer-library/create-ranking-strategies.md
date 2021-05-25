@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 ---
-# Create ranking strategies {#create-ranking-strategies}
+# AI rankings {#ai-rankings}
 
-## About AI ranking
+## Get started with AI rankings
 
 >[!NOTE]
 >
@@ -52,19 +52,21 @@ To create a ranking strategy, follow the steps below:
         >
         >You can select all the options above.
 
-    * **[!UICONTROL Dataset ID]**: You also need to provide a dataset where conversion events are collected. Select the dataset from the drop-down list. This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.
+    * **[!UICONTROL Dataset ID]**: You also need to provide a dataset where conversion events are collected. Select the dataset from the drop-down list. This dataset must be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.
 
     ![](../assets/ai-ranking-dataset-id.png)
     
-    >[!NOTE]
+    >[!CAUTION]
     >
     >Only the datasets created from schemas associated with the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) are displayed in the drop-down list. Learn how to create this dataset in [this section](#create-dataset).
 
 1. Save and activate the ranking strategy.
 
-## Creating a dataset to collect events {#create-dataset}
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).<!--TBC?-->
 
-First you need to create a schema:
+## Create a dataset to collect events {#create-dataset}
+
+You need to create a dataset where events will be collected. Start by creating the schema that will be used in your dataset:
 
 1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create schema]**.
 
@@ -74,19 +76,33 @@ First you need to create a schema:
 
     ![](../assets/ai-ranking-xdm-event.png)
 
-    For more on XDM schemas and fields groups, see the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en).
+    >[!NOTE]
+    >
+    >    For more on XDM schemas and fields groups, see the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en).
 
-1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin).
+
+1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select **[!UICONTROL Experience Event - Proposition Interactions]** field group.
 
     ![](../assets/ai-ranking-proposition-interactions.png)
 
-1. Click Add field groups.
+    >[!CAUTION]
+    >
+    >    The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) associated with it. Otherwise you will not be able to use it in your ranking strategy.
+
+1. Click **[!UICONTROL Add field groups]**.
 
     ![](../assets/ai-ranking-add-field-group.png)
 
+    >[!NOTE]
+    >Field group was previously known as mixin.
+    >    
+
+
 1. Type a name and save the schema.<!--How do you edit the fields in this new schema? Examples?-->
 
-    Learn more on building schemas in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>[!NOTE]
+>
+>    Learn more on building schemas in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
 
 You're now ready to create a dataset using this schema. To do this, follow the steps below:
 
@@ -99,14 +115,20 @@ You're now ready to create a dataset using this schema. To do this, follow the s
     ![](../assets/ai-ranking-create-dataset-from-schema.png)
     
 1. Select the schema you just created from the list.
+
+    ![](../assets/ai-ranking-dataset-select-schema.png)
+
 1. Click **[!UICONTROL Next]**.
-1. Give a unique name to the Dataset in the **[!UICONTROL Name]** field and click **[!UICONTROL Finish]**.
+
+1. Provide a unique name for the dataset in the **[!UICONTROL Name]** field and click **[!UICONTROL Finish]**.
+
+    ![](../assets/ai-ranking-dataset-name.png)
 
 ## Using a ranking strategy {#using-ranking}
 
-To use the ranking strategy you created:
+To use the ranking strategy you created above, follow the steps below:
 
-Once a ranking formula has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 1. Create a decision.
 1. Add a placement.
@@ -117,5 +139,5 @@ Once a ranking formula has been created, you can assign it to a placement in a d
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to xxx (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).<!--TBC?-->
 
