@@ -124,7 +124,7 @@ You're now ready to create a dataset using this schema. To do this, follow the s
 
     ![](../assets/ai-ranking-dataset-name.png)
 
-## Using a ranking strategy {#using-ranking}
+<!--## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
@@ -139,5 +139,5 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).<!--TBC?-->
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
 
