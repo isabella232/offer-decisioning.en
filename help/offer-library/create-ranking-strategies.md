@@ -47,9 +47,9 @@ To create a ranking strategy, follow the steps below:
         >[!NOTE]
         >
         >You can select all metric types if needed.
-    
+
         There are two types of optimization metrics:
-	
+
         * **[!UICONTROL Impression]**: Currently impression events correspond to all offers that are displayed.
 
         * **[!UICONTROL Conversion]**: Conversion events correspond to all offers that result in clicks via email or web.
