@@ -25,8 +25,7 @@ You can also consult the latest documentation updates [here](documentation-updat
 <tbody>
 <tr>
 <td>
-<p>The navigation in Offer Decisioning functionalities has been reorganized into two new menus: <b>Offers</b> and <b>Components</b>.</p>
-<p>Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the <b>Offers</b> menu / <b>Decisions</b> tab.</p>
+<p>The navigation in Offer Decisioning functionalities has been reorganized into two new menus: <b>Offers</b> and <b>Components</b>. Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the <b>Offers</b> menu, <b>Decisions</b> tab.</p>
 </td>
 </tr>
 </tbody>
