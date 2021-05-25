@@ -12,9 +12,13 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 
 ## Get started with AI rankings
 
+Offer Decisioning allows you to use an trained model system that ranks offers to display for a given profile.<!--It has access to the Profile, Context and Offer data and returns the list of Offer IDs ranked for the given profile.--> It calls the selected model type passing in a list of offers, each with attributes, to get a ranking back comparing those models.
+
 >[!NOTE]
 >
 >This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.
+
+Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 ## Create a ranking strategy {#create-ranking-strategy}
 
@@ -38,29 +42,31 @@ To create a ranking strategy, follow the steps below:
 
     * **[!UICONTROL Optimization metric]**:
     
-        This option enables marketers to choose how machine learn model should be built and trained: based on offers displayed, offers clicked in email, and/or offers clicked on the web.<!--You can choose all of them.-->
-    
-        All selected impression and/or conversion events (offer clicks via email or web) will be captured using the Web SDK or the Mobile SDK that has been provided.
-
-        There are two types of optimization metrics:
-	
-        * **[!UICONTROL Impression]**: All impression events (in this case, all offers that are displayed) will be automatically captured by the Web SDK or the Mobile SDK.
-
-        * **[!UICONTROL Conversion]**: Offer clicks are auto-tracked by the Web SDK.
+        This option enables marketers to choose how the machine-learn model should be built and trained: based on offers displayed, offers clicked in email, and/or offers clicked on the web.
 
         >[!NOTE]
         >
-        >You can select all the options above.
+        >You can select all metric types if needed.
+    
+        There are two types of optimization metrics:
+	
+        * **[!UICONTROL Impression]**: Currently impression events correspond to all offers that are displayed.
 
-    * **[!UICONTROL Dataset ID]**: You also need to provide a dataset where conversion events are collected. Select the dataset from the drop-down list. This dataset must be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.
+        * **[!UICONTROL Conversion]**: Conversion events correspond to all offers that result in clicks via email or web.
+
+        All selected impression events and/or conversion events will be automatically captured using the Web SDK or the Mobile SDK that has been provided. Learn more on this in [Adobe Experience Platform Web SDK overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+
+    * **[!UICONTROL Dataset ID]**: For conversion, you need to provide a dataset where events are collected by selecting it from the drop-down list. Learn how to create such dataset in [this section](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
     ![](../assets/ai-ranking-dataset-id.png)
     
     >[!CAUTION]
     >
-    >Only the datasets created from schemas associated with the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) are displayed in the drop-down list. Learn how to create this dataset in [this section](#create-dataset).
+    >Only the datasets created from schemas associated with the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) are displayed in the drop-down list.
 
 1. Save and activate the ranking strategy.
+
+    ![](../assets/ai-ranking-save-activate.png)
 
 It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).<!--TBC?-->
 
@@ -78,16 +84,16 @@ You need to create a dataset where events will be collected. Start by creating t
 
     >[!NOTE]
     >
-    >    For more on XDM schemas and fields groups, see the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en).
+    >    Learn more on XDM schemas and fields groups in the [XDM System overview documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en).
 
 
-1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select **[!UICONTROL Experience Event - Proposition Interactions]** field group.
+1. In the **[!UICONTROL Search]** field, type "proposition interaction" and select the **[!UICONTROL Experience Event - Proposition Interactions]** field group.
 
     ![](../assets/ai-ranking-proposition-interactions.png)
 
     >[!CAUTION]
     >
-    >    The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group (previously known as mixin) associated with it. Otherwise you will not be able to use it in your ranking strategy.
+    >    The schema that will be used in your dataset must have the **[!UICONTROL Experience Event - Proposition Interactions]** field group associated with it. Otherwise you will not be able to use it in your ranking strategy.
 
 1. Click **[!UICONTROL Add field groups]**.
 
@@ -123,6 +129,8 @@ You're now ready to create a dataset using this schema. To do this, follow the s
 1. Provide a unique name for the dataset in the **[!UICONTROL Name]** field and click **[!UICONTROL Finish]**.
 
     ![](../assets/ai-ranking-dataset-name.png)
+
+The dataset is now ready to be selected to collect conversion events when [creating a ranking strategy](#create-ranking-strategy).
 
 <!--## Using a ranking strategy {#using-ranking}
 
