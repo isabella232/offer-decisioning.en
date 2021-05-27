@@ -41,6 +41,10 @@ level: Intermediate
 + Export your offer catalog {#export-catalog}
     + [Get started with offer catalog export ](export-catalog/get-started-export.md)
     + [Access the exported offer catalog](export-catalog/access-dataset.md)
+    + [Personalized offers dataset](export-catalog/export-offers.md)
+    + [Decisions dataset](export-catalog/export-decisions.md)
+    + [Placements dataset](export-catalog/export-placements.md)
+    + [Fallback dataset](export-catalog/export-fallback.md)
 + API Reference {#api-reference}
     + [Getting started](api-reference/getting-started.md)
     + Create and manage offers using APIs {#offers-api}
