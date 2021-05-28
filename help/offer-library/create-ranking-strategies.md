@@ -66,11 +66,11 @@ To create a ranking strategy, follow the steps below:
 
     ![](../assets/ai-ranking-save-activate.png)
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).<!--TBC?-->
+It is now ready to be used in a decision to rank eligible offers for a placement. Learn more in [this section](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
 ## Create a dataset to collect events {#create-dataset}
 
-You need to create a dataset where events will be collected. Start by creating the schema that will be used in your dataset:
+You need to create a dataset where conversion events will be collected. Start by creating the schema that will be used in your dataset:
 
 1. From the **[!UICONTROL Data Management]** menu, select **[!UICONTROL Schema]**, go to the **[!UICONTROL Browse]** tab and click **[!UICONTROL Create schema]**.
 
