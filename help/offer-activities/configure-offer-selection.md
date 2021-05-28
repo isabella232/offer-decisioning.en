@@ -32,25 +32,32 @@ You can also use an trained model system that automatically ranks offers to disp
 
 Once a ranking formula has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this, follow the steps below:
 
-* Create a decision or edit an existing one, then create the placements that will contain your offers (see [Create decisions](../offer-activities/create-offer-activities.md)).
+1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
 
-* For each placement, select **[!UICONTROL Ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
+1. Add the placements that will contain your offers. See [Create placements](../offer-library/creating-placements.md).
+
+1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
+
+1. Choose to rank offers by **[!UICONTROL Ranking]** from the drop-down list, then click **[!UICONTROL Add ranking]**.
 
     ![](../assets/offer-activity-ranking.png)
 
-* Select the desired ranking formula, then click **[!UICONTROL Select]**.
+1. Select the desired ranking formula, then click **[!UICONTROL Select]**.
 
     ![](../assets/ranking-selection.png)
 
 The ranking formula is now associated to the placement. If mutiple offers are eligible to be presented in this placement, the decision will use the ranking formula's formula to calculate which offer to deliver first.
 
-## Use a ranking strategy {#use-ranking}
+## Use a ranking strategy {#use-ranking-strategy}
 
 Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
+
 1. Add the placements that will contain your offers. See [Create placements](../offer-library/creating-placements.md).
+
 1. For each placement, add a collection. See [Create collections](../offer-library/creating-collections.md).
+
 1. Choose to rank offers by **[!UICONTROL AI ranking]** from the drop-down list.
 
     ![](../assets/ranking-selection-ai-ranking.png)
@@ -65,4 +72,6 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 1. Click **[!UICONTROL Select]**. The ranking strategy is now associated with the placement.
 
-<!--1. Click **[!UICONTROL Next]** to confirm and save your decision.-->
+<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
+
+<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->
