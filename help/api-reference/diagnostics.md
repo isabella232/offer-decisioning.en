@@ -28,7 +28,7 @@ You can retrieve the diagnostic information of a container by making a GET reque
 GET /{CONTAINER_ID}/diagnostics
 ```
 
-| Parameter | Description
+| Parameter | Description |
 | --- | --- |
 | `{CONTAINER_ID}` | The ID of the container you want to inspect. |
 
