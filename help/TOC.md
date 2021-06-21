@@ -47,6 +47,7 @@ level: Intermediate
     + [Fallback dataset](export-catalog/export-fallback.md)
 + API Reference {#api-reference}
     + [Getting started](api-reference/getting-started.md)
+    + [Diagnostics](api-reference/diagnostics.md)
     + Create and manage offers using APIs {#offers-api}
         + Placements {#placements}
             + [List placements](api-reference/offers-api/placements/list.md)
