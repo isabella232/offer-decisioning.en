@@ -14,6 +14,48 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
 
+## June 2021 Release {#june2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI ranking</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+Offer Decisioning allows you to use an trained model system that ranks offers to display for a given profile. This feature enables you to create different <b>ranking strategies</b> based on your business goals. Using these different goal-based strategies in a decision (formerly known as offer activity), the trained model system will help you understand how the different ranking strategies are impacting your goals. </p>
+<p>This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.</p>
+<p>For more information, refer to the <a href="offer-library/create-ranking-strategies.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision scope renaming</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisions inside decisions (formerly known as offer activities) have been renamed to "decision scopes".</p>
+<p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#add-decisions">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-->
+### Other improvements
+
+Fixed an issue that prevented assets from being uploaded and therefore published, which was the cause of broken preview in the Email Designer. (rather AJO?)
+-->
+
 ## April 2021 Release {#april2021-release}
 
 <table>
