@@ -22,18 +22,18 @@ This developer guide provides steps to help you start using the [!DNL Offer Libr
 
 This guide requires a working understanding of the following components of Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html): The standardized framework by which [!DNL Experience Platform] organizes customer experience data.
-    * [Basics of schema composition](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html): Learn about the basic building blocks of XDM schemas.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en): The standardized framework by which [!DNL Experience Platform] organizes customer experience data.
+    * [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en): Learn about the basic building blocks of XDM schemas.
 * [[!DNL Offer Decisioning]](../offer-decisioning-home.md): Explains the concepts and components used for Experience Decisioning in general and Offer decisioning in particular. Illustrates the strategies used for choosing the best option to present during a customer's experience.
-* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/en/experience-platform/segmentation/pql/overview.html): PQL is a powerful language to write expressions over XDM instances. PQL is used to define decision rules.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=en): PQL is a powerful language to write expressions over XDM instances. PQL is used to define decision rules.
 
 ## Reading sample API calls
 
-This guide provides example API calls to demonstrate how to format your requests. These include paths, required headers, and properly formatted request payloads. Sample JSON returned in API responses is also provided. For information on the conventions used in documentation for sample API calls, see the section on [how to read example API calls](https://docs.adobe.com/content/help/en/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) in the [!DNL Experience Platform] troubleshooting guide.
+This guide provides example API calls to demonstrate how to format your requests. These include paths, required headers, and properly formatted request payloads. Sample JSON returned in API responses is also provided. For information on the conventions used in documentation for sample API calls, see the section on [how to read example API calls](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=en) in the [!DNL Experience Platform] troubleshooting guide.
 
 ## Gather values for required headers
 
-In order to make calls to [!DNL Platform] APIs, you must first complete the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html). Completing the authentication tutorial provides the values for each of the required headers in all [!DNL Experience Platform] API calls, as shown below:
+In order to make calls to [!DNL Platform] APIs, you must first complete the [authentication tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=en). Completing the authentication tutorial provides the values for each of the required headers in all [!DNL Experience Platform] API calls, as shown below:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -49,7 +49,7 @@ A container is an isolation mechanism to keep different concerns apart. The cont
 
 An administrator can group similar principals, resources, and access permissions into profiles. This reduces the management burden and is supported by [Adobe Admin Console](https://adminconsole.adobe.com/). You must be a product administrator for Adobe Experience Platform in your organization to create profiles and assign users to them. It is sufficient to create product profiles that match certain permissions in a one-time step and then simply add users to those profiles. Profiles act as groups that have been granted permissions and every real user or technical user in that group inherits those permissions.
 
-Given administrator privileges, you can grant or withdraw permissions to users through the [Adobe Admin Console](https://adminconsole.adobe.com/). For more information, see the [Access control overview](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html).
+Given administrator privileges, you can grant or withdraw permissions to users through the [Adobe Admin Console](https://adminconsole.adobe.com/). For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en).
 
 ### List containers accessible to users and integrations
 
