@@ -58,7 +58,7 @@ A container with updates or activities returns the following response, including
 }
 ```
 
-A brand new container for which no artifacts have been generated yets returns the following response:
+A brand new container for which no artifacts have been generated yet returns the following response:
 
 ```json
 {
