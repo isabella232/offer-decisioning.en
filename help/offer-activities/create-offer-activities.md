@@ -41,7 +41,7 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activities-name.png)
 
-## Add decisions {#add-decisions}
+## Select offers {#add-offers}
 
 1. Drag and drop a placement from the list to add it to the decision, then click **[!UICONTROL Add collection]**.
 

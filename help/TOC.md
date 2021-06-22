@@ -22,15 +22,17 @@ level: Intermediate
     + [User interface](get-started/user-interface.md)
     + [Glossary](get-started/glossary.md)
     + [Grant access to [!DNL Offer Decisioning]](get-started/granting-access-to-offer-decisioning.md)
-+ Create and manage offers {#managing-offers-in-the-offer-library}
-    + [Key steps to create an offer](offer-library/key-steps.md)
+    + [Key steps to create and manage offers](offer-library/key-steps.md)
++ Create components {#create-components}
     + [Create placements](offer-library/creating-placements.md)
     + [Create decision rules](offer-library/creating-decision-rules.md)
     + [Create tags](offer-library/creating-tags.md)
+    + [Create ranking formulas](offer-library/create-ranking-formulas.md)
++ Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](offer-library/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/creating-fallback-offers.md)
     + [Create collections](offer-library/creating-collections.md)
-    + [Create ranking formulas](offer-library/create-ranking-formulas.md)
+
 + Create and manage decisions {#create-manage-activities}
     + [Create decisions](offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](offer-activities/configure-offer-selection.md)
