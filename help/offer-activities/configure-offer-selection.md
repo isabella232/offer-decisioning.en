@@ -18,7 +18,7 @@ exl-id: 9ced0011-8000-4d87-b591-1587530acf73
 ---
 # Configure offers selection in decisions {#offers-selection-in-activities}
 
-If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile. When configuring a decision (previously known as offer activity), you can rank offers by:
+If several offers are eligible for a given placement, you can choose the method that will select the best offer for each profile when configuring a decision (previously known as offer activity). You can rank offers by:
 * Offer priority
 * Ranking formula
 * AI ranking
