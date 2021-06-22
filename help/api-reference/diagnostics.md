@@ -45,7 +45,7 @@ curl -X GET \
 
 **Response**
 
-A container with updates or activities returns the following response, including a timestamp value for a package update:
+A container for which a decisioning package has been created without issues returns the following response, including a timestamp and an empty list of errors:
 
 ```json
 {
