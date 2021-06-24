@@ -31,7 +31,7 @@ Before creating a decision, make sure that the components below have been create
 * [Placements](../offer-library/creating-placements.md)
 * [Collections](../offer-library/creating-collections.md)
 * [Personalized offers](../offer-library/creating-personalized-offers.md)
-* [Fallback offers](../offer-library/creating-fallback-offers.md)
+* [Fallback offer](../offer-library/creating-fallback-offers.md)
 
 ## Create the decision {#create-activity}
 
@@ -57,7 +57,7 @@ Before creating a decision, make sure that the components below have been create
 
 1. By default, if multiple offers are eligible for this placement, the offers with the highest priority score will be delivered to the customer.
 
-    If you want to use a specific formula to choose which eligible offer to deliver, select a ranking formula from the **[!UICONTROL Rank offers by]** drop-down list. For more on this, refer to [this section](../offer-activities/configure-offer-selection.md).
+    If you want to use a specific formula or a ranking strategy to choose which eligible offer to deliver, select it from the **[!UICONTROL Rank offers by]** drop-down list. For more on offer ranking methods, refer to [this section](../offer-activities/configure-offer-selection.md).
 
 1. The **[!UICONTROL Constraint]** field restricts the selection of offers for this placement. This constraint can be applied by using a decision rule or one or several Adobe Experience Platform segments.
 
