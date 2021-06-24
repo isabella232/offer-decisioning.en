@@ -15,11 +15,9 @@ You can also consult the [!DNL Offer Decisioning] release notes [here](release-n
 
 ## June 2021 {#june-2021}
 
-Decisions inside decisions (formerly known as offer activities) have been renamed to "decision scopes".
-
 Information has been added on how to create ranking strategies and use them in decisions:
 
-* [Create ranking formulas](offer-library/create-ranking-strategies.md)
+* [Create ranking formulas](offer-library/create-ranking-formulas.md)
 * [Configure offers selection in decisions](offer-activities/configure-offer-selection.md) 
 
 ## May 2021 {#may-2021}
