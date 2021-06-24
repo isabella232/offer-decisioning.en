@@ -66,12 +66,6 @@ AI ranking allows you to create different ranking strategies (based on your busi
 </tbody>
 </table>
 
-<!-->
-### Other improvements
-
-Fixed an issue that prevented assets from being uploaded and therefore published, which was the cause of broken preview in the Email Designer. (rather AJO?)
--->
-
 ## April 2021 Release {#april2021-release}
 
 <table>
