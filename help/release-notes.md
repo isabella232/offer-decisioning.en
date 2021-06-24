@@ -14,6 +14,58 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
 
+## June 2021 Release {#june2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI ranking</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+AI ranking allows you to create different ranking strategies (based on your business goals) that will be used by a trained model system to rank the eligible offers to display for a given profile.</p>
+<p>This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.</p>
+<p>For more information, refer to the <a href="offer-library/create-ranking-formulas.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Asset publication</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When configuring an offer's representations, if you add content from the Adobe Experience Cloud Assets library, the asset is now published in the offer creation flow. This prevents broken images when the offer is added to an email.</p>
+<p>For more information, refer to the <a href="offer-library/creating-personalized-offers.md#representations">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Decision scope renaming</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When creating a new decision (previously known as offer activity), the first steps consisting in adding placements to build the offer decision have been renamed as "decision scopes".</p>
+<p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#add-decision-scopes">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April 2021 Release {#april2021-release}
 
 <table>
