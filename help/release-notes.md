@@ -28,7 +28,7 @@ You can also consult the latest documentation updates [here](documentation-updat
 <p>
 AI ranking allows you to create different ranking strategies (based on your business goals) that will be used by a trained model system to rank the eligible offers to display for a given profile.</p>
 <p>This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.</p>
-<p>For more information, refer to the <a href="offer-library/create-ranking-formulas.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="offer-library/create-ranking-strategies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
