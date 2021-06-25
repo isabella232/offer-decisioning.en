@@ -89,7 +89,7 @@ You can also save the decision as draft, in order to edit and activate it later 
 
 ![](../assets/save-activities.png)
 
-The decision displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you activated it or not in the previous step. 
+The decision displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on whether you activated it or not in the previous step. 
 
 It is now ready to be used to deliver offers to customers. You can select it to display its properties and edit or suppress it.
 

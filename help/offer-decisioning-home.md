@@ -36,5 +36,5 @@ exl-id: aebe1ea8-3402-4ecf-b316-b78d096b9b75
 ## Additional Resources
  
 * [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
-* [Real-time Customer Profile documentation](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Experience Cloud XDM field definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Real-time Customer Profile documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
+* [Experience Cloud XDM field definition](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en)

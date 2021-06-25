@@ -125,7 +125,7 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
     ![](../assets/offer_rule.png)
 
-1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The highest an offer's priority will be, the highest its priority will be compared to other offers
+1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers
 
 1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total across all users. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
 
@@ -151,7 +151,7 @@ You can also save the offer as a draft, in order to edit and approve it later on
 
 ![](../assets/offer_review.png)
 
-The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on wether you approved it or not in the previous step.
+The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on whether you approved it or not in the previous step.
 
 It is now ready to be delivered to users. You can select it to display its properties and edit or suppress it.
 
