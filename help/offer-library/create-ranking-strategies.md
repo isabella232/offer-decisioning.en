@@ -14,16 +14,15 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 
 Offer Decisioning allows you to use an trained model system that ranks offers to display for a given profile.
 
-This feature enables you to create different **ranking strategies** based on your business goals. Using these different goal-based strategies in a decision (formerly known as offer activity), the trained model system will help you understand how the different ranking strategies are impacting your goals.
-
-For example, you can select a ranking strategy for the email channel and another one for the push channel. For each channel, the trained model system will leverage profile attributes, context data and offer attributes to determine which offer should be presented first for a given placement, rather than taking into account the offers’ priority scores or a [ranking formula](create-ranking-formulas.md).
-
-<!--It has access to the Profile, Context and Offer data and returns the list of Offer IDs ranked for the given profile.
-It calls the selected model type passing in a list of offers, each with attributes, to get a ranking back comparing those models.-->
-
 >[!NOTE]
 >
->This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.
+>The use of AI ranking in Offer Decisioning is currently available in early access to select users only.
+
+This feature enables you to create different **ranking strategies** based on your business goals. Using these different goal-based strategies in a decision (formerly known as offer activity), the trained model system will help you understand how the different ranking strategies are impacting your goals.
+
+For example, you can select a ranking strategy for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given placement, rather than taking into account the offers’ priority scores or a [ranking formula](create-ranking-formulas.md).
+
+<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
 Once a ranking strategy has been created, assign it to a placement in a decision. Learn more in [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 

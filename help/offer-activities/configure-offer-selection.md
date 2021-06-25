@@ -63,6 +63,10 @@ If mutiple offers are eligible to be presented in this placement, the decision w
 
 You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
 
+>[!NOTE]
+>
+>The use of AI ranking in Offer Decisioning is currently available in early access to select users only.
+
 Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). To do this this, follow the steps below:
 
 1. Create a decision or edit an existing one. See [Create decisions](../offer-activities/create-offer-activities.md).
