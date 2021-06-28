@@ -66,6 +66,24 @@ AI ranking allows you to create different ranking strategies (based on your busi
 </tbody>
 </table>
 
+## May 2021 Release {#may2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Placement selection in a decision</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The same placement can now be selected multiple times in a decision (previously known as offer activity).</p>
+<p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#add-decision-scopes">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## April 2021 Release {#april2021-release}
 
 <table>
@@ -77,7 +95,7 @@ AI ranking allows you to create different ranking strategies (based on your busi
 <tbody>
 <tr>
 <td>
-<p>The navigation in Offer Decisioning functionalities has been reorganized into two new menus: <b>Offers</b> and <b>Components</b>. Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the <b>Offers</b> menu, <b>Decisions</b> tab.</p>
+<p>The navigation in Offer Decisioning functionalities has been reorganized into two new menus: <b>Offers</b> and <b>Components</b>. Additionally, "Offer activities" have been renamed to "Decisions". You can now access them in the <b>Offers</b> menu > <b>Decisions</b> tab.</p>
 </td>
 </tr>
 </tbody>

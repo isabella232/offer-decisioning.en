@@ -47,6 +47,11 @@ Before creating a decision, make sure that the components below have been create
 
     ![](../assets/activities-placement.png)
 
+    >[!NOTE]
+    >
+    >The same placement can be selected multiple times in the decision.
+
+
 1. Select the collection that contains the offers to consider, then click **[!UICONTROL Add]**.
 
     ![](../assets/activities-collection.png)
