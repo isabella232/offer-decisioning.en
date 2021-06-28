@@ -28,11 +28,11 @@ level: Intermediate
     + [Create decision rules](offer-library/creating-decision-rules.md)
     + [Create tags](offer-library/creating-tags.md)
     + [Create ranking formulas](offer-library/create-ranking-formulas.md)
+    + [Create ranking strategies](offer-library/create-ranking-strategies.md)
 + Create and manage offers {#managing-offers-in-the-offer-library}
     + [Create personalized offers](offer-library/creating-personalized-offers.md)
     + [Create fallback offers](offer-library/creating-fallback-offers.md)
     + [Create collections](offer-library/creating-collections.md)
-
 + Create and manage decisions {#create-manage-activities}
     + [Create decisions](offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](offer-activities/configure-offer-selection.md)
