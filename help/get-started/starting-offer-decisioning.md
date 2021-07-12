@@ -3,7 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Get started with Offer Decisioning
 description: Get started with the [!DNL Offer Decisioning] application service. Learn more about its architecture, offers and offer activites, as well as common use cases it allows you to perform.
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0e5759e5-7c95-4965-a84b-90f5e02df008
 ---

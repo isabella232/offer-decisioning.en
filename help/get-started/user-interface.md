@@ -4,7 +4,7 @@ solution: Experience Platform
 title: User interface
 description: Learn more about the Offer Library User Interface.
 feature: Collections
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 66e7d8ae-826a-49dc-9034-9e9c700cdf21
 ---

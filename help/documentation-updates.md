@@ -3,7 +3,7 @@ product: experience platform
 solution: Offer Decisioning
 title: Documentation updates
 description: Learn about the latest documentation updates for Offer Decisioning.
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e6f856aa-f755-4ab0-9f53-e53f19c1fbe8
 ---

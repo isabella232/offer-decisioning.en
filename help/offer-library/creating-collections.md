@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Create collections
 description: Learn how to organize offers using collections.
 feature: Collections
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7e46024d-2453-46c3-bd16-a63ce1d95589
 ---

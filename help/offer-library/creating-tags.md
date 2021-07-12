@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Create tags
 description: Learn how to create offers in Adobe Experience Platform.
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b106874b-f54f-4268-b1fe-388e0b3a42c8
 ---

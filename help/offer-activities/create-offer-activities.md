@@ -12,7 +12,7 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 internal: n
 snippet: y
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 80803cac-d33e-4693-bbd5-829e398861b5
 ---

@@ -5,7 +5,7 @@ title: Glossary
 description: Glossary for Offers
 
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 175523ba-e0f1-40df-b72a-c3834802f7fa
 ---

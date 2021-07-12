@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Access events XDM fields
 description: Learn more about the DecisioningEvents XDM schema.
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---

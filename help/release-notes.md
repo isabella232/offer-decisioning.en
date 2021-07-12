@@ -3,7 +3,7 @@ keywords: Offer Decisioning;release notes;popular topics
 product: experience platform
 title: Release notes
 description: Learn about the new features and improvements for Offer Decisioning.
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 25079153-87f9-4535-b03f-d8977925a0a6
 ---

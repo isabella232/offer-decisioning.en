@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Offer Decisioning events key information
 description: Learn more about the key information sent with each Offer Decisioning event.
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---

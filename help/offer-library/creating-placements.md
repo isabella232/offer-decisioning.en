@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Create placements
 description: Learn how to create placements in Adobe Experience Platform.
 feature: Placements
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: aef8f7ba-5205-46c6-8f67-88b6e29faba4
 ---

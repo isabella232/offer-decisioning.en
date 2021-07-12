@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Get started with Offer Decisioning events
 description: Learn how to create Offer Decisioning reports in Adobe Experience Platform.
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---

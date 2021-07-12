@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Grant access to Offer Decisioning
 description: Learn how to manage users' permissions for the Offers Decisioning service via Adobe Admin Console.
 feature: Collections
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2a2fece9-1ad5-498e-b0ee-5bb0b73a2cd5
 ---

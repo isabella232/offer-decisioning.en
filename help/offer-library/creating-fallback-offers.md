@@ -4,7 +4,7 @@ solution: Experience Platform
 title: Create fallback offers
 description: Learn how to create offers in Adobe Experience Platform.
 feature: Activities
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f7ef6f2f-fd44-4711-ac47-adf9eb5b723a
 ---
