@@ -14,7 +14,7 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
 
-## June 2021 Release {#june2021-release}
+## July 2021 Release {#july2021-release}
 
 <table>
 <thead>
@@ -49,6 +49,8 @@ New actions are now possible from the decision list: you can edit, activate or d
 </tr>
 </tbody>
 </table>
+
+## June 2021 Release {#june2021-release}
 
 <table>
 <thead>
