@@ -145,21 +145,41 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
 ## Review the offer {#review}
 
-Once eligibility rules and constraints have been defined, a summary of the offer properties displays. If everything is configured properly and your offer is ready to be presented to users, click **[!UICONTROL Finish]**, then select **[!UICONTROL Save and approve]**.
+Once eligibility rules and constraints have been defined, a summary of the offer properties displays.
 
-You can also save the offer as a draft, in order to edit and approve it later on. 
+1. Make sure everything is configured properly.
 
-![](../assets/offer_review.png)
+1. When your offer is ready to be presented to users, click **[!UICONTROL Finish]**.
 
-The offer displays in the list with the **[!UICONTROL Live]** or **[!UICONTROL Draft]** status, depending on whether you approved it or not in the previous step.
+1. Select **[!UICONTROL Save and approve]**.
 
-It is now ready to be delivered to users. You can select it to display its properties and edit or suppress it.
+    ![](../assets/offer_review.png)
+
+    You can also save the offer as a draft, in order to edit and approve it later on. 
+
+The offer displays in the list with the **[!UICONTROL Approved]** or **[!UICONTROL Draft]** status, depending on whether you approved it or not in the previous step.
+
+It is now ready to be delivered to users.
+
+## Edit the offer {#edit}
+    
+From the offer list, you can select an offer to display its properties and edit or suppress it.
 
 ![](../assets/offer_created.png)
 
-Once an offer has been created, you can click its name in the list to access detailed information, as well as monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Monitoring changes to offers and decisions](../get-started/user-interface.md#monitoring-changes)).
+Select **[!UICONTROL Undo approve]** to set the offer status back to draft.
+
+The **[!UICONTROL More actions]** button enables the following actions:
+* **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status?
+* **[!UICONTROL Delete]**: removes the offer from the list. This action cannot be undone and the offer is not accessible anymore?
+* **[!UICONTROL Archive]**: set the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you need to set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]** to make it available again?
+
+Once an offer has been created, you can click its name from the list to:
+
+* Access detailed information.
+
+* Monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab. For more on this, see [Monitoring changes to offers and decisions](../get-started/user-interface.md#monitoring-changes).
 
 ## Tutorial video {#video}
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
