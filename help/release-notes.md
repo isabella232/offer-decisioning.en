@@ -19,6 +19,40 @@ You can also consult the latest documentation updates [here](documentation-updat
 <table>
 <thead>
 <tr>
+<th><strong>Updated offer list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+New actions are now possible from the offer list: you can edit, approve or undo approve, duplicate, delete or archive an offer, as well as delete or change the status of multiple offers at the same time.</p>
+<p>For more information, refer to the <a href="offer-library/creating-personalized-offers.md#offer-list">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Updated decision list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+New actions are now possible from the decision list: you can edit, activate or deactivate, complete, duplicate, delete or archive an offer, as well as delete or change the status of multiple decisions at the same time.</p>
+<p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#decision-list">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>AI ranking</strong><br/></th>
 </tr>
 </thead>

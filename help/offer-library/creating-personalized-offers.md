@@ -125,7 +125,7 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
     ![](../assets/offer_rule.png)
 
-1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers
+1. Define the **[!UICONTROL Priority]** of the offer compared to other ones if the user qualifies for more than one offer. The higher an offer's priority will be, the higher its priority will be compared to other offers.
 
 1. Specify the offer's **[!UICONTROL Capping]**, meaning the number of times the offer will be presented in total across all users. If the offer has been delivered across all users the number of times you have specified in this field, its delivery will stop.
 
@@ -161,24 +161,46 @@ The offer displays in the list with the **[!UICONTROL Approved]** or **[!UICONTR
 
 It is now ready to be delivered to users.
 
-## Edit the offer {#edit}
+## Offer list {#offer-list}
     
-From the offer list, you can select an offer to display its properties and edit or suppress it.
+From the offer list, you can select the offer to display its properties and edit it. You can also change its status, duplicate the offer, or delete it.
 
 ![](../assets/offer_created.png)
 
-Select **[!UICONTROL Undo approve]** to set the offer status back to draft.
+Select an approved offer and click **[!UICONTROL Undo approve]** to set the offer status back to **[!UICONTROL Draft]**.
 
-The **[!UICONTROL More actions]** button enables the following actions:
-* **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status?
-* **[!UICONTROL Delete]**: removes the offer from the list. This action cannot be undone and the offer is not accessible anymore?
-* **[!UICONTROL Archive]**: set the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you need to set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]** to make it available again?
+To set again the status to **[!UICONTROL Approved]**, select the corresponding button that is now displayed.
 
-Once an offer has been created, you can click its name from the list to:
+![](../assets/offer_approve.png)
 
-* Access detailed information.
+The **[!UICONTROL More actions]** button enables the actions described below.
 
-* Monitor all the changes that have been made to it using the **[!UICONTROL Change log]** tab. For more on this, see [Monitoring changes to offers and decisions](../get-started/user-interface.md#monitoring-changes).
+![](../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status. <!--or the same status? to check-->
+* **[!UICONTROL Delete]**: removes the offer from the list. If the offer is used in one or more collections, it cannot be deleted. You must remove the offer from any collection(s) first.
+
+    >[!WARNING]
+    >
+    >The offer and its content are not accessible anymore. This action cannot be undone. <!--to check-->
+
+* **[!UICONTROL Archive]**: set the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
+
+You can also delete or change the status of multiple offers at the same time by selecting the corresponding checkboxes.
+
+![](../assets/offer_multiple-selection.png)
+
+If you want to change the status of several offers whith different statuses, only the relevant statuses will be changed.
+
+![](../assets/offer_change-status.png)
+
+Once an offer has been created, you can click its name from the list.
+
+![](../assets/offer_click-name.png)
+
+This enables you to access detailed information for that offer. Select the **[!UICONTROL Change log]** tab to [monitor all the changes](../get-started/user-interface.md#monitoring-changes) that have been made to the offer.
+
+![](../assets/offer_information.png)
 
 ## Tutorial video {#video}
 

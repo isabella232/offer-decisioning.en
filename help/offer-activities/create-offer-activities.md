@@ -102,7 +102,31 @@ It is now ready to be used to deliver offers to customers. You can select it to 
 
 >[!NOTE]
 >
->Once a decision has been created, you can click its name in the list to access detailed information, and vizualise all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and decisions changes log](../get-started/user-interface.md#changes-log)). 
+>Once a decision has been created, you can click its name in the list to access detailed information, and vizualise all the changes that have been made to it using the **[!UICONTROL Change log]** tab (see [Offers and decisions changes log](../get-started/user-interface.md#changes-log)).
+
+## Decision list {#dcision-list}
+
+From the decision list, you can select the decision to display its properties and edit it. You can also change its status, duplicate the offer, or delete it.
+
+Select the **[!UICONTROL Edit]** button to go back to the decision edition mode.
+
+Select an activated decision and click **[!UICONTROL Deactivate]** to set the decision status back to **[!UICONTROL Draft]**.
+
+To set again the status to **[!UICONTROL Activated]**, select the corresponding button that is now displayed.
+
+The **[!UICONTROL More actions]** button enables the actions described below.
+
+* **[!UICONTROL Complete]**: set the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can still duplicate, delete or archive it. <!--to check-->
+* **[!UICONTROL Duplicate]**: creates a decision with the same properties, decision scopes and fallback offer. By default, the new decision has the **[!UICONTROL Draft]** status. <!--or the same status? to check-->
+* **[!UICONTROL Delete]**: removes the decision from the list.
+
+    >[!WARNING]
+    >
+    >The decision and its content are not accessible anymore. This action cannot be undone. <!--to check-->
+
+* **[!UICONTROL Archive]**: set the decision status to **[!UICONTROL Archived]**. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
+
+You can also delete or change the status of multiple decisions at the same time by selecting the corresponding checkboxes.
 
 ## Tutorial video {#video}
 
