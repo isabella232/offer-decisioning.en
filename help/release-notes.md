@@ -14,6 +14,25 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
 
+## July 2021 Release {#july2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Overview tab</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+An new <b>Overview</b> tab allows quick access to your most recent offers, collections and decisions.</p>
+<p>For more information, refer to the <a href="get-started/user-interface.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## June 2021 Release {#june2021-release}
 
 <table>
