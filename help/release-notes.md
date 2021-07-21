@@ -25,8 +25,8 @@ You can also consult the latest documentation updates [here](documentation-updat
 <tr>
 <td>
 <p>
-An new <b>Overview</b> tab allows quick access to your most recent offers, collections and decisions.</p>
-<p>For more information, refer to the <a href="get-started/user-interface.md">detailed documentation</a>.</p>
+The new <b>Overview</b> tab guides you through the main steps to get started with creating offer decisions. Once onboarded, the same tab allows quick access to your most recent offers, collections and decisions.</p>
+<p>For more information, refer to the <a href="get-started/user-interface.md#overview">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -42,10 +42,10 @@ An new <b>Overview</b> tab allows quick access to your most recent offers, colle
 <tr>
 <td>
 <p>
-New actions are now possible from the offer and decision lists:
+New actions are now possible from the offer and decision lists. You can:
 <ul>
-<li>You can edit, duplicate, delete or archive an offer or a decision.</li>
-<li>Approve an offer or undo approve for an offer.</li>
+<li>Edit, duplicate, delete or archive an offer or a decision.</li>
+<li>Approve an offer or undo approve.</li>
 <li>Activate or deactivate, as well as complete a decision.</li>
 <li>Delete or change the status of multiple offers or decisions at the same time.</li>
 </ul>

@@ -40,7 +40,7 @@ The **[!UICONTROL Components]** menu allows you to manage the components require
 
 ![](../assets/offer_activities.png)
 
-## Overview
+## Overview {#overview}
 
 When you are new to [!DNL Offer Decisioning], the **[!UICONTROL Overview]** tab guides you through the main steps needed to start building your first offer decision.
 

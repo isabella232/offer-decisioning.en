@@ -120,7 +120,7 @@ The **[!UICONTROL More actions]** button enables the actions described below.
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: sets the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can still duplicate, delete or archive it. <!--to check-->
+* **[!UICONTROL Complete]**: sets the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate, delete or archive it. <!--to check-->
 
 * **[!UICONTROL Duplicate]**: creates a decision with the same properties, decision scopes and fallback offer. By default, the new decision has the **[!UICONTROL Draft]** status. <!--or the same status? to check-->
 
@@ -136,7 +136,7 @@ You can also delete or change the status of multiple decisions at the same time 
 
 ![](../assets/decision_multiple-selection.png)
 
-If you want to change the status of several offers whith different statuses, only the relevant statuses will be changed.
+If you want to change the status of several decisions whith different statuses, only the relevant statuses will be changed.
 
 ![](../assets/decision_change-status.png)
 
