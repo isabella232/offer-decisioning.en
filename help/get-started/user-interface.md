@@ -10,7 +10,7 @@ exl-id: 66e7d8ae-826a-49dc-9034-9e9c700cdf21
 ---
 # User Interface {#user-interface}
 
-The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activity).
+The Offer Library allows you to create and manage your placements and offers in one single place, as well as access all the created decisions (previously known as offer activities).
 
 >[!NOTE]
 >
@@ -18,7 +18,7 @@ The Offer Library allows you to create and manage your placements and offers in 
 
 The **[!UICONTROL Offers]** menu allows you to manage personalized and fallback offers, organize them into collections, and deliver them by creating decisions:
 
-* **[!UICONTROL Overview]**: Get an overview on your most recent offers, collections and decisions.
+* **[!UICONTROL Overview]**: New to [!DNL Offer Decisioning]? Follow the on-screen steps to get started with setting up placements, offers, and collections. When already familiar with [!DNL Offer Decisioning], get an overview on your most recent offers, collections and decisions. See [Overview](#overview).
 
 * **[!UICONTROL Offers]**: Access your personalized and fallback offers or create new ones. See [Creating an offer](../offer-library/creating-personalized-offers.md) and [Creating a fallback offer](../offer-library/creating-fallback-offers.md).
 
@@ -39,6 +39,30 @@ The **[!UICONTROL Components]** menu allows you to manage the components require
 * **[!UICONTROL Rankings]**: Create and manage ranking formulas to determine which offer should be presented first for a given placement. See [Create ranking formulas](../offer-library/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
+
+## Overview
+
+When you are new to [!DNL Offer Decisioning], the **[!UICONTROL Overview]** tab guides you through the main steps needed to start building your first offer decision.
+
+![](../assets/overview_onboarding.png)
+
+Follow the on-screen steps to start creating placements, offers, and collections.
+
+Once you are done with these first steps, you are prompted to created offer decisions (previously knows as offer activities).
+
+![](../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>The main steps to create offers and use them in a decision are presented in [this section](../offer-library/key-steps.md).
+
+When you are more familiar with [!DNL Offer Decisioning] and you have already created at least one offer decision, the **[!UICONTROL Overview]** tab displays your most recent offers, collections and decisions.
+
+Click an offer or a decision to directly access the selected item's details.
+
+Click the **[!UICONTROL View all]** button to access the offer, collection, or decision lists.
+
+![](../assets/overview_view-all.png)
 
 ## Search and filter information
 
