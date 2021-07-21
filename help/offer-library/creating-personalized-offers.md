@@ -163,9 +163,11 @@ It is now ready to be delivered to users.
 
 ## Offer list {#offer-list}
     
-From the offer list, you can select the offer to display its properties and edit it. You can also change its status, duplicate the offer, or delete it.
+From the offer list, you can select the offer to display its properties. You can also edit it, change its status (**Draft**, **Approved**, **Archived**), duplicate the offer, or delete it.
 
 ![](../assets/offer_created.png)
+
+Select the **[!UICONTROL Edit]** button to go back to the offer edition mode, where you can modify the offer's [details](#create-offer), [representations](#representations), as well as edit the [eligibility rules and constraints](#eligibility). 
 
 Select an approved offer and click **[!UICONTROL Undo approve]** to set the offer status back to **[!UICONTROL Draft]**.
 
@@ -180,9 +182,9 @@ The **[!UICONTROL More actions]** button enables the actions described below.
 * **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status. <!--or the same status? to check-->
 * **[!UICONTROL Delete]**: removes the offer from the list. If the offer is used in one or more collections, it cannot be deleted. You must remove the offer from any collection(s) first.
 
-    >[!WARNING]
+    >[!CAUTION]
     >
-    >The offer and its content are not accessible anymore. This action cannot be undone. <!--to check-->
+    >The offer and its content will not be accessible anymore. This action cannot be undone. <!--to check-->
 
 * **[!UICONTROL Archive]**: set the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
 
