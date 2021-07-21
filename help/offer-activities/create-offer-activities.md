@@ -102,7 +102,7 @@ The decision displays in the list with the **[!UICONTROL Live]** or **[!UICONTRO
 
 It is now ready to be used to deliver offers to customers.
 
-## Decision list {#dcision-list}
+## Decision list {#decision-list}
 
 From the decision list, you can select the decision to display its properties. From there you can also edit it, change its status (**Draft**, **Live**, **Complete**, **Archived**), duplicate the decision, or delete it.
 
