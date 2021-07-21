@@ -18,6 +18,23 @@ You can also consult the latest documentation updates [here](documentation-updat
 <table>
 <thead>
 <tr>
+<th><strong>Overview tab</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+An new <b>Overview</b> tab allows quick access to your most recent offers, collections and decisions.</p>
+<p>For more information, refer to the <a href="get-started/user-interface.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Updated offer and decision lists</strong><br/></th>
 </tr>
 </thead>
