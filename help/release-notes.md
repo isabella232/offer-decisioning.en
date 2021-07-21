@@ -19,32 +19,22 @@ You can also consult the latest documentation updates [here](documentation-updat
 <table>
 <thead>
 <tr>
-<th><strong>Updated offer list</strong><br/></th>
+<th><strong>Updated offer and decision lists</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>
-New actions are now possible from the offer list: you can edit, approve or undo approve, duplicate, delete or archive an offer, as well as delete or change the status of multiple offers at the same time.</p>
-<p>For more information, refer to the <a href="offer-library/creating-personalized-offers.md#offer-list">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Updated decision list</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>
-New actions are now possible from the decision list: you can edit, activate or deactivate, complete, duplicate, delete or archive an offer, as well as delete or change the status of multiple decisions at the same time.</p>
-<p>For more information, refer to the <a href="offer-activities/create-offer-activities.md#decision-list">detailed documentation</a>.</p>
+New actions are now possible from the offer and decision lists:
+<ul>
+<li>You can edit, duplicate, delete or archive an offer or a decision.</li>
+<li>Approve an offer or undo approve for an offer.</li>
+<li>Activate or deactivate, as well as complete a decision.</li>
+<li>Delete or change the status of multiple offers or decisions at the same time.</li>
+</ul>
+</p>
+<p>For more information, refer to the detailed documentations on <a href="offer-library/creating-personalized-offers.md#offer-list">creating offers</a> and <a href="offer-activities/create-offer-activities.md#decision-list">creating decisions</a>.</p>
 </td>
 </tr>
 </tbody>
