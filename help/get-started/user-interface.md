@@ -18,6 +18,8 @@ The Offer Library allows you to create and manage your placements and offers in 
 
 The **[!UICONTROL Offers]** menu allows you to manage personalized and fallback offers, organize them into collections, and deliver them by creating decisions:
 
+* **[!UICONTROL Overview]**: Get an overview on your most recent offers, collections and decisions.
+
 * **[!UICONTROL Offers]**: Access your personalized and fallback offers or create new ones. See [Creating an offer](../offer-library/creating-personalized-offers.md) and [Creating a fallback offer](../offer-library/creating-fallback-offers.md).
 
 * **[!UICONTROL Collections]**: Create and manage static and dynamic offer collections. See [About offer collections](../offer-library/creating-collections.md).
