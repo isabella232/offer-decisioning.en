@@ -179,12 +179,14 @@ The **[!UICONTROL More actions]** button enables the actions described below.
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status. <!--or the same status? to check-->
-* **[!UICONTROL Delete]**: removes the offer from the list. If the offer is used in one or more collections, it cannot be deleted. You must remove the offer from any collection(s) first.
+* **[!UICONTROL Duplicate]**: creates an offer with the same properties, representations, eligibility rules and constraints. By default, the new offer has the **[!UICONTROL Draft]** status.
+* **[!UICONTROL Delete]**: removes the offer from the list.
 
     >[!CAUTION]
     >
-    >The offer and its content will not be accessible anymore. This action cannot be undone. <!--to check-->
+    >The offer and its content will not be accessible anymore. This action cannot be undone.
+    >
+    >If the offer is used in a collection or a decision, it cannot be deleted. You must remove the offer from any objects first.
 
 * **[!UICONTROL Archive]**: set the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
 
