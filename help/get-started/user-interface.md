@@ -48,7 +48,7 @@ When you are new to [!DNL Offer Decisioning], the **[!UICONTROL Overview]** tab 
 
 Follow the on-screen steps to start creating placements, offers, and collections.
 
-Once you are done with these first steps, you are prompted to created offer decisions (previously knows as offer activities).
+Once you are done with these first steps, you are prompted to created offer decisions (previously known as offer activities).
 
 ![](../assets/overview_collection-created.png)
 
