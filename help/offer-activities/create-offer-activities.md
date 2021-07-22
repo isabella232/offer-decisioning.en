@@ -120,17 +120,19 @@ The **[!UICONTROL More actions]** button enables the actions described below.
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: sets the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate, delete or archive it. <!--to check-->
+* **[!UICONTROL Complete]**: sets the decision's status to **[!UICONTROL Complete]**, meaning the decision cannot be called anymore. This action is only available for activated decisions. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate, delete or archive it.
 
-* **[!UICONTROL Duplicate]**: creates a decision with the same properties, decision scopes and fallback offer. By default, the new decision has the **[!UICONTROL Draft]** status. <!--or the same status? to check-->
+* **[!UICONTROL Duplicate]**: creates a decision with the same properties, decision scopes and fallback offer. By default, the new decision has the **[!UICONTROL Draft]** status.
 
 * **[!UICONTROL Delete]**: removes the decision from the list.
 
     >[!CAUTION]
     >
-    >The decision and its content will not be accessible anymore. This action cannot be undone. <!--to check-->
+    >The decision and its content will not be accessible anymore. This action cannot be undone.
+    >
+    >If the decision is used in another object, it cannot be deleted.
 
-* **[!UICONTROL Archive]**: set the decision status to **[!UICONTROL Archived]**. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
+* **[!UICONTROL Archive]**: sets the decision status to **[!UICONTROL Archived]**. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
 
 You can also delete or change the status of multiple decisions at the same time by selecting the corresponding checkboxes.
 

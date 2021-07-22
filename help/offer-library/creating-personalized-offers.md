@@ -192,7 +192,7 @@ The **[!UICONTROL More actions]** button enables the actions described below.
     >
     >If the offer is used in a collection or a decision, it cannot be deleted. You must remove the offer from any objects first.
 
-* **[!UICONTROL Archive]**: set the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
+* **[!UICONTROL Archive]**: sets the offer status to **[!UICONTROL Archived]**. The offer is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. You can only duplicate or delete it.
 
 You can also delete or change the status of multiple offers at the same time by selecting the corresponding checkboxes.
 
