@@ -17,7 +17,7 @@ You can also consult the [!DNL Offer Decisioning] release notes [here](release-n
 
 The new **Overview** tab has been documented. [Read more](get-started/user-interface.md#overview)
 
-New sections have been added to describre the actions available from the offer and decision lists:
+New sections have been added to describe the actions available from the offer and decision lists:
 * [Offer list](offer-library/creating-personalized-offers.md#offer-list)
 * [Decision list](offer-activities/create-offer-activities.md#decision-list)
 
