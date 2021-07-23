@@ -13,6 +13,16 @@ This page lists all the documentation updates for [!DNL Offer Decisioning].
 
 You can also consult the [!DNL Offer Decisioning] release notes [here](release-notes.md).
 
+## July 2021 {#july-2021}
+
+The new **Overview** tab has been documented. [Read more](get-started/user-interface.md#overview)
+
+New sections have been added to describre the actions available from the offer and decision lists:
+* [Offer list](offer-library/creating-personalized-offers.md#offer-list)
+* [Decision list](offer-activities/create-offer-activities.md#decision-list)
+
+A warning has been added to mention that event-based offers are not currently supported. [Read more](offer-library/creating-personalized-offers.md#eligibility)
+
 ## June 2021 {#june-2021}
 
 Information has been added on how to create ranking strategies and use them in decisions:

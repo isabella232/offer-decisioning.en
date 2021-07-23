@@ -13,6 +13,48 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
+## July 2021 Release {#july2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Overview tab</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+The new <b>Overview</b> tab guides you through the main steps to get started with creating offer decisions. Once onboarded, the same tab allows quick access to your most recent offers, collections and decisions.</p>
+<p>For more information, refer to the <a href="get-started/user-interface.md#overview">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Updated offer and decision lists</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+New actions are now possible from the offer and decision lists. You can:
+<ul>
+<li>Edit, duplicate, delete or archive an offer or a decision.</li>
+<li>Approve an offer or undo approve.</li>
+<li>Activate or deactivate, as well as complete a decision.</li>
+<li>Delete or change the status of multiple offers or decisions at the same time.</li>
+</ul>
+</p>
+<p>For more information, refer to the detailed documentations on <a href="offer-library/creating-personalized-offers.md#offer-list">creating offers</a> and <a href="offer-activities/create-offer-activities.md#decision-list">creating decisions</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## June 2021 Release {#june2021-release}
 
