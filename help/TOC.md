@@ -36,7 +36,7 @@ level: Intermediate
 + Create and manage decisions {#create-manage-activities}
     + [Create decisions](offer-activities/create-offer-activities.md)
     + [Configure offers selection in decisions](offer-activities/configure-offer-selection.md)
-+ Create Offer Decisioning reports {create-reports}
++ Create Offer Decisioning reports {#create-reports}
     + [Get started with Offer Decisioning events](reports/get-started-events.md)
     + [Offer Decisioning events key information](reports/key-information.md)
     + [Access events XDM fields](reports/xdm-fields.md)
