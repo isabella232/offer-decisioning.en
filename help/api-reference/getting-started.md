@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;getting star
 solution: Experience Platform
 product: experience platform
 title: Getting started
-topic: API guide
 description: Learn how to start using the Offer Library API to perform key operations using the Offer Decisioning Engine.
 feature: API
 role: Data Architect

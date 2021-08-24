@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;create a fal
 solution: Experience Platform
 product: experience platform
 title: Create a fallback offer
-topic: API guide
 description: A fallback offer is sent to customers if they are not eligible for other offers
 feature: API
 role: Data Architect

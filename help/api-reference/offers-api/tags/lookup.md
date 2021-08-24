@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;tags;look up
 solution: Experience Platform
 product: experience platform
 title: Look up a tag
-topic: API guide
 description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect

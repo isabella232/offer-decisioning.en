@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;decision rul
 solution: Experience Platform
 product: experience platform
 title: List decision rules
-topic: API guide
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
 feature: API
 role: Data Architect

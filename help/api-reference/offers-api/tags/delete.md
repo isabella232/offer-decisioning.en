@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;delete tags
 solution: Experience Platform
 product: experience platform
 title: Delete tags
-topic: API guide
 description: Tags allow you to better organize and sort through your offers.
 feature: API
 role: Data Architect

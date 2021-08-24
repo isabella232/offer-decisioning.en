@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;decisions;of
 solution: Experience Platform
 product: experience platform
 title: Deliver offers
-topic: API guide
 description: Offer Decisioning is a collection of services and UI programs that enables marketers to create and deliver end-user personalized offer experiences across channels and applications using business logic and decision rules.
 feature: API
 role: Data Architect

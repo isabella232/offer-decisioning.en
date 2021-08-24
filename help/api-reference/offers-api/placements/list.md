@@ -3,7 +3,7 @@ keywords: Experience Platform;home;popular topics;offer decisioning;placements;l
 solution: Experience Platform
 product: experience platform
 title: List placements
-topic: developer guide
+topic: Development
 description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect

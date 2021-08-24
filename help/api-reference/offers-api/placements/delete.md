@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;delete place
 solution: Experience Platform
 product: experience platform
 title: delete placements
-topic: API guide
 description: Placements are containers that are used to showcase your offers.
 feature: API
 role: Data Architect

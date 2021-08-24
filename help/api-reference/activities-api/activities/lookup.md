@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;decisions;li
 solution: Experience Platform
 product: experience platform
 title: List decisions
-topic: API guide
 description: A decision contains the logic that informs the selection of an offer.
 feature: API
 role: Data Architect

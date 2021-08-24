@@ -2,7 +2,6 @@
 keywords: Offer Decisioning;home;popular topics
 product: experience platform
 title: Offer Decisioning product documentation
-topic: Premium
 role: User
 level: Intermediate
 exl-id: aebe1ea8-3402-4ecf-b316-b78d096b9b75

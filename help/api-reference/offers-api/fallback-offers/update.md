@@ -3,7 +3,6 @@ keywords: Experience Platform;home;popular topics;offer decisioning;update a fal
 solution: Experience Platform
 product: experience platform
 title: Update a fallback offer
-topic: API guide
 description: A fallback offer is sent to customers if they are not eligible for other offers
 feature: API
 role: Data Architect

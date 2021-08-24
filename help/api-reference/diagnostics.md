@@ -3,7 +3,7 @@ keywords: Experience Platform;home;popular topics;offer decisioning;diagnostics
 solution: Experience Platform
 product: experience platform
 title: Diagnostics API endpoint
-topic: Developer guide
+topic: Development
 description: The `/diagnostics` endpoint reports when artifacts like the decisioning package were last attempted to be updated and lists errors that occurred while doing so.
 feature: API
 role: Data Architect
