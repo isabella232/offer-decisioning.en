@@ -54,27 +54,43 @@ To create an **offer**, follow these steps:
 
 1. For each representation, specify the **[!UICONTROL Channel]** and the **[!UICONTROL Placement]** where the offer will be displayed.
 
-    ![](../assets/channel-placement.png)     
+    ![](../assets/channel-placement.png)
 
     The **[!UICONTROL Browse]** button allows you to filter available placements and filter them according to their channel and/or content type.
     
-    ![](../assets/browse-placements.png)  
+    ![](../assets/browse-button-placements.png)
 
-1. Add content to each representation coming from Adobe Experience Cloud Assets library or from an external public location.
+    ![](../assets/browse-placements.png)
 
-    * To add content from Adobe Experience Cloud Assets library, drag and drop it from the left pane into the representation area, then specify the URL to associate with the content in the **[!UICONTROL Destination link]** field.
+1. Add content to each representation.
 
-        >[!NOTE]
-        >
-        >Contents can only be dragged and dropped from the Asset Picker in the left panel. Only content corresponding to the placement's content type is available for use.
+    * If the selected placement is of image-type, you can add content coming from the Adobe Experience Cloud Assets library or from an external public location.
 
-        ![](../assets/offer_drag_content.png)
+        * To add content from the Adobe Experience Cloud Assets library, browse the library to select the image of your choice.
 
-    * To add content from an external public location, click the **[!UICONTROL Add content]** button, then specify the name, URL, and Destination link of the content to add.
+            ![](../assets/offer-browse-asset-library.png)
 
-        Make sure that the content you are adding corresponds to the selected placement's content type.
+            ![](../assets/offer-select-asset.png)     
+            
+            Then specify the URL to associate with the content in the **[!UICONTROL Destination link]** field.
 
-        ![](../assets/offer_add_content.png)
+            >[!NOTE]
+            >
+            > To work with [!DNL Adobe Experience Manager Assets Essentials], you will need to deploy [!DNL Assets Essentials] for your organization and make sure that users, who need access to [!DNL Assets Essentials], are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. <br> For more information on this, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+
+            >[!NOTE]
+            >
+            ><!--Contents can only be dragged and dropped from the Asset Picker in the left panel.--> Only content corresponding to the placement's content type is available for use.
+
+            <!--![](../assets/offer_drag_content.png)-->
+
+            You can specify a **[!UICONTROL Destination link]**, either copying the Public location, either entering an URL in the corresponding field.
+            
+        * To add content from an external public location, select **[!UICONTROL URL]**, then specify the URL (and Destination link) of the content to add.
+
+            Make sure that the content you are adding corresponds to the selected placement's content type.
+
+            ![](../assets/offer_add_content.png)
 
     * You can also insert text-type content. To do this, click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
 
