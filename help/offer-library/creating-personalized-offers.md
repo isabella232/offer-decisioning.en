@@ -54,13 +54,13 @@ To add and configure one or multiple representations to your offer, follow the s
 
     ![](../assets/channel-placement.png)
 
-    The available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
+    Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
 
-1. Use the button next to the **[!UICONTROL Placement]** drop-down list to browse the available placements.
+1. Select a placement from the list or use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
 
     ![](../assets/browse-button-placements.png)
 
-1. You can filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
+1. Here you can filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
 
     ![](../assets/browse-placements.png)
 
@@ -70,17 +70,17 @@ To add and configure one or multiple representations to your offer, follow the s
     >
     >Only content corresponding to the placement's content type is available for use.
     
-1. If the selected placement is of image-type, you can add content coming from the Adobe Experience Cloud Assets library.
+1. If the selected placement is of image-type, you can add content coming from the Adobe Experience Cloud Asset library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
 
     >[!NOTE]
     >
-    > To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+    > To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
     
-    To do so, choose the **[!UICONTROL Asset library]** option and select **[!UICONTROL Browse]**.
+    Choose the **[!UICONTROL Asset library]** option and select **[!UICONTROL Browse]**.
 
     ![](../assets/offer-browse-asset-library.png)
 
-1. Browse the library to select the image of your choice.
+1. Browse the assets to select the image of your choice and click **[!UICONTROL Select]**.
 
     ![](../assets/offer-select-asset.png)
 
@@ -90,23 +90,23 @@ To add and configure one or multiple representations to your offer, follow the s
 
     ![](../assets/offer-destination-link.png)
 
-1. To add image content from an external public location, select **[!UICONTROL URL]**, then specify the URL (and Destination link) of the content to add.
+1. To add image content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
 
-    Make sure that the content you are adding corresponds to the selected placement's content type.
+    <!--Make sure that the content you are adding corresponds to the selected placement's content type.-->
 
-    ![](../assets/offer_add_content.png)
+    ![](../assets/offer-content-url.png)
 
-1. You can also insert text-type content: click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
+1. You can also insert text-type content when selecting a compatible placement: select the **[!UICONTROL Custom]** option and type the text that will display in the offer.
 
     >[!NOTE]
     >
     >This option is not available for image-type placements.
 
-    ![](../assets/offer_text_content.png)
+    ![](../assets/offer-text-content.png)
 
-1. To add another representation, use the **[!UICONTROL Add representation]** button.
+1. To add another representation, use the **[!UICONTROL Add representation]** button and add as many representations as needed.
 
-1. Once you added all the representations, select **[!UICONTROL Next]**.
+1. Once you added all your representations, select **[!UICONTROL Next]**.
 
 ## Add eligibility rules and constraints {#eligibility}
 
