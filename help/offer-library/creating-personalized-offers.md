@@ -46,59 +46,67 @@ To create an **offer**, follow these steps:
 
 ## Configure the offer's representations {#representations}
 
-1. Add one or multiple representations for your offer using the **[!UICONTROL Add representation]** button.
+An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an html block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
 
-    >[!NOTE]
-    >
-    >An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an html block etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
+To add and configure one or multiple representations to your offer, follow the steps below.
 
-1. For each representation, specify the **[!UICONTROL Channel]** and the **[!UICONTROL Placement]** where the offer will be displayed.
+1. For the first representation, start by selecting the **[!UICONTROL Channel]** that will be used.
 
     ![](../assets/channel-placement.png)
 
-    The **[!UICONTROL Browse]** button allows you to filter available placements and filter them according to their channel and/or content type.
-    
+    The available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
+
+1. Use the button next to the **[!UICONTROL Placement]** drop-down list to browse the available placements.
+
     ![](../assets/browse-button-placements.png)
+
+1. You can filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
 
     ![](../assets/browse-placements.png)
 
-1. Add content to each representation.
+1. Add content to your representation.
 
-    * If the selected placement is of image-type, you can add content coming from the Adobe Experience Cloud Assets library or from an external public location.
+    >[!NOTE]
+    >
+    >Only content corresponding to the placement's content type is available for use.
+    
+1. If the selected placement is of image-type, you can add content coming from the Adobe Experience Cloud Assets library.
 
-        * To add content from the Adobe Experience Cloud Assets library, browse the library to select the image of your choice.
+    >[!NOTE]
+    >
+    > To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/assets-essentials.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+    
+    To do so, choose the **[!UICONTROL Asset library]** option and select **[!UICONTROL Browse]**.
 
-            ![](../assets/offer-browse-asset-library.png)
+    ![](../assets/offer-browse-asset-library.png)
 
-            ![](../assets/offer-select-asset.png)     
-            
-            Then specify the URL to associate with the content in the **[!UICONTROL Destination link]** field.
+1. Browse the library to select the image of your choice.
 
-            >[!NOTE]
-            >
-            > To work with [!DNL Adobe Experience Manager Assets Essentials], you will need to deploy [!DNL Assets Essentials] for your organization and make sure that users, who need access to [!DNL Assets Essentials], are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. <br> For more information on this, refer to this [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+    ![](../assets/offer-select-asset.png)
 
-            >[!NOTE]
-            >
-            ><!--Contents can only be dragged and dropped from the Asset Picker in the left panel.--> Only content corresponding to the placement's content type is available for use.
+1. You can specify a **[!UICONTROL Destination link]** if you want to associate your content with a specific path.
+    
+    <!--either copying the path displayed in the **[!UICONTROL Public location]** field, either entering an URL in the corresponding field.-->
 
-            <!--![](../assets/offer_drag_content.png)-->
+    ![](../assets/offer-destination-link.png)
 
-            You can specify a **[!UICONTROL Destination link]**, either copying the Public location, either entering an URL in the corresponding field.
-            
-        * To add content from an external public location, select **[!UICONTROL URL]**, then specify the URL (and Destination link) of the content to add.
+1. To add image content from an external public location, select **[!UICONTROL URL]**, then specify the URL (and Destination link) of the content to add.
 
-            Make sure that the content you are adding corresponds to the selected placement's content type.
+    Make sure that the content you are adding corresponds to the selected placement's content type.
 
-            ![](../assets/offer_add_content.png)
+    ![](../assets/offer_add_content.png)
 
-    * You can also insert text-type content. To do this, click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
+1. You can also insert text-type content: click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
 
-        >[!NOTE]
-        >
-        >This option is not available for image-type placements.
+    >[!NOTE]
+    >
+    >This option is not available for image-type placements.
 
-        ![](../assets/offer_text_content.png)
+    ![](../assets/offer_text_content.png)
+
+1. To add another representation, use the **[!UICONTROL Add representation]** button.
+
+1. Once you added all the representations, select **[!UICONTROL Next]**.
 
 ## Add eligibility rules and constraints {#eligibility}
 
@@ -131,13 +139,15 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
 1. Configure the **[!UICONTROL Offer eligibility]**. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
     
-    You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+1. You can limit the presentation of the offer to the members of one or several **Adobe Experience Platform segments**.
+
+    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
     For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
     
     ![](../assets/offer-eligibility-segment.png)
 
-    If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
+1. If you want to associate a specific **decision rule** to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
     ![](../assets/offer_rule.png)
 
