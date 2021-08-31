@@ -46,7 +46,7 @@ To create an **offer**, follow these steps:
 
 ## Configure the offer's representations {#representations}
 
-An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an html block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
+An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an HTML block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
 
 To add and configure one or multiple representations to your offer, follow the steps below.
 
