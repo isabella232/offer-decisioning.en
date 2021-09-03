@@ -48,7 +48,7 @@ To create an **offer**, follow these steps:
 
 An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an HTML block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
 
-To add and configure one or multiple representations to your offer, follow the steps below.
+To add one or multiple representations to your offer and configure them, follow the steps below.
 
 1. For the first representation, start by selecting the **[!UICONTROL Channel]** that will be used.
 

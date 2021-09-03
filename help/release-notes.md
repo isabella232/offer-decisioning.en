@@ -13,6 +13,25 @@ This page lists all the new features and improvements for [!DNL Offer Decisionin
 
 You can also consult the latest documentation updates [here](documentation-updates.md).
 
+## August 2021 Release {#august2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Representation flow</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>
+The way you add and configure representations when creating an offer has been updated for improved user experience. In particular, the Asset library is now displayed only when you define image-type content for a representation.</p>
+<p>For more information, refer to the <a href="offer-library/creating-personalized-offers.md#representations">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## July 2021 Release {#july2021-release}
 
 <table>
