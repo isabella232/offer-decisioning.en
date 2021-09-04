@@ -5,6 +5,7 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
+exl-id: 68d41e1e-2a0e-4523-93f8-961672bf1a02
 ---
 # Key steps to create and manage offers {#key-steps}
 

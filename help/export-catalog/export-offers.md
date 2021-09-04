@@ -3,6 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Personalized offers dataset
 description: This section lists all the fields used in the exported dataset for offers.
+exl-id: 9761a907-4c7b-496c-a7d7-f81e9220f5cd
 ---
 # Personalized offers dataset {#offers-dataset}
 
@@ -316,6 +317,3 @@ Here is the list of all the fields that can be used in the **[!UICONTROL Decisio
 **Title:** Decision Option ETag
 **Description:** The revision that the decision option object was at when the snapshot was taken.
 **Type:** string
-
-
-

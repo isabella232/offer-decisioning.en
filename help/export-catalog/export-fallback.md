@@ -3,6 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Fallback offers dataset
 description: This section lists all the fields used in the exported dataset for fallback offers.
+exl-id: e1be7ec8-5541-40cb-9a10-b890449c81e9
 ---
 # Fallback offers dataset {#fallback-dataset}
 

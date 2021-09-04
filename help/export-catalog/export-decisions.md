@@ -3,6 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Get started with offer catalog export
 description: This section lists all the fields used in the exported dataset for decisions.
+exl-id: 5ed50b15-be1c-450b-8bb9-8dbc68c28f2e
 ---
 # Decisions dataset {#decisions-dataset}
 

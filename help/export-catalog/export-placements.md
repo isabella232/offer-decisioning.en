@@ -3,6 +3,7 @@ product: experience platform
 solution: Experience Platform
 title: Placements dataset
 description: This section lists all the fields used in the exported dataset for placements.
+exl-id: f98659b3-ca65-4ce9-869c-d446f0d0b099
 ---
 # Placements dataset {#placements-dataset}
 

@@ -8,8 +8,8 @@ description: The `/diagnostics` endpoint reports when artifacts like the decisio
 feature: API
 role: Data Architect
 level: Experienced
+exl-id: 752f15cf-2cb5-40a4-98fa-4cde0beabf41
 ---
-
 # Diagnostics endpoint
 
 You can inspect a container for timestamps on when artifacts like the decisioning package were last updated using the `/diagnostics` endpoint. You can also use the `/diagnostics` endpoint to see a list of any errors that have occurred in your container.
