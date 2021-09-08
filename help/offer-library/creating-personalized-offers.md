@@ -60,7 +60,7 @@ To add one or multiple representations to your offer and configure them, follow 
 
     ![](../assets/browse-button-placements.png)
 
-    Then you can still filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
+    There you can still filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
 
     ![](../assets/browse-placements.png)
 
@@ -84,12 +84,6 @@ To add one or multiple representations to your offer and configure them, follow 
 
         ![](../assets/offer-select-asset.png)
 
-        You can specify a **[!UICONTROL Destination link]** if you want to associate your content with a specific path.
-    
-        <!--either copying the path displayed in the **[!UICONTROL Public location]** field, either entering an URL in the corresponding field.-->
-
-        ![](../assets/offer-destination-link.png)
-
     * To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
 
         ![](../assets/offer-content-url.png)
@@ -101,6 +95,12 @@ To add one or multiple representations to your offer and configure them, follow 
         >[!NOTE]
         >
         >This option is not available for image-type placements.
+
+1. If you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
+
+    ![](../assets/offer-destination-link.png)
+
+1. Select the language of your choice to help identify and manage what to display to the users.
 
 1. To add another representation, use the **[!UICONTROL Add representation]** button and add as many representations as needed.
 
