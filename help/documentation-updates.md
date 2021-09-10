@@ -13,6 +13,10 @@ This page lists all the documentation updates for [!DNL Offer Decisioning].
 
 You can also consult the [!DNL Offer Decisioning] release notes [here](release-notes.md).
 
+## August 2021 {#august-2021}
+
+The new flow to add and configure representations when creating an offer has been documented. [Read more](offer-library/creating-personalized-offers.md#representations)
+
 ## July 2021 {#july-2021}
 
 The new **Overview** tab has been documented. [Read more](get-started/user-interface.md#overview)

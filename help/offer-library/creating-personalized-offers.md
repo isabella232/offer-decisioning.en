@@ -46,43 +46,67 @@ To create an **offer**, follow these steps:
 
 ## Configure the offer's representations {#representations}
 
-1. Add one or multiple representations for your offer using the **[!UICONTROL Add representation]** button.
+An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an HTML block, etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
+
+To add one or multiple representations to your offer and configure them, follow the steps below.
+
+1. For the first representation, start by selecting the **[!UICONTROL Channel]** that will be used.
+
+    ![](../assets/channel-placement.png)
+
+    Only the available placements for the selected channel display in the **[!UICONTROL Placement]** drop-down list.
+
+1. Select a placement from the list, or use the button next to the **[!UICONTROL Placement]** drop-down list to browse all the placements.
+
+    ![](../assets/browse-button-placements.png)
+
+    There you can still filter the placements according to their channel and/or content type. Choose a placement and click **[!UICONTROL Select]**.
+
+    ![](../assets/browse-placements.png)
+
+1. Add content to your representation.
 
     >[!NOTE]
     >
-    >An offer can be displayed at different places in a message: in a top banner with an image, as text in a paragraph, as an html block etc. The more representations an offer has, the more opportunities exist to use the offer in different placement contexts.
-
-1. For each representation, specify the **[!UICONTROL Channel]** and the **[!UICONTROL Placement]** where the offer will be displayed.
-
-    ![](../assets/channel-placement.png)     
-
-    The **[!UICONTROL Browse]** button allows you to filter available placements and filter them according to their channel and/or content type.
+    >Only content corresponding to the placement's content type is available for use.
     
-    ![](../assets/browse-placements.png)  
-
-1. Add content to each representation coming from Adobe Experience Cloud Assets library or from an external public location.
-
-    * To add content from Adobe Experience Cloud Assets library, drag and drop it from the left pane into the representation area, then specify the URL to associate with the content in the **[!UICONTROL Destination link]** field.
+    * If the selected placement is image-type, you can add content coming from the Adobe Experience Cloud Asset library, a centralized repository of assets provided by [!DNL Adobe Experience Manager Assets Essentials].
 
         >[!NOTE]
         >
-        >Contents can only be dragged and dropped from the Asset Picker in the left panel. Only content corresponding to the placement's content type is available for use.
+        > To work with [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+    
+        Choose the **[!UICONTROL Asset library]** option and select **[!UICONTROL Browse]**.
 
-        ![](../assets/offer_drag_content.png)
+        ![](../assets/offer-browse-asset-library.png)
 
-    * To add content from an external public location, click the **[!UICONTROL Add content]** button, then specify the name, URL, and Destination link of the content to add.
+        Browse the assets to select the image of your choice and click **[!UICONTROL Select]**.
 
-        Make sure that the content you are adding corresponds to the selected placement's content type.
+        ![](../assets/offer-select-asset.png)
 
-        ![](../assets/offer_add_content.png)
+    * To add content from an external public location, select **[!UICONTROL URL]**, then enter the URL address of the content to add.
 
-    * You can also insert text-type content. To do this, click the **[!UICONTROL Add content]** button, then select the **[!UICONTROL Custom text]** option. In the **[!UICONTROL Text]** field, type the text that will display in the offer.
+        ![](../assets/offer-content-url.png)
+
+    * You can also insert text-type content when selecting a compatible placement. Select the **[!UICONTROL Custom]** option and type the text that will display in the offer.
+
+        ![](../assets/offer-text-content.png)
 
         >[!NOTE]
         >
         >This option is not available for image-type placements.
 
-        ![](../assets/offer_text_content.png)
+1. When you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
+
+    ![](../assets/offer-destination-link.png)
+
+1. Finally, select the language of your choice to help identify and manage what to display to the users.
+
+1. To add another representation, use the **[!UICONTROL Add representation]** button and add as many representations as needed.
+
+    ![](../assets/offer-add-representation.png)
+
+1. Once you added all your representations, select **[!UICONTROL Next]**.
 
 ## Add eligibility rules and constraints {#eligibility}
 
@@ -115,13 +139,15 @@ Eligibility rules and constrains allow you to define the conditions under which 
 
 1. Configure the **[!UICONTROL Offer eligibility]**. By default, the **[!UICONTROL All visitors]** decision rule option is selected, meaning that any profile will be eligible to be presented the offer.
     
-    You can limit the presentation of the offer to the members of one or several Adobe Experience Platform segments. To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
+1. You can limit the presentation of the offer to the members of one or several **Adobe Experience Platform segments**.
+
+    To do this, activate the **[!UICONTROL Visitors who fall into one or multiple segments]** option, then add one or several segments from the left pane and combine them using the **[!UICONTROL And]** / **[!UICONTROL Or]** logical operators.
 
     For more on how to work with segments, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
     
     ![](../assets/offer-eligibility-segment.png)
 
-    If you want to associate a specific decision rule to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
+1. If you want to associate a specific **decision rule** to the offer, select **[!UICONTROL By defined decision rule]**, then drag the desired rule from the left pane into the **[!UICONTROL Decision rule]** area. For more on how to create a decision rule, refer to [this section](../offer-library/creating-decision-rules.md).
 
     ![](../assets/offer_rule.png)
 
