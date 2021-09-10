@@ -96,11 +96,11 @@ To add one or multiple representations to your offer and configure them, follow 
         >
         >This option is not available for image-type placements.
 
-1. If you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
+1. When you add content such as an image or URL, you can specify a **[!UICONTROL Destination link]**: the users who click the offer will be directed to the corresponding page.
 
     ![](../assets/offer-destination-link.png)
 
-1. Select the language of your choice to help identify and manage what to display to the users.
+1. Finally, select the language of your choice to help identify and manage what to display to the users.
 
 1. To add another representation, use the **[!UICONTROL Add representation]** button and add as many representations as needed.
 
