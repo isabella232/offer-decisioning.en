@@ -6,7 +6,6 @@ description: Learn how to create Offer Decisioning reports in Adobe Experience P
 feature: Activities
 role: User
 level: Intermediate
-exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
 # Get started with Offer Decisioning events {#monitor-offer-events}
 

@@ -6,7 +6,6 @@ description: Learn more about the key information sent with each Offer Decisioni
 feature: Activities
 role: User
 level: Intermediate
-exl-id: 2471c688-2309-4394-9d97-10ab3e8816a0
 ---
 # Offer Decisioning events key information {#events-key-information}
 
