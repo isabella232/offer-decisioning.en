@@ -6,6 +6,7 @@ description: Learn more about the DecisioningEvents XDM schema.
 feature: Activities
 role: User
 level: Intermediate
+exl-id: 5c32f13e-b054-4aa5-b51d-61603fe02965
 ---
 # Access events XDM fields {#decisioningevents-xdm-schema}
 

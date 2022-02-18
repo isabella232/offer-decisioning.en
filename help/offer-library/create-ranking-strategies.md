@@ -6,6 +6,7 @@ description: Learn how to create ranking strategies in Adobe Experience Platform
 feature: Ranking Formulas
 role: User
 level: Intermediate
+exl-id: c9565c8f-58b7-4310-b0cf-346e10ed2297
 ---
 # AI rankings {#ai-rankings}
 
@@ -151,4 +152,3 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Save your decision.
 
 It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
-

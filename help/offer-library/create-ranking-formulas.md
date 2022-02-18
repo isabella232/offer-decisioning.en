@@ -6,6 +6,7 @@ description: Learn how to create ranking formulas in Adobe Experience Platform.
 feature: Ranking Formulas
 role: User
 level: Intermediate
+exl-id: ba474626-9426-48e6-9d3e-49c6788e523d
 ---
 # Create ranking formulas {#create-ranking-formulas}
 
