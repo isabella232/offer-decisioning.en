@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decisions;create decisions
-solution: Experience Platform
 product: experience platform
 title: Create decisions
 description: A decision contains the logic that informs the selection of an offer.

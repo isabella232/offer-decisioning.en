@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;personalized offers;create;create personalized offers
-solution: Experience Platform
 product: experience platform
 title: Create personalized offers
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.

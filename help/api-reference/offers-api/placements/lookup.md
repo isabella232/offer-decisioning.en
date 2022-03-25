@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;placements;look up a placement
-solution: Experience Platform
 product: experience platform
 title: Look up a placement
 topic: Development

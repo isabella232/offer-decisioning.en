@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;offer collections;collections;update a collection
-solution: Experience Platform
 product: experience platform
 title: Update collections
 description: Collections are subsets of offers based on predefined conditions defined by a marketer, such as category of the offer.

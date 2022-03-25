@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Access events XDM fields
 description: Learn more about the DecisioningEvents XDM schema.
 feature: Activities

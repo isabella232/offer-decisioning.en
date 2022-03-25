@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Create ranking formulas
 description: Learn how to create ranking formulas in Adobe Experience Platform.
 feature: Ranking Formulas

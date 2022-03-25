@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;create a fallback offer
-solution: Experience Platform
 product: experience platform
 title: Create a fallback offer
 description: A fallback offer is sent to customers if they are not eligible for other offers

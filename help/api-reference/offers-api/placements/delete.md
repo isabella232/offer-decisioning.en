@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;delete placements
-solution: Experience Platform
 product: experience platform
 title: delete placements
 description: Placements are containers that are used to showcase your offers.

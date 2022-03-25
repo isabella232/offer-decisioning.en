@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Get started with Offer Decisioning events
 description: Learn how to create Offer Decisioning reports in Adobe Experience Platform.
 feature: Activities

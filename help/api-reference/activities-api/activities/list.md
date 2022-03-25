@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decisions;list decisions
-solution: Experience Platform
 product: experience platform
 title: List decisions
 description: A decision contains the logic that informs the selection of an offer.

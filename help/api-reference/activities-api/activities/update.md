@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decisions;update decisions
-solution: Experience Platform
 product: experience platform
 title: Update decisions
 description: A decision contains the logic that informs the selection of an offer.

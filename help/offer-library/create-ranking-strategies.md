@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Create ranking strategies
 description: Learn how to create ranking strategies in Adobe Experience Platform.
 feature: Ranking Formulas

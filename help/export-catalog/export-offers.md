@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Personalized offers dataset
 description: This section lists all the fields used in the exported dataset for offers.
 exl-id: 9761a907-4c7b-496c-a7d7-f81e9220f5cd

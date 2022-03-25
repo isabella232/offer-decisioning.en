@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Create tags
 description: Learn how to create offers in Adobe Experience Platform.
 feature: Activities

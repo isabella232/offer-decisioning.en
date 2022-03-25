@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;create tags
-solution: Experience Platform
 product: experience platform
 title: Create tags
 description: Tags allow you to better organize and sort through your offers.

@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Create fallback offers
 description: Learn how to create offers in Adobe Experience Platform.
 feature: Activities

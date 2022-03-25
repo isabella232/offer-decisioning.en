@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Offer Decisioning events key information
 description: Learn more about the key information sent with each Offer Decisioning event.
 feature: Activities

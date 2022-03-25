@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;personalized offers;update;update personalized offers
-solution: Experience Platform
 product: experience platform
 title: Update personalized offers
 description: A personalized offer is a customizable marketing message based on eligibility rules and constraints.

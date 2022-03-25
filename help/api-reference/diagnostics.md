@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;diagnostics
-solution: Experience Platform
 product: experience platform
 title: Diagnostics API endpoint
 topic: Development

@@ -1,6 +1,5 @@
 ---
 product: experience platform
-solution: Experience Platform
 title: Glossary
 description: Glossary for Offers
 

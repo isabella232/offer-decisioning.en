@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;list fallback offers
-solution: Experience Platform
 product: experience platform
 title: List fallback offers
 description: A fallback offer is sent to customers if they are not eligible for other offers

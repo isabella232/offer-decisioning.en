@@ -1,6 +1,5 @@
 ---
 keywords: Experience Platform;home;popular topics;offer decisioning;decision rules;list decision rules
-solution: Experience Platform
 product: experience platform
 title: List decision rules
 description: Decision rules are constraints added to a personalized offer and applied to a profile to determine eligibility.
